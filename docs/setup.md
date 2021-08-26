@@ -14,8 +14,9 @@ Version 14.17.5 LTS was used at the time these instructions were written.
 Use [Create React App](https://reactjs.org/docs/create-a-new-react-app.html#create-react-app)
 to generate the initial application.
 
-> npx create-react-app www.desertskyrangers.com
-> cd www.desertskyrangers.com
-> npm start
-
+```
+npx create-react-app www.desertskyrangers.com
+cd www.desertskyrangers.com
+npm start
+```
 
