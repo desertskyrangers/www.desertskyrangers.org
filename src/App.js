@@ -31,7 +31,7 @@ export default class App extends React.Component {
 								A small, bowl shaped park surrounded by small trees. This park is
 								popular with the group due to the proximity of several members.
 								Mark S has a <a href="http://mark.soderquist.net/weather/">weather
-								station</a> nearby that gives realtime flying conditions for the
+								station</a> nearby that gives realtime flight conditions for the
 								area.
 							</p>
 							<h5><a href="/"><FontAwesomeIcon icon={faMapMarkerAlt}/></a> Pony Express Elementary</h5>
