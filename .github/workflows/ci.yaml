@@ -1,0 +1,26 @@
+name: Avereon Website CI
+
+on: [ push ]
+
+env:
+  DSR_PRODUCT: "website"
+
+jobs:
+  build:
+    name: Build
+    runs-on: ubuntu-latest
+    steps:
+      - name: Fetch sources
+        uses: actions/checkout@v1
+
+      - name: Setup Node
+        uses: actions/setup-node@v2
+        with:
+          node-version: '14'
+          cache: 'npm'
+
+      - name: Node Install
+        run: npm install
+
+      - name: Node Tests
+        run: npm test
