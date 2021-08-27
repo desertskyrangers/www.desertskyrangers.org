@@ -7,7 +7,7 @@ export default class Footer extends React.Component {
 		return (
 			<div className='footer'>
 				<div className='copyright'><a href='/legal'><CopyrightText/></a></div>
-				<div className='tag-line'>Unique products for unique work</div>
+				<div className='tag-line'><q>When flying inverted, down is up, and up is expensive.</q> -Unknown</div>
 			</div>
 		)
 	}
