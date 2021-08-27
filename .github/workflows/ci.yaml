@@ -3,7 +3,9 @@ name: CI
 on: [ push ]
 
 env:
-  DSR_PRODUCT: "website"
+  DSR_GPG_PASSWORD: ${{ secrets.DSR_GPG_PASSWORD }}
+  DSR_REPO_USERNAME: ${{ secrets.DSR_REPO_USERNAME }}
+  WEBSITE_DEPLOY_PATH: '/opt/dsr/web'
 
 jobs:
   build:
@@ -19,8 +21,18 @@ jobs:
           node-version: '14'
           cache: 'npm'
 
-      - name: Node Install
+      - name: Install
         run: npm install
 
-      - name: Node Tests
+      - name: Test
         run: npm test
+
+      - name: Build
+        run: npm run build
+
+      - name: Deploy
+        run: |
+          ssh -t ${{env.DSR_REPO_USERNAME}}@desertskyrangers.com "mkdir -p ${{env.WEBSITE_DEPLOY_PATH}};" 2>&1
+          if [ $? -ne 0 ]; then exit 1; fi
+          scp -B build/* ${{env.DSR_REPO_USERNAME}}@desertskyrangers.com:${{env.WEBSITE_DEPLOY_PATH}} 2>&1
+          if [ $? -ne 0 ]; then exit 1; fi
