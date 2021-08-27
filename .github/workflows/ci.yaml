@@ -1,4 +1,4 @@
-name: Avereon Website CI
+name: CI
 
 on: [ push ]
 
