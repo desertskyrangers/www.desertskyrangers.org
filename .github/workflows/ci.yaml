@@ -45,5 +45,5 @@ jobs:
         run: |
           ssh -t ${{env.DSR_REPO_USERNAME}}@desertskyrangers.com "mkdir -p ${{env.WEBSITE_DEPLOY_PATH}};" 2>&1
           if [ $? -ne 0 ]; then exit 1; fi
-          scp -B build/* ${{env.DSR_REPO_USERNAME}}@desertskyrangers.com:${{env.WEBSITE_DEPLOY_PATH}} 2>&1
+          scp -r -B build/* ${{env.DSR_REPO_USERNAME}}@desertskyrangers.com:${{env.WEBSITE_DEPLOY_PATH}} 2>&1
           if [ $? -ne 0 ]; then exit 1; fi
