@@ -31,7 +31,7 @@ export default class App extends React.Component {
 								A small, bowl shaped park surrounded by small trees. This park is
 								popular with the group due to the proximity of several members.
 							</p>
-							<h5><a href=""><FontAwesomeIcon icon={faMapMarkerAlt}/></a> Pony Express Elementary</h5>
+							<h5><a href="/"><FontAwesomeIcon icon={faMapMarkerAlt}/></a> Pony Express Elementary</h5>
 							<p>
 								A large rectangular field with only a few trees next to the school. This
 								field provides a long and wide field perfect for beginner pilots and
