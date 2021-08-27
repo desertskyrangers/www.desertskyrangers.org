@@ -15,6 +15,17 @@ jobs:
       - name: Fetch sources
         uses: actions/checkout@v1
 
+      - name: Fetch CI/CD resources
+        uses: actions/checkout@v2
+        with:
+          repository: desertskyrangers/cicd
+          path: .github
+
+      - name: Configuration
+        shell: bash
+        run: |
+          source .github/config.sh
+
       - name: Setup Node
         uses: actions/setup-node@v2
         with:
