@@ -26,8 +26,14 @@ export default class Members extends React.Component {
 				</div>
 
 				<div className='club-member'>
-					<h3>Blain F</h3>
+					<h3>Blaine F</h3>
 					<p>
+						Blaine first developed an interest in model planes in junior high school where
+						he took a model airplane design class and built a couple of balsa gliders and 
+						a model Cessna powered by rubber bands. In 2020 he met Mark and took his interest
+						to the next level by purchasing a Bixler v1.1 and learning how to fly it with lots
+						of great coaching. Now his interests are in tinkering with flight controllers,
+						researching new components and building foamboard models.
 					</p>
 				</div>
 
