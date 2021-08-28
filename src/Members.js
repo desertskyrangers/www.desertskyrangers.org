@@ -9,7 +9,7 @@ export default class Members extends React.Component {
 
 				<div className='member'>
 					<div className='row'>
-						<img className='photo' width='128' height='128' src='/members/noah-b-2021-08-28.jpg' alt='Noah B'/>
+						<img className='photo' width='128' height='128' src='/photos/noah-b-2021-08-28.jpg' alt='Noah B'/>
 
 						<div className='column'>
 							<h3>Noah B</h3>
