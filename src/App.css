@@ -191,6 +191,12 @@ h6 {
 .footer .tagline {
 }
 
+.member {}
+
+.member img {
+	margin: 0.5rem;
+}
+
 /* The adjustment styles need to stay at or near the bottom */
 .center {
 	align-items: center;
