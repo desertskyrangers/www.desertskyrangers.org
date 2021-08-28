@@ -6,6 +6,28 @@
 
 	--primary-link-color: #9fbfa6;
 	--primary-link-hover: #b4d9bd;
+
+	--primary-black: #2a332c;
+	--primary-gray: #b0b0b0;
+	--primary-white: #e0e0e0;
+
+	--secondary-black: #3f4d42;
+	--secondary-gray: #c0c0c0;
+	--secondary-white: #f0f0f0;
+
+	--text-black: var(--primary-black);
+	--text-white: var(--primary-white);
+
+	/*
+	cactus: A0C0A8
+
+	80%: #a9ccb1
+	75%: #a0c0a8
+	70%: #92b399
+	50%: #6a806f
+	30%: #3f4d42
+	20%: #2a332c
+	 */
 }
 
 body {
@@ -97,6 +119,20 @@ h6 {
 	justify-content: flex-start;
 }
 
+.menu {
+	align-self: stretch;
+
+	display: flex;
+	flex-flow: row nowrap;
+	align-items: flex-start;
+}
+
+.menuitem {
+	margin: 0 1em 0 0;
+	display: flex;
+	flex-flow: column nowrap;
+}
+
 .content {
 	max-width: 60rem;
 	min-width: 10rem;
@@ -110,18 +146,19 @@ h6 {
 	justify-content: flex-start;
 }
 
-.menu {
-	align-self: stretch;
-
-	display: flex;
-	flex-flow: row nowrap;
-	align-items: flex-start;
+.content table {
+	margin: 0.5em 0 0.5em 0;
+	display: table; border-collapse: separate; border-spacing: 2px;
+	background: var(--secondary-black);
 }
 
-.menuitem {
-	margin: 0 1em 0 0;
-	display: flex;
-	flex-flow: column nowrap;
+.content tbody {
+	display: table-row-group; vertical-align: middle; border-color: inherit;
+}
+
+.content td {
+	display: table-cell; vertical-align: inherit;
+	background: var(--primary-black);
 }
 
 .row {
@@ -155,11 +192,15 @@ h6 {
 }
 
 /* The adjustment styles need to stay at or near the bottom */
+.center {
+	align-items: center;
+}
+
 .no-margin {
 	margin: 0;
 }
 
-.center {
-	align-items: center;
+.no-wrap {
+	white-space: nowrap;
 }
 

@@ -1,6 +1,6 @@
 import React from "react";
 
-export default class LightHeader extends React.Component {
+export default class HeaderThin extends React.Component {
 
 	render() {
 		return (
@@ -8,7 +8,7 @@ export default class LightHeader extends React.Component {
 
 				<div className="row center">
 					<div className="column">
-						<a href='/'><img width='64' height='64' src='logo.png' alt="DSR"/></a>
+						<a href='/'><img width='64' height='64' src='/logo.png' alt="DSR"/></a>
 					</div>
 
 					<div className="column">

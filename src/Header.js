@@ -7,7 +7,7 @@ export default class Header extends React.Component {
 			<div className='header'>
 
 				<div className="row center">
-					<div className="column"><img width='128' height='128' src='logo.png' alt="DSR"/></div>
+					<div className="column"><img width='128' height='128' src='/logo.png' alt="DSR"/></div>
 
 					<div className="column">
 						<h1 className='no-margin'>Desert Sky Rangers</h1>
@@ -19,6 +19,7 @@ export default class Header extends React.Component {
 				<div className='menu'>
 					<div className='menuitem'><a href='/'><h4 className='no-margin'>Home</h4></a></div>
 					<div className='menuitem'><a href='members'><h4 className='no-margin'>Members</h4></a></div>
+					<div className='menuitem'><a href='articles'><h4 className='no-margin'>Articles</h4></a></div>
 					<div className='menuitem'><a href='about'><h4 className='no-margin'>About</h4></a></div>
 				</div>
 
