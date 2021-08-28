@@ -21,34 +21,39 @@ export default class AaTransmitterBatteryStudy extends React.Component {
 				</p>
 				<p>
 					This is where we started to research the problem. We found that
-					NiMH batteries only provide 1.2 volts of power when fully charged.
-					We then researched other battery chemistries and found the
+					NiMH batteries only provide 1.2 volts of power even when fully
+					charged. We then researched other battery chemistries and found the
 					following information:
 					<table>
 						<tr>
-							<th>Battery Type</th>
-							<th>Volts</th>
+							<th>Chemistry</th>
+							<th>Voltage</th>
 							<th>Rechargeable</th>
-						</tr>
-						<tr>
-							<td>NiMH</td>
-							<td>1.2</td>
-							<td>Yes</td>
+							<th>Recommended</th>
 						</tr>
 						<tr>
 							<td>Alkaline</td>
 							<td>1.5</td>
 							<td>No</td>
+							<td>Yes</td>
 						</tr>
 						<tr>
-							<td>Lithium*</td>
-							<td>1.5</td>
+							<td>NiMH</td>
+							<td>1.2</td>
+							<td>Yes</td>
 							<td>Yes</td>
 						</tr>
 						<tr>
 							<td>NiZn</td>
 							<td>1.6</td>
 							<td>Yes</td>
+							<td>Yes</td>
+						</tr>
+						<tr>
+							<td>Lithium *</td>
+							<td>1.5</td>
+							<td>Yes</td>
+							<td>No</td>
 						</tr>
 						<tr>
 							<td colSpan='100'>* The Lithium chemistry is regulated to 1.5 volts</td>
@@ -56,16 +61,28 @@ export default class AaTransmitterBatteryStudy extends React.Component {
 					</table>
 				</p>
 				<p>
-					We have since tested with both the Lithium and NiZn chemistries
-					and found slightly improved range and will probably continue to
-					use the NiZn type for now.
+					CAUTION: The Lithium batteries are regulated to 1.5 volts and most
+					will force a hard shutoff if 1.5 volts cannot be maintained. This is
+					fine in a toothbrush but is very dangerous with radio control
+					transmitters because it will essentially turn off your radio. Please
+					do not use Lithium AA batteries in your transmitter.
+				</p>
+				<p>
+					We have tested the NiZn batteries and found slightly improved range.
+					We will probably continue to use the NiZn type for now. These
+					batteries can also taper off the voltage pretty quickly. Be prepared
+					to land immediately before the radio turns off.
 				</p>
 				<p>
 					Note that there are other transmitter vendors that also support
 					the use of Lithium Polymer batteries and we invite you to research
 					these options for your use.
 				</p>
-				<p>2021-01-09 - Mark Soderquist</p>
+				<p>
+					2021-08-28 - Mark Soderquist<br/>
+					2021-01-11 - Mark Soderquist<br/>
+					2021-01-09 - Mark Soderquist
+				</p>
 
 			</div>
 		)

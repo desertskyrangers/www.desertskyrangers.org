@@ -98,6 +98,9 @@ export default class NorthernUtahFlyingSeason extends React.Component {
 					</table>
 				</div>
 
+				<p>
+					2021-01-11 - Mark Soderquist
+				</p>
 			</div>
 		)
 	}
