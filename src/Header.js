@@ -10,9 +10,16 @@ export default class Header extends React.Component {
 					<div className="column"><img width='128' height='128' src='logo.png' alt="DSR"/></div>
 
 					<div className="column">
-						<h1>Desert Sky Rangers</h1>
-						<h6>UAV flying club</h6>
+						<h1 className='no-margin'>Desert Sky Rangers</h1>
+						<h6 className='no-margin'>UAV flying club</h6>
 					</div>
+
+				</div>
+
+				<div className='menu'>
+					<div className='menuitem'><a href='/'><h4 className='no-margin'>Home</h4></a></div>
+					<div className='menuitem'><a href='members'><h4 className='no-margin'>Members</h4></a></div>
+					<div className='menuitem'><a href='about'><h4 className='no-margin'>About</h4></a></div>
 				</div>
 
 			</div>

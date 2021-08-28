@@ -98,6 +98,9 @@ h6 {
 }
 
 .content {
+	max-width: 60rem;
+	min-width: 10rem;
+
 	padding: 0 1rem 0 1rem;
 
 	flex: 100 1 auto;
@@ -107,7 +110,7 @@ h6 {
 	justify-content: flex-start;
 }
 
-.row {
+.menu {
 	align-self: stretch;
 
 	display: flex;
@@ -115,8 +118,18 @@ h6 {
 	align-items: flex-start;
 }
 
-.center {
-	align-items: center;
+.menuitem {
+	margin: 0 1em 0 0;
+	display: flex;
+	flex-flow: column nowrap;
+}
+
+.row {
+	align-self: stretch;
+
+	display: flex;
+	flex-flow: row nowrap;
+	align-items: flex-start;
 }
 
 .column {
@@ -140,3 +153,13 @@ h6 {
 
 .footer .tagline {
 }
+
+/* The adjustment styles need to stay at or near the bottom */
+.no-margin {
+	margin: 0;
+}
+
+.center {
+	align-items: center;
+}
+
