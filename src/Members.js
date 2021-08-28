@@ -51,6 +51,13 @@ export default class Members extends React.Component {
 				<div className='club-member'>
 					<h3>Glen V</h3>
 					<p>
+						Glen has been flying RC since 2020 (thanks to a generous introduction
+						from Mark). Before then, his aviation experience has been in hangars
+						with his extended family, helping on their planes, and getting to fly
+						with them occasionally. Now building foamboard and 3D printed planes
+						is his new adventure.
+						His <a href='https://www.youtube.com/channel/UC2C2aXxFCsUwrsreGIAStCA'>YouTube channel</a> is
+						sparse but growing with content of the builds and maiden flights.
 					</p>
 				</div>
 
