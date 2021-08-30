@@ -193,8 +193,10 @@ h6 {
 
 .member {}
 
-.member img {
+.member .photo {
 	margin: 0.5rem;
+	width: 128px;
+	height: 128px;
 }
 
 /* The adjustment styles need to stay at or near the bottom */
