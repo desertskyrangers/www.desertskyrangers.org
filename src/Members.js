@@ -21,6 +21,8 @@ export default class Members extends React.Component {
 								how you make them fly well.
 							</p>
 						</div>
+
+						<img className='badge' src='/badges/noah-b-2021-08-28.svg' alt='Badge'/>
 					</div>
 				</div>
 

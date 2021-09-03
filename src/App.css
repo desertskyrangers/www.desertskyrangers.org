@@ -199,6 +199,12 @@ h6 {
 	height: 128px;
 }
 
+.member .badge {
+	margin: 0.5rem;
+	width: 128px;
+	height: 128px;
+}
+
 /* The adjustment styles need to stay at or near the bottom */
 .center {
 	align-items: center;
