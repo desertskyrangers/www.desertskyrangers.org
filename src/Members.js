@@ -50,7 +50,7 @@ export default class Members extends React.Component {
 								family at Mountain Home Idaho AFB and enjoys spending his lunch
 								time watching the F-15's fly patterns. Currently he is learning to
 								fly using a pre-crashed Timber X and a sport cub. Working his way
-								up to one of his favorite planes the Pitts S-1S.
+								up to one of his favorite planes, the Pitts S-1S.
 							</p>
 						</div>
 					</div>
