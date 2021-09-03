@@ -38,11 +38,19 @@ export default class Members extends React.Component {
 
 				<div className='member'>
 					<div className='row'>
-						<img className='photo' src='/pilot.png' alt='Pilot'/>
+						<img className='photo' src='/photos/micah-f-2021-09-02.jpg' alt='Pilot'/>
 
 						<div className='column'>
 							<h3>Micah F</h3>
 							<p>
+								Micah is new to the model airplane world. However he has been interested
+								in aviation since he was 11 when his dad got a job as an airplane
+								mechanic. He was a bit disappointed though when the jet fuel they
+								put in the family car didn't make it go faster. He likes visiting
+								family at Mountain Home Idaho AFB and enjoys spending his lunch
+								time watching the F-15's fly patterns. Currently he is learning to
+								fly using a pre-crashed Timber X and a sport cub. Working his way
+								up to one of his favorite planes the Pitts S-1S.
 							</p>
 						</div>
 					</div>
