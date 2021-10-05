@@ -4,8 +4,15 @@
 	--primary-background: #404040;
 	--secondary-background: #504840;
 
+
+	/* cactus green */
+	/*
 	--primary-link-color: #9fbfa6;
 	--primary-link-hover: #b4d9bd;
+	 */
+	/* mountain wheat */
+	--primary-link-color: #9C916D;
+	--primary-link-hover: #B5AD92;
 
 	--primary-black: #2a332c;
 	--primary-gray: #b0b0b0;
