@@ -13,6 +13,16 @@ export default class Home extends React.Component {
 					</div>
 					<div className="column">
 
+						<h2>2021 Warm Flying Season Coming to an End</h2>
+						<p>
+							The warm weather for the 2021 flying season will be coming to an
+							end soon with colder weather setting in during October and fewer
+							daylight hours. If you are flying in cold temperatures, be sure
+							you know your limits. If your fingers are cold and stiff you
+							cannot control your aircraft well. Use a hat to keep your ears
+							warm, even a slight breeze takes the heat out of you.
+						</p>
+
 						<h2>Where We Fly</h2>
 						<p>
 							If you're wondering what's up in the sky, it might just be us hanging
