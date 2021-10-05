@@ -13,7 +13,7 @@ export default class Home extends React.Component {
 					</div>
 					<div className="column">
 
-						<h2>2021 Warm Flying Season Coming to an End</h2>
+						<h2>2021 Warm Weather Flying Season Ending</h2>
 						<p>
 							The warm weather for the 2021 flying season will be coming to an
 							end soon with colder weather setting in during October and fewer
