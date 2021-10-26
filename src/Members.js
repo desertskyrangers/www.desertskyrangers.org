@@ -84,8 +84,11 @@ export default class Members extends React.Component {
 							<h3>Mark S</h3>
 							<p>
 								Mark has been flying radio control aircraft since 1988. His passion
-								is designing his own aircraft or modifying existing aircraft for
-								different missions and functionality. Mark also has
+								is designing, building and flying his own aircraft. His interests
+								have also extended into computers, computational fluid dynamics,
+								weather, navigation and many other topics related to flying.
+								Recent interests include night flying, flight controllers and
+								FPV video. Mark maintains
 								a <a href='https://www.youtube.com/channel/UChlvqrAlulGrYiXqqiaPeZw'>YouTube channel</a> where
 								you can find video of many of his flights.
 							</p>
