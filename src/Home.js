@@ -53,6 +53,11 @@ export default class Home extends React.Component {
 						</p>
 					</div>
 					<div className="column news">
+						<div>
+							<div className='title'>Weather Humor</div>
+							<p>Why was the storm so dark and gloomy?<br/>- Because it was "mis-thunder-stood".</p>
+							<p>Why do clouds feel overlooked?<br/>- Because they're in "di-skies".</p>
+						</div>
 					</div>
 				</div>
 			</div>

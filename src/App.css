@@ -141,8 +141,8 @@ h6 {
 }
 
 .content {
-	max-width: 60rem;
-	min-width: 10rem;
+	/*max-width: 60rem;*/
+	/*min-width: 10rem;*/
 
 	padding: 0 1rem 0 1rem;
 
@@ -150,21 +150,30 @@ h6 {
 
 	display: flex;
 	flex-flow: column nowrap;
+	/* along the main axis */
 	justify-content: flex-start;
+	/* along the cross axis */
+	align-items: stretch;
+
 }
 
 .content table {
 	margin: 0.5em 0 0.5em 0;
-	display: table; border-collapse: separate; border-spacing: 2px;
+	display: table;
+	border-collapse: separate;
+	border-spacing: 2px;
 	background: var(--secondary-black);
 }
 
 .content tbody {
-	display: table-row-group; vertical-align: middle; border-color: inherit;
+	display: table-row-group;
+	vertical-align: middle;
+	border-color: inherit;
 }
 
 .content td {
-	display: table-cell; vertical-align: inherit;
+	display: table-cell;
+	vertical-align: inherit;
 	background: var(--primary-black);
 }
 
@@ -173,12 +182,31 @@ h6 {
 
 	display: flex;
 	flex-flow: row nowrap;
+	/* along the main axis */
+	justify-content: flex-start;
+	/* along the cross axis */
 	align-items: flex-start;
 }
 
 .column {
 	display: flex;
 	flex-flow: column nowrap;
+}
+
+.news {
+	margin: 1rem 2rem;
+
+	display: flex;
+	flex-flow: row nowrap;
+	/* along the main axis */
+	justify-content: right;
+	/* along the cross axis */
+	align-items: flex-start;
+}
+
+.news .title {
+	font-size: 2rem;
+	margin: 0 0 0 -0.5rem;
 }
 
 .footer {
@@ -198,7 +226,8 @@ h6 {
 .footer .tagline {
 }
 
-.member {}
+.member {
+}
 
 .member .photo {
 	margin: 0.5rem;
