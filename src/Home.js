@@ -14,12 +14,15 @@ export default class Home extends React.Component {
                     <div className="column">
 
                         <h2>Nov 2021 Fun-Fly</h2>
-                        <img className='photo' src='/photos/dsr-funfly-2021-11-20.jpg' alt='DRS Fun Fly'/>
+                        <figure>
+                            <img className='photo' src='/photos/dsr-funfly-2021-11-20.jpg' alt='DRS Fun Fly'/>
+                            <figcaption>Hudson at the controls, Mark and Percy(dog) looking on.</figcaption>
+                        </figure>
                         <p>
                             We held an impromptu fun fly on Saturday, Nov 20th. For the first time we had all members
                             of the club available for <a href='/about'>group photo</a> and had a chilly morning of
-							flying. Despite the cool weather we had a great time getting together, increasing our flight
-							times and sharing stories.
+                            flying. Despite the cool weather we had a great time getting together, increasing our flight
+                            times and sharing stories.
                         </p>
 
                         <h2>Where We Fly</h2>
