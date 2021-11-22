@@ -8,6 +8,8 @@ export default class About extends React.Component {
 
 				<h1>About Us</h1>
 
+				<img className='photo' src='/photos/dsr-club-2021-11-20.jpg' alt='DSR Club'/>
+
 				<p>
 					Founded in 2021, the Desert Sky Rangers is a group of radio control aviation
 					enthusiasts working to develop knowledge and skill through study and experiment
