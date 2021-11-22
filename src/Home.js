@@ -16,7 +16,7 @@ export default class Home extends React.Component {
                         <h2>Nov 2021 Fun-Fly</h2>
                         <figure>
                             <img className='photo' src='/photos/dsr-funfly-2021-11-20.jpg' alt='DRS Fun Fly'/>
-                            <figcaption>Hudson at the controls, Mark and Percy(dog) looking on.</figcaption>
+                            <figcaption>Hudson at the controls, Mark and Percy looking on.</figcaption>
                         </figure>
                         <p>
                             We held an impromptu fun fly on Saturday, Nov 20th. For the first time we had all members
