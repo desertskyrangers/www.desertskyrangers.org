@@ -5,11 +5,12 @@ import Header from "./Header";
 import HeaderThin from "./HeaderThin";
 import Home from "./Home";
 import About from "./About";
+import Activities from "./Activities";
 import Legal from "./Legal";
 import Members from "./Members";
 import NotFound from "./NotFound";
-import Footer from "./Footer";
 
+import Footer from "./Footer";
 import Articles from "./articles/Articles";
 import AaTransmitterBatteryStudy from "./articles/AaTransmitterBatteryStudy";
 import NorthernUtahFlyingSeason from "./articles/NorthernUtahFlyingSeason";
@@ -25,6 +26,7 @@ export default class App extends React.Component {
 					<Switch>
 						<Route exact path="/" component={Home}/>
 						<Route exact path="/about" component={About}/>
+						<Route exact path="/activities" component={Activities}/>
 						<Route exact path="/legal" component={Legal}/>
 						<Route exact path="/members" component={Members}/>
 
