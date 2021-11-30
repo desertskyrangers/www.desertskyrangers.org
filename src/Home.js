@@ -13,7 +13,7 @@ export default class Home extends React.Component {
                     </div>
                     <div className="column">
 
-                        <h2>Nov 2021 Fun-Fly</h2>
+                        <h2>Nov 2021 Ranger Rally</h2>
                         <figure>
                             <img className='photo' src='/photos/dsr-ranger-rally-2021-11-20.jpg' alt='DRS Ranger Rally'/>
                             <figcaption>Hudson at the controls, Mark and Percy looking on.</figcaption>
