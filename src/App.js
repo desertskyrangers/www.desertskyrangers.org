@@ -24,6 +24,8 @@ export default class App extends React.Component {
 				{atHome?<Header/>:<HeaderThin/>}
 				<Router>
 					<Switch>
+						<Route path="/.well-known/acme-challenge" component={Home}/>
+
 						<Route exact path="/" component={Home}/>
 						<Route exact path="/about" component={About}/>
 						<Route exact path="/activities" component={Activities}/>
