@@ -77,7 +77,7 @@ export default class About extends React.Component {
 
                 <div className='member'>
                     <div className='row'>
-                        <img className='photo' src='/pilot.png' alt='Pilot'/>
+                        <img className='photo' src='/photos/blaine-f-2022-01-17.jpg' alt='Pilot'/>
 
                         <div className='column'>
                             <h3>Blaine F</h3>
@@ -95,7 +95,7 @@ export default class About extends React.Component {
 
                 <div className='member'>
                     <div className='row'>
-                        <img className='photo' src='/pilot.png' alt='Pilot'/>
+                        <img className='photo' src='/photos/mark-s-2022-01-17.jpg' alt='Pilot'/>
 
                         <div className='column'>
                             <h3>Mark S</h3>
