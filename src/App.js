@@ -1,6 +1,6 @@
 import "./App.css";
 import React from "react";
-import {BrowserRouter as Router, Route, Switch} from "react-router-dom"
+import {BrowserRouter as Router, Route, Routes} from 'react-router-dom';
 import Header from "./Header";
 import HeaderThin from "./HeaderThin";
 import Home from "./Home";
@@ -14,31 +14,31 @@ import Footer from "./Footer";
 import Articles from "./articles/Articles";
 import AaTransmitterBatteryStudy from "./articles/AaTransmitterBatteryStudy";
 import NorthernUtahFlyingSeason from "./articles/NorthernUtahFlyingSeason";
+import FlightDeck from "./FlightDeck";
 
 export default class App extends React.Component {
 
 	render() {
-		var atHome=window.location.pathname==='/';
+		var atHome = window.location.pathname === '/';
 		return (
 			<div className="app">
-				{atHome?<Header/>:<HeaderThin/>}
+				{atHome ? <Header/> : <HeaderThin/>}
 				<Router>
-					<Switch>
-						<Route path="/.well-known/acme-challenge" component={Home}/>
+					<Routes>
+						<Route exact path="/" element={<Home/>}/>
+						<Route exact path="/about" element={<About/>}/>
+						<Route exact path="/activities" element={<Activities/>}/>
+						<Route exact path="/FlightDeck" element={<FlightDeck/>}/>
+						<Route exact path="/legal" element={<Legal/>}/>
+						<Route exact path="/members" element={<Members/>}/>
 
-						<Route exact path="/" component={Home}/>
-						<Route exact path="/about" component={About}/>
-						<Route exact path="/activities" component={Activities}/>
-						<Route exact path="/legal" component={Legal}/>
-						<Route exact path="/members" component={Members}/>
-
-						<Route exact path="/articles" component={Articles}/>
-						<Route exact path="/articles/northern-utah-flying-season-2021-01" component={NorthernUtahFlyingSeason}/>
-						<Route exact path="/articles/aa-transmitter-battery-study-2021-01" component={AaTransmitterBatteryStudy}/>
+						<Route exact path="/articles" element={<Articles/>}/>
+						<Route exact path="/articles/northern-utah-flying-season-2021-01" element={<NorthernUtahFlyingSeason/>}/>
+						<Route exact path="/articles/aa-transmitter-battery-study-2021-01" element={<AaTransmitterBatteryStudy/>}/>
 
 						{/* Default route */}
-						<Route component={NotFound}/>
-					</Switch>
+						<Route element={<NotFound/>}/>
+					</Routes>
 				</Router>
 				<Footer/>
 			</div>

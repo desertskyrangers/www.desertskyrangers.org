@@ -259,3 +259,33 @@ h6 {
 	white-space: nowrap;
 }
 
+.banner {
+	display: flex;
+	flex-flow: row nowrap;
+	/* along the main axis */
+	justify-content: flex-start;
+	/* along the cross axis */
+	align-items: flex-end;
+}
+
+.action-button {
+	font-size: 1.5rem;
+	color: var(--primary-color);
+	background-color: var(--primary-background);
+
+	margin: 0.5rem;
+	border: 1px solid var(--primary-link-color);
+	border-radius: 0.5rem;
+	padding: 0.2rem 0.5rem;
+
+	cursor: pointer;
+}
+
+.action-button:hover {
+	background-color: var(--secondary-background);
+	border: 1px solid var(--primary-link-hover);
+}
+
+.gap-2 {
+	width: 2rem;
+}

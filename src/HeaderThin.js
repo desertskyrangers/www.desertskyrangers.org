@@ -1,4 +1,5 @@
 import React from "react";
+import Menu from "./Menu";
 
 export default class HeaderThin extends React.Component {
 
@@ -15,6 +16,8 @@ export default class HeaderThin extends React.Component {
 						<a href='/'><h3 className='no-margin'>Desert Sky Rangers</h3></a>
 					</div>
 				</div>
+
+				<Menu/>
 
 			</div>
 		)
