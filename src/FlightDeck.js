@@ -32,6 +32,13 @@ export default function FlightDeck(props) {
 				<li>...new features released regularly</li>
 			</ul>
 
+			<h2>Project Participation</h2>
+			<p>
+				Visit the <a href='https://github.com/desertskyrangers/flightdeck-react/'>FlightDeck project page</a> for information
+				about <a href='https://github.com/desertskyrangers/flightdeck-react/milestones'>upcoming versions and features</a>,
+				or to <a href='https://github.com/desertskyrangers/flightdeck-react/issues'>view or report issues and enhancement requests</a>.
+			</p>
+
 		</div>
 	)
 }
