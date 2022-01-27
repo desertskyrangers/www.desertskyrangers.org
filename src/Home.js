@@ -1,6 +1,7 @@
 import './App.css';
 import React from "react";
 import Icons from "./Icons";
+import {Link} from "react-router-dom";
 
 export default class Home extends React.Component {
 
@@ -22,7 +23,7 @@ export default class Home extends React.Component {
 
 						<h2>{Icons.FLIGHTDECK_H2} Announcing FlightDeck!</h2>
 						<p>
-							Welcome to the <a href='/flightdeck'>FlightDeck</a>, your personal destination for UAV management,
+							Welcome to the <Link to='/flightdeck'>FlightDeck</Link>, your personal destination for UAV management,
 							flight logging and pilot data.
 						</p>
 
@@ -37,7 +38,7 @@ export default class Home extends React.Component {
 							is a bit challenging to fly at due to the small field and
 							surrounding trees but is popular with the group due to the
 							proximity of several members. Mark maintains
-							a <a href="http://mark.soderquist.net/weather/">weather station</a> nearby
+							a <a href="https://mark.soderquist.net/weather/">weather station</a> nearby
 							that gives realtime flight conditions for the area.
 						</p>
 						<h5><a href="https://goo.gl/maps/oLuZKi1qZzowQPj58">{Icons.LOCATION}</a> Pony Express Elementary (some Saturday mornings)</h5>
