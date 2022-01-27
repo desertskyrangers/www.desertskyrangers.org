@@ -1,7 +1,5 @@
 import './App.css';
 import React from "react";
-import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
-import {faMapMarkerAlt} from '@fortawesome/free-solid-svg-icons';
 import Icons from "./Icons";
 
 export default class Home extends React.Component {
