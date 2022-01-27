@@ -135,7 +135,7 @@ h6 {
 	align-self: stretch;
 
 	display: flex;
-	flex-flow: row nowrap;
+	flex-flow: row wrap;
 	align-items: flex-start;
 }
 
@@ -223,6 +223,11 @@ h6 {
 	justify-content: right;
 	/* along the cross axis */
 	align-items: flex-start;
+}
+@media (max-width: 960px) {
+	.news {
+		display: none;
+	}
 }
 
 .news .title {

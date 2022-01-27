@@ -57,7 +57,7 @@ export default class Home extends React.Component {
 							sloping hill on the edge of the bowl.
 						</p>
 					</div>
-					<div className="column news">
+					<div className="news column">
 						<div>
 							<div className='title'>Weather Humor</div>
 							<p>Why was the storm so dark and gloomy?<br/>- Because it was "mis-thunder-stood".</p>
