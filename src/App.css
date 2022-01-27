@@ -1,8 +1,10 @@
 :root {
-	--primary-color: #d0c8c0;
+	--foreground-1: #d0c8c0;
 
-	--primary-background: #404040;
-	--secondary-background: #504840;
+	--background-1: #404040;
+	--background-2: #504840;
+	--background-3: #61584F;
+	--background-4: #726960;
 
 
 	/* cactus green */
@@ -10,6 +12,10 @@
 	--primary-link-color: #9fbfa6;
 	--primary-link-hover: #b4d9bd;
 	 */
+
+	--menu-background: var(--background-2);
+	--menu-background-hover: var(--background-3);
+
 	/* mountain wheat */
 	--primary-link-color: #9C916D;
 	--primary-link-hover: #B5AD92;
@@ -38,8 +44,8 @@
 }
 
 body {
-	color: var(--primary-color);
-	background-color: var(--primary-background);
+	color: var(--foreground-1);
+	background-color: var(--background-1);
 
 	margin: 0;
 	padding: 0;
@@ -107,7 +113,6 @@ h6 {
 }
 
 .app {
-	background-color: var(--primary-background);
 	min-height: 100vh;
 
 	display: flex;
@@ -117,7 +122,7 @@ h6 {
 
 .header {
 	padding: 0.5rem;
-	background-color: var(--secondary-background);
+	background-color: var(--background-2);
 
 	align-self: stretch;
 
@@ -135,9 +140,15 @@ h6 {
 }
 
 .menuitem {
-	margin: 0 1em 0 0;
+	background-color: var(--menu-background);
+	margin: 0 1rem 0 0;
+	padding: 0.2rem;
 	display: flex;
 	flex-flow: column nowrap;
+}
+
+.menuitem:hover {
+	background-color: var(--menu-background-hover);
 }
 
 .content {
@@ -182,6 +193,11 @@ h6 {
 	max-height: 300px;
 }
 
+.hbox {
+	display: flex;
+	flex-flow: row nowrap;
+}
+
 .row {
 	align-self: stretch;
 
@@ -216,7 +232,7 @@ h6 {
 
 .footer {
 	padding: 0.5rem;
-	background-color: var(--secondary-background);
+	background-color: var(--background-2);
 
 	align-self: stretch;
 
@@ -270,8 +286,8 @@ h6 {
 
 .action-button {
 	font-size: 1.5rem;
-	color: var(--primary-color);
-	background-color: var(--primary-background);
+	color: var(--foreground-1);
+	background-color: var(--background-1);
 
 	margin: 0.5rem;
 	border: 1px solid var(--primary-link-color);
@@ -282,7 +298,7 @@ h6 {
 }
 
 .action-button:hover {
-	background-color: var(--secondary-background);
+	background-color: var(--background-2);
 	border: 1px solid var(--primary-link-hover);
 }
 
