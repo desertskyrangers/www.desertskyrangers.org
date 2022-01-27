@@ -36,11 +36,11 @@ export default class Home extends React.Component {
 							icon={faMapMarkerAlt}/></a> Morning Cloak Park (Thursdays before sunset)</h5>
 						<p>
 							A small, bowl shaped park surrounded by small trees. This location
-							is a bit challenging due to the small field and surrounding trees
-							but is popular with the group due to the proximity of several members.
-							Mark has a <a href="http://mark.soderquist.net/weather/">weather
-							station</a> nearby that gives realtime flight conditions for the
-							area.
+							is a bit challenging to fly at due to the small field and
+							surrounding trees but is popular with the group due to the
+							proximity of several members. Mark maintains
+							a <a href="http://mark.soderquist.net/weather/">weather station</a> nearby
+							that gives realtime flight conditions for the area.
 						</p>
 						<h5><a href="https://goo.gl/maps/oLuZKi1qZzowQPj58"><FontAwesomeIcon
 							icon={faMapMarkerAlt}/></a> Pony Express Elementary (some Saturday mornings)</h5>
