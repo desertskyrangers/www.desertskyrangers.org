@@ -13,7 +13,7 @@ import Footer from "./Footer";
 import Articles from "./articles/Articles";
 import AaTransmitterBatteryStudy from "./articles/AaTransmitterBatteryStudy";
 import NorthernUtahFlyingSeason from "./articles/NorthernUtahFlyingSeason";
-import FlightDeck from "./FlightDeck";
+import Tools from "./Tools";
 
 export default function App() {
 
@@ -25,9 +25,9 @@ export default function App() {
 					<Route exact path="/" element={<Home/>}/>
 					<Route exact path="/about" element={<About/>}/>
 					<Route exact path="/activities" element={<Activities/>}/>
-					<Route exact path="/FlightDeck" element={<FlightDeck/>}/>
 					<Route exact path="/legal" element={<Legal/>}/>
 					<Route exact path="/members" element={<Members/>}/>
+					<Route exact path="/tools" element={<Tools/>}/>
 
 					<Route exact path="/articles" element={<Articles/>}/>
 					<Route exact path="/articles/northern-utah-flying-season-2021-01" element={<NorthernUtahFlyingSeason/>}/>
