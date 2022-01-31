@@ -15,10 +15,14 @@ export default class Home extends React.Component {
 
 						<h2>{Icons.RALLY} Jan 2022 Ranger Rally</h2>
 						<p>
-							We will be holding a Ranger Rally at 10am on Saturday, Jan 29th
-							at <a href="https://goo.gl/maps/WfuVVZqe4Qv32PX27">{Icons.LOCATION} Wardle Fields Regional Park</a> on
-							the west side field. This will be a small event with open flying.
-							The temperatures will still be in the 30s so come bundled up.
+							We held the Jan 2022 Ranger Rally on Saturday, Jan 29th
+							at <a href="https://goo.gl/maps/WfuVVZqe4Qv32PX27">{Icons.LOCATION} Wardle Fields Regional Park</a>.
+							It was a cold morning with temperatures just above freezing. Several of us
+							got to try out new equipment and aircraft that we received over the
+							holidays. Hudson was able to maiden his new Bixler 2. Noah flew his
+							rebuilt FliteTest Arrow successfully and we all got a birdseye view from
+							Mark's new FPV setup on his Typhoon III. Blaine also joined the fun
+							with his Bixler and giant Volantex Ranger 2000.
 						</p>
 
 						<h2>{Icons.FLIGHTDECK_H2} Announcing FlightDeck!</h2>
