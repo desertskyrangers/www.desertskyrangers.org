@@ -39,9 +39,9 @@ export default function Tools(props) {
 
 			<h2>Project Participation</h2>
 			<p>
-				Visit the <a href='https://github.com/desertskyrangers/flightdeck-react/Tools.js'>FlightDeck project page</a> for information
-				about <a href='https://github.com/desertskyrangers/flightdeck-react/milestones'>upcoming versions and features</a>,
-				or to <a href='https://github.com/desertskyrangers/flightdeck-react/issues'>view or report issues and enhancement requests</a>.
+				Visit the <a href='https://github.com/desertskyrangers/flightdeck/'>FlightDeck project page</a> for information
+				about <a href='https://github.com/desertskyrangers/flightdeck/milestones'>upcoming versions and features</a>,
+				or to <a href='https://github.com/desertskyrangers/flightdeck/issues'>view or report issues and enhancement requests</a>.
 			</p>
 
 		</div>
