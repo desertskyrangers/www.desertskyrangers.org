@@ -13,16 +13,24 @@ export default class Home extends React.Component {
 					</div>
 					<div className="column">
 
-						<h2>{Icons.RALLY} Jan 2022 Ranger Rally</h2>
+						<h2>{Icons.RALLY} Feb 2022 Ranger Rally</h2>
 						<p>
-							We held the Jan 2022 Ranger Rally on Saturday, Jan 29th
+							We held the Feb 2022 Ranger Rally on Saturday, Feb 12th
 							at <a href="https://goo.gl/maps/WfuVVZqe4Qv32PX27">{Icons.LOCATION} Wardle Fields Regional Park</a>.
-							It was a cold morning with temperatures just above freezing. Several of us
-							got to try out new equipment and aircraft that we received over the
-							holidays. Hudson was able to maiden his new Bixler 2. Noah flew his
-							rebuilt FliteTest Arrow successfully and we all got a birdseye view from
-							Mark's new FPV setup on his Typhoon III. Blaine also joined the fun
-							with his Bixler and giant Volantex Ranger 2000.
+							This time we chose to fly in the afternoon which turned out to be
+							a great choice because the wind calmed down and the temperatures
+							came up to give us fantastic flying weather. Micah brought his dad
+							out to fly with us along with a beautiful modified Piper Cub.
+							Hudson put in several more flights on his Bixler II and had great
+							landings. Noah flew his Bixler and Arrow. Unfortunately the Arrow
+							had a spectacular nose-in landing so he will be working on a new
+							build soon. Glen brought out several new aircraft. His biplane
+							struggled to get off the ground due to the long grass and even
+							then the flights were nothing more than a hop. His Cronos I had
+							its maiden flight and after putting in a 4S battery flew nicely.
+							Last, but not least, Holden got one launch with his new rocket.
+							We're not sure how high it went but we were glad the parachute did
+							not fully deploy so it came down nearby. All in all, a good day!
 						</p>
 
 						<h2>{Icons.FLIGHTDECK_H2} Announcing FlightDeck!</h2>
