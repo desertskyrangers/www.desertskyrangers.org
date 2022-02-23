@@ -31,8 +31,16 @@ export default class Activities extends React.Component {
 							<figcaption>Mark and Blaine FPV preflight check.</figcaption>
 						</figure>
 						<figure>
+							<img className='photo' src='/photos/2022-01-29-mark-typhoon-2.jpg' alt='DRS Ranger Rally'/>
+							<figcaption>FPV flyby.</figcaption>
+						</figure>
+						<figure>
 							<img className='photo' src='/photos/2022-01-29-blaine-ranger-1.jpg' alt='DRS Ranger Rally'/>
 							<figcaption>Blaine's graceful Ranger.</figcaption>
+						</figure>
+						<figure>
+							<img className='photo' src='/photos/2022-01-29-mark-bixler-1.jpg' alt='DRS Ranger Rally'/>
+							<figcaption>Mark getting in some inverted flight practice.</figcaption>
 						</figure>
 					</div>
 				</p>
