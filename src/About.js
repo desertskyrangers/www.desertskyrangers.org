@@ -10,7 +10,7 @@ export default class About extends React.Component {
 
                 <figure>
                     <img className='photo' src='/photos/dsr-club-2021-11-20.jpg' alt='DSR Club'/>
-                    <figcaption>Glen, Hudson, Mark and Percy, Noah, Blaine and Micah</figcaption>
+                    <figcaption>Glen, Hudson, Mark and Percy, Noah, Blaine and Micah (Nov 2021)</figcaption>
                 </figure>
 
                 <p>
