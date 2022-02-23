@@ -32,7 +32,7 @@ export default class Activities extends React.Component {
 						</figure>
 						<figure>
 							<img className='photo' src='/photos/2022-01-29-blaine-ranger-1.jpg' alt='DRS Ranger Rally'/>
-							<figcaption>Blaine's graceful Ranger'.</figcaption>
+							<figcaption>Blaine's graceful Ranger.</figcaption>
 						</figure>
 					</div>
 				</p>

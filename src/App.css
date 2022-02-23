@@ -200,7 +200,7 @@ h6 {
 
 .hbox-wrappable {
 	display: flex;
-	flex-flow: row;
+	flex-flow: row wrap;
 }
 
 .row {
