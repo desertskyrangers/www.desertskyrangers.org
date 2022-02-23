@@ -198,6 +198,11 @@ h6 {
 	flex-flow: row nowrap;
 }
 
+.hbox-wrappable {
+	display: flex;
+	flex-flow: row;
+}
+
 .row {
 	align-self: stretch;
 
