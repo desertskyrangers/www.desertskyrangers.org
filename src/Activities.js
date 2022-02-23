@@ -17,6 +17,10 @@ export default class Activities extends React.Component {
 					rebuilt FliteTest Arrow successfully and we all got a birdseye view from
 					Mark's new FPV setup on his Typhoon III. Blaine also joined the fun
 					with his Bixler and giant Volantex Ranger 2000.
+					<figure>
+						<img className='photo' src='/photos/2022-01-29-hudson-bixler-1.jpeg' alt='DRS Ranger Rally'/>
+						<figcaption>Hudson's new Bixler 2.</figcaption>
+					</figure>
 				</p>
 
 				<h2>{Icons.RALLY} Nov 2021 Ranger Rally</h2>
