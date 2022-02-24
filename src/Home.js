@@ -2,6 +2,8 @@ import './App.css';
 import React from "react";
 import Icons from "./Icons";
 import {Link} from "react-router-dom";
+import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
+import {faBatteryFull, faCalendar} from "@fortawesome/free-solid-svg-icons";
 
 export default class Home extends React.Component {
 
@@ -21,6 +23,14 @@ export default class Home extends React.Component {
 								data.
 							</p>
 						</div>
+
+						<h2>{Icons.TAKEOFF} Spring Flying Season Almost Here</h2>
+						<p>The spring <a href="articles/northern-utah-flying-season-2021-01">
+							flying season</a> begins March 1st. While the weather can still be
+							cold, there is more sunlight and daylight hours. Now is a good time
+							to check your flight box, charge the batteries and prepare for
+							some good flying in 2022.
+						</p>
 
 						<h2>{Icons.RALLY} Feb 2022 Ranger Rally</h2>
 						<p>

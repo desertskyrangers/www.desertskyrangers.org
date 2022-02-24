@@ -169,23 +169,15 @@ h6 {
 }
 
 .content table {
-	margin: 0.5em 0 0.5em 0;
-	display: table;
+	margin: 0.5em 0;
 	border-collapse: separate;
 	border-spacing: 2px;
-	background: var(--secondary-black);
-}
-
-.content tbody {
-	display: table-row-group;
-	vertical-align: middle;
-	border-color: inherit;
+	background-color: var(--background-3);
 }
 
 .content td {
-	display: table-cell;
-	vertical-align: inherit;
-	background: var(--primary-black);
+	padding: 0.4rem 0.6rem;
+	background-color: var(--background-2);
 }
 
 .content .photo {
@@ -322,4 +314,20 @@ h6 {
 
 .gap-2 {
 	width: 2rem;
+}
+
+.winter.winter {
+	background-color: #4040a0;
+}
+
+.spring.spring {
+	background-color: #008000;
+}
+
+.summer.summer {
+	background-color: #808000;
+}
+
+.fall.fall {
+	background-color: #806000;
 }
