@@ -1,7 +1,4 @@
 import React from 'react';
-import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
-import {faCalendar} from "@fortawesome/free-solid-svg-icons";
-import {faBatteryFull} from "@fortawesome/free-solid-svg-icons";
 import Icons from "../Icons";
 
 export default class Articles extends React.Component {

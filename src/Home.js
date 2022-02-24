@@ -2,8 +2,6 @@ import './App.css';
 import React from "react";
 import Icons from "./Icons";
 import {Link} from "react-router-dom";
-import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
-import {faBatteryFull, faCalendar} from "@fortawesome/free-solid-svg-icons";
 
 export default class Home extends React.Component {
 
