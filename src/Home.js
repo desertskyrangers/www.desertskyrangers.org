@@ -13,6 +13,15 @@ export default class Home extends React.Component {
 					</div>
 					<div className="column">
 
+						<div className='announcement'>
+							<h1><a href='https://flightdeck.desertskyrangers.org/login'>{Icons.FLIGHTDECK_H1} FlightDeck</a></h1>
+							<p>
+								Welcome to the <Link to='/tools/flightdeck'>FlightDeck</Link>, your
+								personal destination for UAV management, flight logging and pilot
+								data.
+							</p>
+						</div>
+
 						<h2>{Icons.RALLY} Feb 2022 Ranger Rally</h2>
 						<p>
 							We held the Feb 2022 Ranger Rally on Saturday, Feb 12th
@@ -25,18 +34,14 @@ export default class Home extends React.Component {
 							landings. Noah flew his Bixler and Arrow. Unfortunately the Arrow
 							had a spectacular nose-in landing so he will be working on a new
 							build soon. Glen brought out several new aircraft. His biplane
-							struggled to get off the ground due to the long grass and even
-							then the flights were nothing more than a hop. His Cronos I had
+							struggled to get off the ground due to the long grass, and even
+							then, the flights were nothing more than a hop. His Cronos I had
 							its maiden flight and after putting in a 4S battery flew nicely.
 							Last, but not least, Holden got one launch with his new rocket.
 							We're not sure how high it went but we were glad the parachute did
-							not fully deploy so it came down nearby. All in all, a good day!
-						</p>
-
-						<h2>{Icons.FLIGHTDECK_H2} Announcing FlightDeck!</h2>
-						<p>
-							Welcome to the <Link to='/flightdeck'>FlightDeck</Link>, your personal destination for UAV management,
-							flight logging and pilot data.
+							not fully deploy so it came down nearby. Apparently we were having
+							so much fun flying, we didn't get many photos. All in all, a good
+							day!
 						</p>
 
 						<h2>{Icons.LOCATION} Where We Fly</h2>

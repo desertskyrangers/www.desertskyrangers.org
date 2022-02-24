@@ -6,7 +6,7 @@ export default function Tools(props) {
 		<div className='content'>
 
 			<a href='https://flightdeck.desertskyrangers.org/login' className='banner'>
-				<img width='64' height='64' src='https://flightdeck.desertskyrangers.org/logo.png' alt="DSR"/>
+				<img width='64' height='64' src='https://flightdeck.desertskyrangers.org/logo.png' alt="FlightDeck"/>
 				<h1>FlightDeck</h1>
 			</a>
 

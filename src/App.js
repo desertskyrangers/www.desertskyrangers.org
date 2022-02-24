@@ -28,7 +28,7 @@ export default function App() {
 					<Route exact path="/legal" element={<Legal/>}/>
 					<Route exact path="/members" element={<Members/>}/>
 					<Route exact path="/tools" element={<Tools/>}/>
-					<Route exact path="/flightdeck" element={<Tools/>}/>
+					<Route exact path="/tools/flightdeck" element={<Tools/>}/>
 
 					<Route exact path="/articles" element={<Articles/>}/>
 					<Route exact path="/articles/northern-utah-flying-season-2021-01" element={<NorthernUtahFlyingSeason/>}/>
