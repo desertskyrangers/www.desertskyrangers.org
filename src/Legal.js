@@ -12,6 +12,17 @@ export default class Legal extends React.Component {
 					content on the website is under copyright protection by a separate
 					owner. Such ownership will be noted.
 				</p>
+				<div>
+					<dl>
+						<dt>Ranger Rally photos provided by</dt>
+						<dd>Steve Booker</dd>
+						<dd>John Brammer</dd>
+					</dl>
+					<dl>
+						<dt>&copy; Fonticons, Inc.</dt>
+						<dd><a href='https://fontawesome.com/'>Font Awesome free icons</a></dd>
+					</dl>
+				</div>
 			</div>
 		)
 	}
