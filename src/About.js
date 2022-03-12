@@ -50,6 +50,11 @@ export default class About extends React.Component {
                         <div className='column'>
                             <h3>Husdon</h3>
                             <p>
+                                Hudson started flying in 2021 during the great Covid-19 pandemic.
+                                Starting with a small trainer airplane he quickly moved up to a
+                                Bixler II in 2022. He enjoys flying with other members of the
+                                club and has been dedicated to learning how to fly and maintain
+                                his equipment.
                             </p>
                         </div>
                     </div>
