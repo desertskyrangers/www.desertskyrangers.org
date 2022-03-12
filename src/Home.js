@@ -16,15 +16,15 @@ export default class Home extends React.Component {
 						<div className='announcement'>
 							<h1><a href='https://flightdeck.desertskyrangers.org/login'>{Icons.FLIGHTDECK_H1} FlightDeck</a></h1>
 							<p>
-								Welcome to the <Link to='/tools/flightdeck'>FlightDeck</Link>, your
-								personal destination for UAV management, flight logging and pilot
-								data.
+								Welcome to the <Link to='/tools/flightdeck'>FlightDeck</Link>,
+								your personal destination for UAV management, flight log and
+								pilot data.
 							</p>
 						</div>
 
-						<h2>{Icons.TAKEOFF} Spring Flying Season Almost Here</h2>
+						<h2>{Icons.TAKEOFF} Spring Flying Season Arrives!</h2>
 						<p>The spring <a href="articles/northern-utah-flying-season-2021-01">
-							flying season</a> begins March 1st. While the weather can still be
+							flying season</a> is here. While the weather can still be
 							cold, there is more sunlight and daylight hours. Now is a good time
 							to check your flight box, charge the batteries and prepare for
 							some good flying in 2022.

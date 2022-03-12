@@ -29,7 +29,7 @@ export default class About extends React.Component {
                         <img className='photo' src='/photos/noah-b-2021-08-28.jpg' alt='Pilot'/>
 
                         <div className='column'>
-                            <h3>Noah B</h3>
+                            <h3>Noah</h3>
                             <p>
                                 Noah has been flying since fall of 2020. He currently flies a Bixler
                                 1 with flaps he added as well as a home-built Flite Test Scout. He is
@@ -48,7 +48,7 @@ export default class About extends React.Component {
                         <img className='photo' src='/pilot.png' alt='Pilot'/>
 
                         <div className='column'>
-                            <h3>Husdon B</h3>
+                            <h3>Husdon</h3>
                             <p>
                             </p>
                         </div>
@@ -60,7 +60,7 @@ export default class About extends React.Component {
                         <img className='photo' src='/photos/micah-f-2021-09-02.jpg' alt='Pilot'/>
 
                         <div className='column'>
-                            <h3>Micah F</h3>
+                            <h3>Micah</h3>
                             <p>
                                 Micah is new to the model airplane world. However he has been interested
                                 in aviation since he was 11 when his dad got a job as an airplane
@@ -80,7 +80,7 @@ export default class About extends React.Component {
                         <img className='photo' src='/photos/blaine-f-2022-01-17.jpg' alt='Pilot'/>
 
                         <div className='column'>
-                            <h3>Blaine F</h3>
+                            <h3>Blaine</h3>
                             <p>
                                 Blaine first developed an interest in model planes in junior high school where
                                 he took a model airplane design class and built a couple of balsa gliders and
@@ -98,7 +98,7 @@ export default class About extends React.Component {
                         <img className='photo' src='/photos/mark-s-2022-01-17.jpg' alt='Pilot'/>
 
                         <div className='column'>
-                            <h3>Mark S</h3>
+                            <h3>Mark</h3>
                             <p>
                                 Mark has been flying radio control aircraft since 1988. His passion
                                 is designing, building and flying his own aircraft. His interests
@@ -119,7 +119,7 @@ export default class About extends React.Component {
                         <img className='photo' src='/pilot.png' alt='Pilot'/>
 
                         <div className='column'>
-                            <h3>Glen V</h3>
+                            <h3>Glen</h3>
                             <p>
                                 Glen has been flying RC since 2020 (thanks to a generous introduction
                                 from Mark). Before then, his aviation experience has been in hangars
