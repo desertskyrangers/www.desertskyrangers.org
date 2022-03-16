@@ -14,6 +14,7 @@ import Articles from "./articles/Articles";
 import AaTransmitterBatteryStudy from "./articles/AaTransmitterBatteryStudy";
 import NorthernUtahFlyingSeason from "./articles/NorthernUtahFlyingSeason";
 import Tools from "./Tools";
+import Locations from "./Locations";
 
 export default function App() {
 
@@ -26,6 +27,7 @@ export default function App() {
 					<Route exact path="/about" element={<About/>}/>
 					<Route exact path="/activities" element={<Activities/>}/>
 					<Route exact path="/legal" element={<Legal/>}/>
+					<Route exact path="/locations" element={<Locations/>}/>
 					<Route exact path="/members" element={<Members/>}/>
 					<Route exact path="/tools" element={<Tools/>}/>
 					<Route exact path="/tools/flightdeck" element={<Tools/>}/>

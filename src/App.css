@@ -211,6 +211,29 @@ h6 {
 	flex-flow: column nowrap;
 }
 
+.info {
+
+}
+
+.info .title {
+	font-size: 2rem;
+	margin: 0 0 0 -0.5rem;
+}
+
+.infoitem {
+	background-color: var(--menu-background);
+	margin: 0.5rem 1rem 0.5rem 0;
+	padding: 0.2rem;
+
+	white-space: nowrap;
+
+	cursor: pointer;
+}
+
+.infoitem:hover {
+	background-color: var(--menu-background-hover);
+}
+
 .news {
 	margin: 1rem 2rem;
 
@@ -330,4 +353,17 @@ h6 {
 
 .fall.fall {
 	background-color: #806000;
+}
+
+img.embedded {
+	margin: 0.5rem;
+	border-radius: 0.5rem;
+}
+
+img.embedded.left {
+	float: right;
+}
+
+img.embedded.right {
+	float: right;
 }
