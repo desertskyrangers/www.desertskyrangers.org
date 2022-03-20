@@ -21,6 +21,24 @@ export default class Home extends React.Component {
 								Welcome to the <Link to='/tools/flightdeck'>FlightDeck</Link>,
 								your personal destination for UAV management, flight log and
 								pilot data.
+
+								FlightDeck is a resource for advanced and novice RC enthusiasts
+								alike. Your FlightDeck features will enhance your flight
+								experience with flight time data collection, fleet management,
+								aircraft inventory and statistics, and accessory inventory
+								tracking. Your FlightDeck Dashboard includes the ability to time
+								and log your flights for each of your aircraft. These flight
+								logs can then be used to provide valuable statistics for you as
+								a pilot, aircraft owner, or just an observer.
+								</p>
+							<p>
+								Recent enhancements to the FlightDeck now include adding
+								individual aircraft specs from wingspan and weight to wing area
+								and wing loading for each aircraft. Additionally, sharing your
+								fleet information with your colleagues, friends as family makes
+								FlightDeck a tool for tracking your skills as a pilot,
+								collaborating on shared objectives with fellow pilots, and
+								growing the sport of RC aviation.
 							</p>
 						</div>
 
