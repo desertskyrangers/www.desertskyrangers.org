@@ -15,8 +15,10 @@ export default class Home extends React.Component {
 					<div className="column">
 
 						<div className='announcement'>
-							<img height="300" src="/screenshots/flightdeck.png" alt="FlightDeck Screenshot" className="embedded right"/>
-							<h1><a href='https://flightdeck.desertskyrangers.org/login'>{Icons.FLIGHTDECK_H1} FlightDeck</a></h1>
+							<a href='https://flightdeck.desertskyrangers.org/'>
+								<img height="300" src="/screenshots/flightdeck.png" alt="FlightDeck Screenshot" className="embedded right"/>
+							</a>
+							<h1><a href='https://flightdeck.desertskyrangers.org/'>{Icons.FLIGHTDECK_H1} FlightDeck</a></h1>
 							<p>
 								Welcome to the <Link to='/tools/flightdeck'>FlightDeck</Link>,
 								your personal destination for UAV management, flight log and
@@ -30,7 +32,7 @@ export default class Home extends React.Component {
 								and log your flights for each of your aircraft. These flight
 								logs can then be used to provide valuable statistics for you as
 								a pilot, aircraft owner, or just an observer.
-								</p>
+							</p>
 							<p>
 								Recent enhancements to the FlightDeck now include adding
 								individual aircraft specs from wingspan and weight to wing area
