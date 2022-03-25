@@ -1,14 +1,12 @@
 import React from "react";
+import Icons from "./Icons";
 
 export default function Tools(props) {
 
 	return (
 		<div className='content'>
 
-			<a href='https://flightdeck.desertskyrangers.org/login' className='banner'>
-				<img width='64' height='64' src='https://flightdeck.desertskyrangers.org/logo.png' alt="FlightDeck"/>
-				<h1>FlightDeck</h1>
-			</a>
+			<h1>{Icons.FLIGHTDECK_H1} FlightDeck</h1>
 
 			<p>
 				Welcome to the FlightDeck, your personal destination for UAV management,
