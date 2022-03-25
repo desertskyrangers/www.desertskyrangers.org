@@ -18,7 +18,7 @@ export default class Home extends React.Component {
 							<a href='https://flightdeck.desertskyrangers.org/'>
 								<img height="300" src="/screenshots/flightdeck.png" alt="FlightDeck Screenshot" className="embedded right"/>
 							</a>
-							<h1><a href='https://flightdeck.desertskyrangers.org/'>{Icons.FLIGHTDECK_H1} FlightDeck</a></h1>
+							<h1>{Icons.FLIGHTDECK_H1} FlightDeck</h1>
 							<p>
 								Welcome to the <Link to='/tools/flightdeck'>FlightDeck</Link>,
 								your personal destination for UAV management, flight log and
