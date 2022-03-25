@@ -23,7 +23,8 @@ export default class Home extends React.Component {
 								Welcome to the <Link to='/tools/flightdeck'>FlightDeck</Link>,
 								your personal destination for UAV management, flight log and
 								pilot data.
-
+							</p>
+							<p>
 								FlightDeck is a resource for advanced and novice RC enthusiasts
 								alike. Your FlightDeck features will enhance your flight
 								experience with flight time data collection, fleet management,
