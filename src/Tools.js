@@ -13,7 +13,7 @@ export default function Tools(props) {
 				</a>
 				<h1>{Icons.FLIGHTDECK_H1} FlightDeck</h1>
 				<p>
-					Welcome to the <Link to='/tools/flightdeck'>FlightDeck</Link>,
+					Welcome to the FlightDeck,
 					your personal destination for UAV management, flight log and
 					pilot data.
 				</p>
@@ -49,11 +49,10 @@ export default function Tools(props) {
 				Features include:
 			</p>
 			<ul>
-				<li>Aircraft asset management</li>
-				<li>Battery asset management</li>
-				<li>Flight logging</li>
-				<li>Flight timing</li>
-				<li>Pilot metrics</li>
+				<li>Aircraft and battery management</li>
+				<li>Flight timing and entry</li>
+				<li>Pilot, aircraft and battery metrics</li>
+				<li>Public and private user dashboards</li>
 				<li>...new features released regularly</li>
 			</ul>
 
