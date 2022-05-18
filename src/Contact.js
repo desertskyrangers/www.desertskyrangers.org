@@ -10,7 +10,7 @@ export default class Contact extends React.Component {
 					<div>
 						<h1>{Icons.CONTACT} Contact Us</h1>
 						<br/>
-						Send email to: <a href='mailto://contact@desertskyrangers.org'>contact@desertskyrangers.org</a>
+						Send email to: <a href='mailto:contact@desertskyrangers.org'>contact@desertskyrangers.org</a>
 					</div>
 				</div>
 			</div>
