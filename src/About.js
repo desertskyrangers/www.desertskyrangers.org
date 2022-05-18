@@ -1,4 +1,5 @@
 import React from 'react';
+import Icons from "./Icons";
 
 export default class About extends React.Component {
 
@@ -6,7 +7,7 @@ export default class About extends React.Component {
         return (
             <div className='content'>
 
-                <h1>About Us</h1>
+                <h1>{Icons.ABOUT} About Us</h1>
 
                 <figure>
                     <img className='photo' src='/photos/dsr-club-2021-11-20.jpg' alt='DSR Club'/>
