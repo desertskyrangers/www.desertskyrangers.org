@@ -10,7 +10,7 @@ export default function Plans(props) {
 			</div>
 
 			<div className='plans'>
-				<h2 id="dsr-001"><img className='photo' src='/plans/dsr-001/dsr-001-v1-photo.jpeg' alt="DSR-001"/> DSR-001 Aquila</h2>
+				<h2 id="dsr-001"><img className='icon' src='/plans/dsr-001/dsr-001-v1-photo.jpeg' alt="DSR-001"/> DSR-001 Aquila</h2>
 				<a href="/plans/dsr-001/dsr-001-v1-overview.pdf">Aircraft Overview</a><br/>
 				<a href="/plans/dsr-001/dsr-001-v1-fuselage.pdf">Fuselage Plans</a><br/>
 				<a href="/plans/dsr-001/dsr-001-v1-wing.pdf">Wing Plans</a>
