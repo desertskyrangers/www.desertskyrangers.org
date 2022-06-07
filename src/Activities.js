@@ -10,7 +10,10 @@ export default class Activities extends React.Component {
 				<h2>{Icons.RALLY} Jun 2022 Build Day</h2>
 				<p>
 					On Saturday, Jun 4th we held a build day to spend some time building
-					several DSR-001 aircraft.
+					several <a href="/plans">DSR-001 aircraft</a>. What started out as a cool breezy day turned
+					into a hot breezy day as we worked through taping together plans,
+					cutting out parts and using hot glue to assemble aircraft. By the end
+					of the day, Noah and Hudson had their first DSR-001 aircraft built.
 				</p>
 				<div className='hbox-wrappable'>
 					<figure>
