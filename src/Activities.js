@@ -39,33 +39,33 @@ export default class Activities extends React.Component {
 					rebuilt FliteTest Arrow successfully and we all got a birdseye view from
 					Mark's new FPV setup on his Typhoon III. Blaine also joined the fun
 					with his Bixler and giant Volantex Ranger 2000.
-					<div className='hbox-wrappable'>
-						<figure>
-							<img className='photo' src='/photos/2022-01-29-hudson-bixler-1.jpeg' alt='DRS Ranger Rally'/>
-							<figcaption>Hudson's new Bixler 2.</figcaption>
-						</figure>
-						<figure>
-							<img className='photo' src='/photos/2022-01-29-noah-arrow-1.jpg' alt='DRS Ranger Rally'/>
-							<figcaption>Noah preparing his Arrow.</figcaption>
-						</figure>
-						<figure>
-							<img className='photo' src='/photos/2022-01-29-mark-typhoon-1.jpg' alt='DRS Ranger Rally'/>
-							<figcaption>Mark and Blaine FPV preflight check.</figcaption>
-						</figure>
-						<figure>
-							<img className='photo' src='/photos/2022-01-29-mark-typhoon-2.jpg' alt='DRS Ranger Rally'/>
-							<figcaption>FPV flyby.</figcaption>
-						</figure>
-						<figure>
-							<img className='photo' src='/photos/2022-01-29-blaine-ranger-1.jpg' alt='DRS Ranger Rally'/>
-							<figcaption>Blaine's graceful Ranger.</figcaption>
-						</figure>
-						<figure>
-							<img className='photo' src='/photos/2022-01-29-mark-bixler-1.jpg' alt='DRS Ranger Rally'/>
-							<figcaption>Mark getting in some inverted flight practice.</figcaption>
-						</figure>
-					</div>
 				</p>
+				<div className='hbox-wrappable'>
+					<figure>
+						<img className='photo' src='/photos/2022-01-29-hudson-bixler-1.jpeg' alt='DRS Ranger Rally'/>
+						<figcaption>Hudson's new Bixler 2.</figcaption>
+					</figure>
+					<figure>
+						<img className='photo' src='/photos/2022-01-29-noah-arrow-1.jpg' alt='DRS Ranger Rally'/>
+						<figcaption>Noah preparing his Arrow.</figcaption>
+					</figure>
+					<figure>
+						<img className='photo' src='/photos/2022-01-29-mark-typhoon-1.jpg' alt='DRS Ranger Rally'/>
+						<figcaption>Mark and Blaine FPV preflight check.</figcaption>
+					</figure>
+					<figure>
+						<img className='photo' src='/photos/2022-01-29-mark-typhoon-2.jpg' alt='DRS Ranger Rally'/>
+						<figcaption>FPV flyby.</figcaption>
+					</figure>
+					<figure>
+						<img className='photo' src='/photos/2022-01-29-blaine-ranger-1.jpg' alt='DRS Ranger Rally'/>
+						<figcaption>Blaine's graceful Ranger.</figcaption>
+					</figure>
+					<figure>
+						<img className='photo' src='/photos/2022-01-29-mark-bixler-1.jpg' alt='DRS Ranger Rally'/>
+						<figcaption>Mark getting in some inverted flight practice.</figcaption>
+					</figure>
+				</div>
 
 				<h2>{Icons.RALLY} Nov 2021 Ranger Rally</h2>
 				<p>
