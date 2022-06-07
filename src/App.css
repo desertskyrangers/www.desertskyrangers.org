@@ -288,6 +288,11 @@ h6 {
 	height: 128px;
 }
 
+.plans .photo {
+	width: 92px;
+	height: 92px;
+}
+
 /* The adjustment styles need to stay at or near the bottom */
 .center {
 	align-items: center;
