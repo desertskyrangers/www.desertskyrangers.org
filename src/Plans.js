@@ -16,15 +16,15 @@ export default function Plans(props) {
 				<a href="/plans/dsr-001/dsr-001-v1-wing.pdf">Wing Plans</a>
 				<div className='hbox-wrappable'>
 					<figure>
-						<img className='photo' src='/photos/aircraft/dsr-001/dsr-001-quiche-glen.jpg' alt='DSR-001'/>
+						<img className='photo' src='/photos/aircraft/dsr-001/dsr-001-quiche-glen.jpeg' alt='DSR-001'/>
 						<figcaption>The original DSR-001 designed and built by Glen.</figcaption>
 					</figure>
 					<figure>
-						<img className='photo' src='/photos/aircraft/dsr-001/dsr-001-lawn-dart-steve.jpg' alt='DSR-001'/>
+						<img className='photo' src='/photos/aircraft/dsr-001/dsr-001-lawn-dart-steve.jpeg' alt='DSR-001'/>
 						<figcaption>Steve's DSR-001, the Lawn Dart.</figcaption>
 					</figure>
 					<figure>
-						<img className='photo' src='/photos/aircraft/dsr-001/dsr-001-noah.jpg' alt='DSR-001'/>
+						<img className='photo' src='/photos/aircraft/dsr-001/dsr-001-noah.jpeg' alt='DSR-001'/>
 						<figcaption>Noah's DSR-001 from the June 2022 build day.</figcaption>
 					</figure>
 				</div>
