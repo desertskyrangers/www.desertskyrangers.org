@@ -33,6 +33,7 @@ export default function App() {
 					<Route exact path="/legal" element={<Legal/>}/>
 					<Route exact path="/locations" element={<Locations/>}/>
 					<Route exact path="/members" element={<Members/>}/>
+					<Route exact path="/plans/" element={<Plans/>}/>
 					<Route exact path="/plans" element={<Plans/>}/>
 					<Route exact path="/tools" element={<Tools/>}/>
 					<Route exact path="/tools/flightdeck" element={<Tools/>}/>
