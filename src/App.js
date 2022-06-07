@@ -25,7 +25,6 @@ export default function App() {
 			<div className="app">
 				<Header/>
 				<Routes>
-					<Route path="/:url*(/+)" element={<Navigate to="pathname.slice(0, -1)" replace/>}/>
 					<Route exact path="/" element={<Home/>}/>
 					<Route exact path="/about" element={<About/>}/>
 					<Route exact path="/activities" element={<Activities/>}/>
@@ -33,7 +32,6 @@ export default function App() {
 					<Route exact path="/legal" element={<Legal/>}/>
 					<Route exact path="/locations" element={<Locations/>}/>
 					<Route exact path="/members" element={<Members/>}/>
-					<Route exact path="/plans/" element={<Plans/>}/>
 					<Route exact path="/plans" element={<Plans/>}/>
 					<Route exact path="/tools" element={<Tools/>}/>
 					<Route exact path="/tools/flightdeck" element={<Tools/>}/>
