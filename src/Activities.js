@@ -7,6 +7,26 @@ export default class Activities extends React.Component {
 		return (
 			<div className='content'>
 
+				<h2>{Icons.RALLY} Jun 2022 Build Day</h2>
+				<p>
+					On Saturday, Jun 4th we held a build day to spend some time building
+					several DSR-001 aircraft.
+				</p>
+				<div className='hbox-wrappable'>
+					<figure>
+						<img className='photo' src='/photos/2022-06-04-build-day/ms/0604221612_HDR.jpg' alt='DSR Build Day'/>
+						<figcaption>Hudson working on his DSR-001 wing.</figcaption>
+					</figure>
+					<figure>
+						<img className='photo' src='/photos/2022-06-04-build-day/ms/0604221613a_HDR.jpg' alt='DSR Build Day'/>
+						<figcaption>Noah working on his DSR-001 wing.</figcaption>
+					</figure>
+					<figure>
+						<img className='photo' src='/photos/2022-06-04-build-day/ms/0604221613b_HDR.jpg' alt='DSR Build Day'/>
+						<figcaption>Glen (build supervisor), Noah and Hudson.</figcaption>
+					</figure>
+				</div>
+
 				<h2>{Icons.RALLY} Feb 2022 Ranger Rally</h2>
 				<p>
 					We held the Feb 2022 Ranger Rally on Saturday, Feb 12th
@@ -42,27 +62,27 @@ export default class Activities extends React.Component {
 				</p>
 				<div className='hbox-wrappable'>
 					<figure>
-						<img className='photo' src='/photos/2022-01-29-hudson-bixler-1.jpeg' alt='DRS Ranger Rally'/>
+						<img className='photo' src='/photos/2022-01-29-ranger-rally/2022-01-29-hudson-bixler-1.jpeg' alt='DSR Ranger Rally'/>
 						<figcaption>Hudson's new Bixler 2.</figcaption>
 					</figure>
 					<figure>
-						<img className='photo' src='/photos/2022-01-29-noah-arrow-1.jpg' alt='DRS Ranger Rally'/>
+						<img className='photo' src='/photos/2022-01-29-ranger-rally/2022-01-29-noah-arrow-1.jpg' alt='DSR Ranger Rally'/>
 						<figcaption>Noah preparing his Arrow.</figcaption>
 					</figure>
 					<figure>
-						<img className='photo' src='/photos/2022-01-29-mark-typhoon-1.jpg' alt='DRS Ranger Rally'/>
+						<img className='photo' src='/photos/2022-01-29-ranger-rally/2022-01-29-mark-typhoon-1.jpg' alt='DSR Ranger Rally'/>
 						<figcaption>Mark and Blaine FPV preflight check.</figcaption>
 					</figure>
 					<figure>
-						<img className='photo' src='/photos/2022-01-29-mark-typhoon-2.jpg' alt='DRS Ranger Rally'/>
+						<img className='photo' src='/photos/2022-01-29-ranger-rally/2022-01-29-mark-typhoon-2.jpg' alt='DSR Ranger Rally'/>
 						<figcaption>FPV flyby.</figcaption>
 					</figure>
 					<figure>
-						<img className='photo' src='/photos/2022-01-29-blaine-ranger-1.jpg' alt='DRS Ranger Rally'/>
+						<img className='photo' src='/photos/2022-01-29-ranger-rally/2022-01-29-blaine-ranger-1.jpg' alt='DSR Ranger Rally'/>
 						<figcaption>Blaine's graceful Ranger.</figcaption>
 					</figure>
 					<figure>
-						<img className='photo' src='/photos/2022-01-29-mark-bixler-1.jpg' alt='DRS Ranger Rally'/>
+						<img className='photo' src='/photos/2022-01-29-ranger-rally/2022-01-29-mark-bixler-1.jpg' alt='DSR Ranger Rally'/>
 						<figcaption>Mark getting in some inverted flight practice.</figcaption>
 					</figure>
 				</div>
@@ -76,7 +96,7 @@ export default class Activities extends React.Component {
 				</p>
 				<div className='hbox-wrappable'>
 					<figure>
-						<img className='photo' src='/photos/dsr-ranger-rally-2021-11-20.jpg' alt='DRS Ranger Rally'/>
+						<img className='photo' src='/photos/2021-11-20-ranger-rally/hudson.jpg' alt='DSR Ranger Rally'/>
 						<figcaption>Hudson at the controls, Mark and Percy looking on.</figcaption>
 					</figure>
 				</div>
