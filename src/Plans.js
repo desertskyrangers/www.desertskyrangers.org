@@ -14,6 +14,7 @@ export default function Plans(props) {
 				<a href="/plans/dsr-001/dsr-001-v1-overview.pdf">Aircraft Overview</a><br/>
 				<a href="/plans/dsr-001/dsr-001-v1-fuselage.pdf">Fuselage Plans</a><br/>
 				<a href="/plans/dsr-001/dsr-001-v1-wing.pdf">Wing Plans</a>
+				<a href="https://www.thingiverse.com/thing:5409435">3D Parts</a>
 				<div className='hbox-wrappable'>
 					<figure>
 						<img className='photo' src='/photos/aircraft/dsr-001/dsr-001-quiche-glen.jpeg' alt='DSR-001'/>
