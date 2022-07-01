@@ -36,7 +36,9 @@ export default class About extends React.Component {
                                 1 with flaps he added as well as a home-built Flite Test Scout. He is
                                 currently in 9th grade and wants to be an astronautical engineer for
                                 his career. His favorite part of flying is building planes and learning
-                                how you make them fly well.
+                                how you make them fly well. Noah has
+                                a <a href='https://www.youtube.com/channel/UCPquAgw1lhc0vZ_qL9i51aw'>YouTube channel</a> where
+                                you can find video of many of his flights.
                             </p>
                         </div>
 
