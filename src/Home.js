@@ -45,12 +45,13 @@ export default class Home extends React.Component {
 							</p>
 						</div>
 
-						<h2>{Icons.TAKEOFF} Spring Flying Season Arrives!</h2>
-						<p>The spring <a href="articles/northern-utah-flying-season-2021-01">
-							flying season</a> is here. While the weather can still be
-							cold, there is more sunlight and daylight hours. Now is a good time
-							to check your flight box, charge the batteries and prepare for
-							some good flying in 2022.
+						<h2>{Icons.TAKEOFF} Summer Flying Season Arrives!</h2>
+						<p>The summer <a href="articles/northern-utah-flying-season-2021-01">
+							flying season</a> is here. The temperature is hot and the daylight
+							is long. Be sure to keep your batteries cool with shade on the
+							ground and plenty of ventilation while flying. Stay hydrated and
+							pay attention to the weather as summer thunderstorms may pop up at
+							any time.
 						</p>
 
 					</div>
