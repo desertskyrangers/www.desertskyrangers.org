@@ -38,7 +38,7 @@ export default function App() {
 					<Route exact path="/tools/flightdeck" element={<Tools/>}/>
 
 					<Route exact path="/articles" element={<Articles/>}/>
-					<Route exact path="/articles/getting-started-2022-07" element={<GettingStarted/>}
+					<Route exact path="/articles/getting-started-2022-07" element={<GettingStarted/>}/>
 					<Route exact path="/articles/northern-utah-flying-season-2021-01" element={<NorthernUtahFlyingSeason/>}/>
 					<Route exact path="/articles/aa-transmitter-battery-study-2021-01" element={<AaTransmitterBatteryStudy/>}/>
 
