@@ -6,7 +6,7 @@ export default function Tools(props) {
 	return (
 		<div className='content'>
 
-			<div>
+			<div className='announcement'>
 				<a href='https://flightdeck.desertskyrangers.org/'>
 					<img height="300" src="/screenshots/flightdeck.png" alt="FlightDeck Screenshot" className="embedded right"/>
 				</a>
@@ -42,26 +42,26 @@ export default function Tools(props) {
 					FlightDeck a tool for tracking your skills as a pilot,
 					collaborating on shared objectives with fellow pilots, and
 					growing the sport of RC aviation.
-				</p></div>
+				</p>
 
-			<p>
-				Features include:
-			</p>
-			<ul>
-				<li>Aircraft and battery management</li>
-				<li>Flight timing and entry</li>
-				<li>Pilot, aircraft and battery metrics</li>
-				<li>Public and private user dashboards</li>
-				<li>...new features released regularly</li>
-			</ul>
+				<p>
+					Features include:
+				</p>
+				<ul>
+					<li>Aircraft and battery management</li>
+					<li>Flight timing and entry</li>
+					<li>Pilot, aircraft and battery metrics</li>
+					<li>Public and private user dashboards</li>
+					<li>...new features released regularly</li>
+				</ul>
 
-			<h2>Project Participation</h2>
-			<p>
-				Visit the <a href='https://github.com/desertskyrangers/flightdeck/'>FlightDeck project page</a> for information
-				about <a href='https://github.com/desertskyrangers/flightdeck/milestones'>upcoming versions and features</a>,
-				or to <a href='https://github.com/desertskyrangers/flightdeck/issues'>view or report issues and enhancement requests</a>.
-			</p>
-
+				<h2>Project Participation</h2>
+				<p>
+					Visit the <a href='https://github.com/desertskyrangers/flightdeck/'>FlightDeck project page</a> for information
+					about <a href='https://github.com/desertskyrangers/flightdeck/milestones'>upcoming versions and features</a>,
+					or to <a href='https://github.com/desertskyrangers/flightdeck/issues'>view or report issues and enhancement requests</a>.
+				</p>
+			</div>
 		</div>
 	)
 }

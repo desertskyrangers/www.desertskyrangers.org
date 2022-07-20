@@ -7,6 +7,7 @@ import About from "./About";
 import Activities from "./Activities";
 import Legal from "./Legal";
 import Members from "./Members";
+import Safety from "./Safety";
 import NotFound from "./NotFound";
 
 import Footer from "./Footer";
@@ -34,6 +35,7 @@ export default function App() {
 					<Route exact path="/locations" element={<Locations/>}/>
 					<Route exact path="/members" element={<Members/>}/>
 					<Route exact path="/plans" element={<Plans/>}/>
+					<Route exact path="/safety" element={<Safety/>}/>
 					<Route exact path="/tools" element={<Tools/>}/>
 					<Route exact path="/tools/flightdeck" element={<Tools/>}/>
 

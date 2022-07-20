@@ -1,12 +1,10 @@
 import React from 'react';
 
-export default class Members extends React.Component {
+export default function Members() {
 
-	render() {
 		return (
 			<div className='content'>
 			</div>
 		)
-	}
 
 }

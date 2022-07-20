@@ -10,49 +10,31 @@ export default class Home extends React.Component {
 			<div className='content'>
 				<div className="row">
 					<div className="info column">
+						<Link to='/tools/flightdeck' className="infoitem">{Icons.FLIGHTDECK}FlightDeck</Link>
 						<Link to="/locations" className="infoitem">{Icons.LOCATION} Where We Fly</Link>
 					</div>
 					<div className="column">
 
 						<div className='announcement'>
-							<a href='https://flightdeck.desertskyrangers.org/'>
-								<img height="300" src="/screenshots/flightdeck.png" alt="FlightDeck Screenshot" className="embedded right"/>
-							</a>
-							<h1>{Icons.FLIGHTDECK_H1} FlightDeck</h1>
+							<h2>{Icons.DESERT_SKY_RANGERS} August 2022 Ranger Rally</h2>
 							<p>
-								Welcome to the <Link to='/tools/flightdeck'>FlightDeck</Link>,
-								your personal destination for UAV management, flight log and
-								pilot data.
-							</p>
-							<p>
-								FlightDeck is a resource for advanced and novice RC enthusiasts
-								alike. Your FlightDeck features will enhance your flight
-								experience with flight time data collection, fleet management,
-								aircraft inventory and statistics, and accessory inventory
-								tracking. Your FlightDeck Dashboard includes the ability to time
-								and log your flights for each of your aircraft. These flight
-								logs can then be used to provide valuable statistics for you as
-								a pilot, aircraft owner, or just an observer.
-							</p>
-							<p>
-								Recent enhancements to the FlightDeck now include adding
-								individual aircraft specs from wingspan and weight to wing area
-								and wing loading for each aircraft. Additionally, sharing your
-								fleet information with your colleagues, friends as family makes
-								FlightDeck a tool for tracking your skills as a pilot,
-								collaborating on shared objectives with fellow pilots, and
-								growing the sport of RC aviation.
+								The August 2022 Ranger Rally is scheduled for Saturday, August
+								13 at 10am at <a href="https://goo.gl/maps/WfuVVZqe4Qv32PX27">{Icons.LOCATION} Wardle Fields Regional Park</a> in Bluffdale. We invite all DSR
+								members, family, friends and visitors to attend. <Link to='/safety'>Please follow
+								all club and FAA rules</Link> while enjoying our event.
 							</p>
 						</div>
 
-						<h2>{Icons.TAKEOFF} Summer Flying Season Arrives!</h2>
-						<p>The summer <a href="articles/northern-utah-flying-season-2021-01">
-							flying season</a> is here. The temperature is hot and the daylight
-							is long. Be sure to keep your batteries cool with shade on the
-							ground and plenty of ventilation while flying. Stay hydrated and
-							pay attention to the weather as summer thunderstorms may pop up at
-							any time.
-						</p>
+						<div className='announcement'>
+							<h2>{Icons.TAKEOFF} Summer Flying Season Arrives!</h2>
+							<p>The summer <a href="articles/northern-utah-flying-season-2021-01">
+								flying season</a> is here. The temperature is hot and the daylight
+								is long. Be sure to keep your batteries cool with shade on the
+								ground and plenty of ventilation while flying. Stay hydrated and
+								pay attention to the weather as summer thunderstorms may pop up at
+								any time.
+							</p>
+						</div>
 
 					</div>
 					<div className="news column">
