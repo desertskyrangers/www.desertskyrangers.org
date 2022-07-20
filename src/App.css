@@ -293,6 +293,12 @@ h6 {
 	height: 96px;
 }
 
+.product img {
+	width: 128px;
+	height: auto;
+	margin: 0 1em 0 0;
+}
+
 /* The adjustment styles need to stay at or near the bottom */
 .center {
 	align-items: center;
