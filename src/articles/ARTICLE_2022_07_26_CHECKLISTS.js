@@ -1,6 +1,6 @@
 import React from "react";
 
-export default function Article_2022_07_26_Checklists(props) {
+export default function ARTICLE_2022_07_26_CHECKLISTS(props) {
 
 	return (
 		<div className='content'>

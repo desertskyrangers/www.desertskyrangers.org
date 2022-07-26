@@ -1,6 +1,6 @@
 import React from "react";
 
-export default function Article_2022_07_19_Getting_Started(props) {
+export default function ARTICLE_2022_07_19_GETTING_STARTED(props) {
 
 	return (
 		<div className='content'>
