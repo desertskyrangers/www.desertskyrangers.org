@@ -18,7 +18,8 @@ import Tools from "./Tools";
 import Locations from "./Locations";
 import Contact from "./Contact";
 import Plans from "./Plans";
-import GettingStarted from "./articles/GettingStarted";
+import Article_2022_07_19_Getting_Started from "./articles/Article_2022_07_19_Getting_Started";
+import Article_2022_07_26_Checklists from "./articles/Article_2022_07_26_Checklists";
 
 export default function App() {
 
@@ -40,7 +41,8 @@ export default function App() {
 					<Route exact path="/tools/flightdeck" element={<Tools/>}/>
 
 					<Route exact path="/articles" element={<Articles/>}/>
-					<Route exact path="/articles/getting-started-2022-07" element={<GettingStarted/>}/>
+					<Route exact path="articles/2022-07-25-checklists" element={<Article_2022_07_26_Checklists/>}/>
+					<Route exact path="/articles/2022-07-19-getting-started" element={<Article_2022_07_19_Getting_Started/>}/>
 					<Route exact path="/articles/northern-utah-flying-season-2021-01" element={<NorthernUtahFlyingSeason/>}/>
 					<Route exact path="/articles/aa-transmitter-battery-study-2021-01" element={<AaTransmitterBatteryStudy/>}/>
 
