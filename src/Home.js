@@ -20,7 +20,7 @@ export default class Home extends React.Component {
 							<h2>{Icons.DESERT_SKY_RANGERS} August 2022 Ranger Rally</h2>
 							<p>
 								The August 2022 Ranger Rally is scheduled for Saturday, August
-								13 at 10am at <a href="https://goo.gl/maps/WfuVVZqe4Qv32PX27">{Icons.LOCATION} Wardle Fields Regional Park</a> in Bluffdale. We invite all DSR
+								13 at 9am at <a href="https://goo.gl/maps/WfuVVZqe4Qv32PX27">{Icons.LOCATION} Wardle Fields Regional Park</a> in Bluffdale. We invite all DSR
 								members, family, friends and visitors to attend. <Link to='/safety'>Please follow
 								all club and FAA rules</Link> while enjoying our event.
 							</p>
