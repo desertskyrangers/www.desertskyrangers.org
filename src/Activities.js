@@ -29,6 +29,10 @@ export default class Activities extends React.Component {
 							<img className='photo' src='/photos/dsr-club-2022-08-13.jpg' alt='DSR Ranger Rally'/>
 							<figcaption>From the left, Steve, Micah, Mark, Noah, Hudson, Glen and Blaine.</figcaption>
 						</figure>
+						<figure>
+							<img className='photo' src='/photos/2022-08-13-ranger-rally-banner.jpg' alt='DSR Ranger Rally'/>
+							<figcaption>Noah starts the Ranger Rally with a banner flyover.</figcaption>
+						</figure>
 					</div>
 				</div>
 
