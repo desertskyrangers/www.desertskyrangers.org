@@ -17,16 +17,6 @@ export default class Home extends React.Component {
 					<div className="column">
 
 						<div className='announcement'>
-							<h2>{Icons.DESERT_SKY_RANGERS} August 2022 Ranger Rally</h2>
-							<p>
-								The August 2022 Ranger Rally is scheduled for Saturday, August
-								13 at 9am at <a href="https://goo.gl/maps/WfuVVZqe4Qv32PX27">{Icons.LOCATION} Wardle Fields Regional Park</a> in Bluffdale. We invite all DSR
-								members, family, friends and visitors to attend. <Link to='/safety'>Please follow
-								all club and FAA rules</Link> while enjoying our event.
-							</p>
-						</div>
-
-						<div className='announcement'>
 							<h2>{Icons.TAKEOFF} Summer Flying Season Arrives!</h2>
 							<p>The summer <a href="articles/northern-utah-flying-season-2021-01">
 								flying season</a> is here. The temperature is hot and the daylight
