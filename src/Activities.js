@@ -43,7 +43,7 @@ export default class Activities extends React.Component {
 				<div className='announcement'>
 					<h2>{Icons.RALLY} Jun 2022 Build Day</h2>
 					<p>
-						On Saturday, Jun 4th we held a build day to spend some time building
+						On Saturday, Jun 4th we held a <a href='https://photos.app.goo.gl/Sd3FaTet7f8DoNpA6'>build day</a> to spend some time building
 						several <a href="/plans">DSR-001 aircraft</a>. What started out as a cool breezy day turned
 						into a hot breezy day as we worked through taping together plans,
 						cutting out parts and using hot glue to assemble aircraft. By the end
@@ -84,7 +84,7 @@ export default class Activities extends React.Component {
 						Last, but not least, Holden got one launch with his new rocket.
 						We're not sure how high it went but we were glad the parachute did
 						not fully deploy so it came down nearby. Apparently we were having
-						so much fun flying, we didn't get many photos. All in all, a good
+						so much fun flying, we didn't get any photos. All in all, a good
 						day!
 					</p>
 				</div>
@@ -92,7 +92,7 @@ export default class Activities extends React.Component {
 				<div className='announcement'>
 					<h2>{Icons.RALLY} Jan 2022 Ranger Rally</h2>
 					<p>
-						We held the Jan 2022 Ranger Rally on Saturday, Jan 29th
+						We held the <a href='https://photos.app.goo.gl/jNU48m2dBRWr3df98'>Jan 2022 Ranger Rally</a> on Saturday, Jan 29th
 						at <a href="https://goo.gl/maps/WfuVVZqe4Qv32PX27">{Icons.LOCATION} Wardle Fields Regional Park</a>.
 						It was a cold morning with temperatures just above freezing. Several of us
 						got to try out new equipment and aircraft that we received over the
@@ -133,8 +133,9 @@ export default class Activities extends React.Component {
 				<div className='announcement'>
 					<h2>{Icons.RALLY} Nov 2021 Ranger Rally</h2>
 					<p>
-						We held an impromptu Ranger Rally on Saturday, Nov 20th. For the first time we had all members
-						of the club available for <a href='/about'>group photo</a> and had a chilly morning of
+						We held an <a href='https://photos.app.goo.gl/yTDm9bs3eGu8yDx97'>impromptu Ranger Rally</a> on Saturday,
+						Nov 20th. For the first time we had all members
+						of the club available for a <a href='/about'>group photo</a> and had a chilly morning of
 						flying. Despite the cool weather we had a great time getting together, increasing our flight
 						times and sharing stories.
 					</p>
