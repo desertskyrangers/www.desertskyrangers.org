@@ -10,7 +10,7 @@ export default class Activities extends React.Component {
 				<div className='announcement'>
 					<h2>{Icons.DESERT_SKY_RANGERS} August 2022 Ranger Rally</h2>
 					<p>
-						The August 2022 Ranger Rally was held Saturday, August
+						The <a href='https://photos.app.goo.gl/1i374x5e5sQRXYBcA'>August 2022 Ranger Rally</a> was held Saturday, August
 						13 at 9am at <a href="https://goo.gl/maps/WfuVVZqe4Qv32PX27">{Icons.LOCATION} Wardle Fields Regional Park</a> in
 						Bluffdale. We were fortunate that all members of the club were able
 						to attend. We spent several hours together flying, chatting, and
@@ -26,11 +26,15 @@ export default class Activities extends React.Component {
 					</p>
 					<div className='hbox-wrappable'>
 						<figure>
-							<img className='photo' src='/photos/dsr-club-2022-08-13.jpg' alt='DSR Ranger Rally'/>
+							<a href='https://photos.app.goo.gl/aVd5UBe7TvWuFLZQA'>
+								<img className='photo' src='/photos/dsr-club-2022-08-13.jpg' alt='DSR Ranger Rally'/>
+							</a>
 							<figcaption>From the left, Steve, Micah, Mark, Noah, Hudson, Glen and Blaine.</figcaption>
 						</figure>
 						<figure>
-							<img className='photo' src='/photos/2022-08-13-ranger-rally-banner.jpg' alt='DSR Ranger Rally'/>
+							<a href='https://photos.app.goo.gl/Hb6kbQBNApaLCwfY6'>
+								<img className='photo' src='/photos/2022-08-13-ranger-rally-banner.jpg' alt='DSR Ranger Rally'/>
+							</a>
 							<figcaption>Noah starts the Ranger Rally with a banner flyover.</figcaption>
 						</figure>
 					</div>
