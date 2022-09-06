@@ -238,7 +238,7 @@ h6 {
 	margin: 1rem 2rem;
 
 	display: flex;
-	flex-flow: row nowrap;
+	flex-flow: column nowrap;
 	/* along the main axis */
 	justify-content: right;
 	/* along the cross axis */
@@ -254,6 +254,7 @@ h6 {
 .news .title {
 	font-size: 2rem;
 	margin: 0 0 0 -0.5rem;
+	white-space: nowrap;
 }
 
 .footer {

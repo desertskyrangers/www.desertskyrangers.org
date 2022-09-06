@@ -29,6 +29,21 @@ export default class Home extends React.Component {
 
 					</div>
 					<div className="news column">
+						<div>
+							<p className='title'>Ranger Rallies</p>
+						</div>
+						<div>
+							<h5>2022</h5>
+							<h6>Aug 13 - Wardle Fields</h6>
+							<h6>Oct 15 - Wardle Fields</h6>
+						</div>
+						<div>
+							<h5>2023</h5>
+							<h6>Feb 18 - Wardle Fields</h6>
+							<h6>Apr 22 - Wardle Fields</h6>
+							<h6>Aug 19 - Wardle Fields</h6>
+							<h6>Oct 21 - Wardle Fields</h6>
+						</div>
 					</div>
 				</div>
 			</div>
