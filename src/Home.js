@@ -17,7 +17,7 @@ export default class Home extends React.Component {
 					<div className="column">
 
 						<div className='announcement'>
-							<h2>{Icons.TAKEOFF} Summer Flying Season Arrives!</h2>
+							<h2>{Icons.TAKEOFF} Fall Flying Season Arrives!</h2>
 							<p>
 								In spite of fall starting with record breaking temperatures, the
 								<a href="articles/northern-utah-flying-season-2021-01">fall flying season</a>
