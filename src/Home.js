@@ -17,10 +17,31 @@ export default class Home extends React.Component {
 					<div className="column">
 
 						<div className='announcement'>
+							<h2>{Icons.DESERT_SKY_RANGERS} Fall Ranger Rally!</h2>
+							<p>
+								Calling all Rangers and friends! The Fall Ranger Rally will be
+								held on Saturday, October 15th at 9am
+								at <a href='https://slco.org/parks/wardle-fields-regional-park/'>Wardle Fields Regional	Park</a>. In
+								order to participate in flying events you must follow
+								all <Link to="/safety">Safety Rules</Link>. Spectators are welcome.
+							</p>
+							<p>
+								Event activities include:
+							</p>
+							<ul>
+								<li>Open flying</li>
+								<li>Flight Demonstrations</li>
+								<li>Static Demonstrations</li>
+								<li>Flight Competitions</li>
+								<li>Socializing</li>
+								<li>...and more</li>
+							</ul>
+						</div>
+
+						<div className='announcement'>
 							<h2>{Icons.TAKEOFF} Fall Flying Season Arrives!</h2>
 							<p>
-								In spite of fall starting with record breaking temperatures, the
-								<a href="articles/northern-utah-flying-season-2021-01">fall flying season</a>
+								In spite of fall starting with record breaking temperatures, the <a href="articles/northern-utah-flying-season-2021-01">fall flying season</a>
 								has arrived. Temperatures will fall over the next few months and
 								daylight hours will quickly disappear. Flying in the morning will
 								be chilly and flying in the evening will become more comfortable.
