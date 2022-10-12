@@ -211,6 +211,26 @@ h6 {
 	flex-flow: column nowrap;
 }
 
+.row .column {
+	flex-grow: 1;
+}
+
+.space-evenly {
+	justify-content: space-evenly;
+}
+
+.left {
+	align-self: flex-start;
+}
+
+.centered {
+	align-self: center;
+}
+
+.right {
+	align-self: flex-end;
+}
+
 .info {
 
 }
