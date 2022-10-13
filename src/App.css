@@ -254,6 +254,10 @@ h6 {
 	background-color: var(--menu-background-hover);
 }
 
+.twitter-follow-button {
+	margin: 0.5rem 1rem 0 0;
+}
+
 .news {
 	margin: 1rem 2rem;
 
@@ -398,4 +402,9 @@ img.embedded.left {
 
 img.embedded.right {
 	float: right;
+}
+
+.venmo.qrcode {
+	width: 5cm;
+	height: 5cm;
 }

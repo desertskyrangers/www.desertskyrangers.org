@@ -20,6 +20,7 @@ import Contact from "./Contact";
 import Plans from "./Plans";
 import ARTICLE_2022_07_19_GETTING_STARTED from "./articles/ARTICLE_2022_07_19_GETTING_STARTED";
 import ARTICLE_2022_07_26_CHECKLISTS from "./articles/ARTICLE_2022_07_26_CHECKLISTS";
+import Support from "./Support";
 
 export default function App() {
 
@@ -37,6 +38,7 @@ export default function App() {
 					<Route exact path="/members" element={<Members/>}/>
 					<Route exact path="/plans" element={<Plans/>}/>
 					<Route exact path="/safety" element={<Safety/>}/>
+					<Route exact path="/support" element={<Support/>}/>
 					<Route exact path="/tools" element={<Tools/>}/>
 					<Route exact path="/tools/flightdeck" element={<Tools/>}/>
 
