@@ -26,7 +26,7 @@ export default class Home extends React.Component {
 								held on Saturday, October 15th at 9am
 								at <a href='https://slco.org/parks/wardle-fields-regional-park/'>Wardle Fields Regional Park</a>. In
 								order to participate in flying events you must follow
-								all <Link to="/safety">Safety Rules</Link>. Spectators are welcome.
+								all <Link to="/safety">Event Safety</Link> rules. Spectators are welcome.
 							</p>
 							<div className='row space-evenly'>
 								<div className='column'>
