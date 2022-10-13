@@ -16,7 +16,7 @@ class Icons {
 	HANDSHAKE = <FontAwesomeIcon icon={solid('handshake')}/>
 	LOCATION = <FontAwesomeIcon icon={solid('map-marker-alt')}/>
 	RALLY = <FontAwesomeIcon icon={solid('users')}/>
-	SAFETY = <FontAwesomeIcon icon={solid('exclamation')}/>
+	SAFETY = <span><FontAwesomeIcon icon={solid('exclamation')}/><FontAwesomeIcon icon={solid('exclamation')}/><FontAwesomeIcon icon={solid('exclamation')}/></span>
 	TWITTER = <FontAwesomeIcon icon={brands('twitter')}/>
 }
 

@@ -12,7 +12,7 @@ export default class Home extends React.Component {
 					<div className="info column">
 						<Link to='/tools/flightdeck' className="infoitem">{Icons.FLIGHTDECK}FlightDeck</Link>
 						<Link to="/locations" className="infoitem">{Icons.LOCATION} Where We Fly</Link>
-						<Link to="/safety" className="infoitem">{Icons.SAFETY} Event Rules</Link>
+						<Link to="/safety" className="infoitem">{Icons.SAFETY} Event Safety</Link>
 						<Link to='/support' className='infoitem'>{Icons.HANDSHAKE} How to Support Us</Link>
 						<a href="https://twitter.com/desertskyranger?ref_src=twsrc%5Etfw" className="infoitem">{Icons.TWITTER} Follow Us on Twitter</a>
 					</div>
