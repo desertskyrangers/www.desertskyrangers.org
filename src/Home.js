@@ -55,8 +55,9 @@ export default class Home extends React.Component {
 						<div className='announcement'>
 							<h2>{Icons.TAKEOFF} Fall Flying Season Arrives!</h2>
 							<p>
-								In spite of fall starting with record breaking temperatures, the <a href="articles/northern-utah-flying-season-2021-01">fall flying season</a>
-								has arrived. Temperatures will fall over the next few months and
+								In spite of fall starting with record breaking temperatures,
+								the <a href="articles/northern-utah-flying-season-2021-01">fall flying season</a> has
+								arrived. Temperatures will fall over the next few months and
 								daylight hours will quickly disappear. Flying in the morning will
 								be chilly and flying in the evening will become more comfortable.
 							</p>
