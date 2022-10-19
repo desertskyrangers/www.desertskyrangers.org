@@ -10,7 +10,7 @@ export default function Locations() {
 				If you're wondering what's up in the sky, it might just be us hanging
 				out at some of our favorite locations:
 			</p>
-			<h5><a href="https://goo.gl/maps/i3NkAMGppHkqknxw6">{Icons.LOCATION}</a> Morning Cloak Park (Thursdays before sunset)</h5>
+			<h5><a href="https://goo.gl/maps/i3NkAMGppHkqknxw6">{Icons.LOCATION}</a> Morning Cloak Park (Evenings before sunset)</h5>
 			<p>
 				A small, bowl shaped park surrounded by small trees. This location
 				is a bit challenging to fly at due to the small field and
