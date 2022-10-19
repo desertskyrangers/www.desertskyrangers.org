@@ -15,7 +15,7 @@ export default class Home extends React.Component {
 						<Link to="/safety" className="infoitem">{Icons.SAFETY} Event Safety</Link>
 						<Link to='/support' className='infoitem'>{Icons.HANDSHAKE} How to Support Us</Link>
 						<a href="https://twitter.com/desertskyranger?ref_src=twsrc%5Etfw" className="infoitem">{Icons.TWITTER} Follow Us on Twitter</a>
-						<a href="https://www.instagram.com/desertskyrangers/" className="infoitem">{Icons.INSTAGRAM} Follow Us on Twitter</a>
+						<a href="https://www.instagram.com/desertskyrangers/" className="infoitem">{Icons.INSTAGRAM} Follow Us on Instagram</a>
 					</div>
 
 					<div className="column">
