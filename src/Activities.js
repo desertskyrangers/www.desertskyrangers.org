@@ -8,6 +8,38 @@ export default class Activities extends React.Component {
 			<div className='content'>
 
 				<div className='announcement'>
+					<h2>{Icons.DESERT_SKY_RANGERS} October 2022 Ranger Rally</h2>
+					<p>
+						The <a href='https://photos.app.goo.gl/Z3bZu5KKpnuC4vAx9'>October 2022 Ranger Rally</a> was
+						held Saturday, October 15 at 9am at <a href="https://goo.gl/maps/WfuVVZqe4Qv32PX27">{Icons.LOCATION} Wardle Fields Regional Park</a> in
+						Bluffdale. We had most of the club members as well as some new
+						flyers and spectators. The morning hours were breezy which may
+						flying light airplanes a bit tricky. After noon the breeze settled
+						down and it felt more comfortable so several of us stays another
+						couple of hours to keep flying. Noah won the spot landing challenge
+						with a distance of just 13 feet. Well done Noah! We greatly
+						appreciate our photographer Steve.
+					</p>
+
+					<div className='hbox-wrappable'>
+						<figure>
+							<a href='https://photos.app.goo.gl/Pk4LwoPbhzXnbdgT7'>
+								<img className='photo' src='/photos/2022-10-15-ranger-rally.jpg' alt='DSR Ranger Rally'/>
+							</a>
+							<figcaption>From the left, Logan, Glen, John, Mark, Steve, Matt, Lionel, Skye, Noah and Hudson.</figcaption>
+						</figure>
+
+						<figure>
+							<a href='https://photos.app.goo.gl/Pk4LwoPbhzXnbdgT7'>
+								<img className='photo' src='/photos/2022-10-15-ranger-rally-p40.jpg' alt='DSR Ranger Rally P-40'/>
+							</a>
+							<figcaption>Steve trying out his new P-40</figcaption>
+						</figure>
+					</div>
+
+				</div>
+
+				<div className='announcement'>
 					<h2>{Icons.DESERT_SKY_RANGERS} August 2022 Ranger Rally</h2>
 					<p>
 						The <a href='https://photos.app.goo.gl/1i374x5e5sQRXYBcA'>August 2022 Ranger Rally</a> was held Saturday, August
