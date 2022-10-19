@@ -15,6 +15,7 @@ export default class Home extends React.Component {
 						<Link to="/safety" className="infoitem">{Icons.SAFETY} Event Safety</Link>
 						<Link to='/support' className='infoitem'>{Icons.HANDSHAKE} How to Support Us</Link>
 						<a href="https://twitter.com/desertskyranger?ref_src=twsrc%5Etfw" className="infoitem">{Icons.TWITTER} Follow Us on Twitter</a>
+						<a href="https://www.instagram.com/desertskyrangers/" className="infoitem">{Icons.INSTAGRAM} Follow Us on Twitter</a>
 					</div>
 
 					<div className="column">
@@ -68,10 +69,6 @@ export default class Home extends React.Component {
 					<div className="news column">
 						<div>
 							<p className='title'>Ranger Rallies</p>
-						</div>
-						<div>
-							<h5>2022</h5>
-							<h6>Oct 15 - Wardle Fields</h6>
 						</div>
 						<div>
 							<h5>2023</h5>

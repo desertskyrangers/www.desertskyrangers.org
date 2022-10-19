@@ -14,6 +14,7 @@ class Icons {
 	FLIGHTDECK_H2 = <img style={{width: '3rem', height: '3rem', margin: '-0.5rem -0.5rem -0.5rem 0rem'}} src='https://flightdeck.desertskyrangers.org/logo.png' alt="FlightDeck Logo"/>
 	FLIGHTDECK = <img style={{width: '2rem', height: '2rem', margin: '-0.3rem 0.2rem -0.7rem 0rem'}} src='https://flightdeck.desertskyrangers.org/logo.png' alt="FlightDeck Logo"/>
 	HANDSHAKE = <FontAwesomeIcon icon={solid('handshake')}/>
+	INSTAGRAM = <FontAwesomeIcon icon={brands('instagram')}/>
 	LOCATION = <FontAwesomeIcon icon={solid('map-marker-alt')}/>
 	RALLY = <FontAwesomeIcon icon={solid('users')}/>
 	SAFETY = <span><FontAwesomeIcon icon={solid('exclamation')}/><FontAwesomeIcon icon={solid('exclamation')}/><FontAwesomeIcon icon={solid('exclamation')}/></span>
