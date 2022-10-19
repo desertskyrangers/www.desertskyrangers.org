@@ -20,38 +20,38 @@ export default class Home extends React.Component {
 
 					<div className="column">
 
-						<div className='announcement'>
-							<h2>{Icons.DESERT_SKY_RANGERS} Fall Ranger Rally!</h2>
-							<p>
-								Calling all Rangers and friends! The Fall Ranger Rally will be
-								held on Saturday, October 15th at 9am
-								at <a href='https://slco.org/parks/wardle-fields-regional-park/'>Wardle Fields Regional Park</a>. In
-								order to participate in flying events you must follow
-								all <Link to="/safety">Event Safety</Link> rules. Spectators are welcome.
-							</p>
-							<div className='row space-evenly'>
-								<div className='column'>
-									<p>
-										Event activities include:
-									</p>
-									<ul>
-										<li>Open flying</li>
-										<li>Flight Demonstrations</li>
-										<li>Static Demonstrations</li>
-										<li>Flight Competitions</li>
-										<li>Socializing</li>
-										<li>...and more</li>
-									</ul>
-								</div>
-								<div className='column'>
-									<p>Rally Information:</p>
-									<ul>
-										<li><a href='https://drive.google.com/file/d/10b7U2rPOQPHwd5-MgdfxUihurRs94K5C/view?usp=sharing'>Ranger Rally Data Sheet</a></li>
-										<li><a href='https://drive.google.com/file/d/1sulwYF7Tn2Kt38r0y2eZ7GyDHq7TNt5y/view?usp=sharing'>Ranger Rally Wardle Fields Map</a></li>
-									</ul>
-								</div>
-							</div>
-						</div>
+						{/*<div className='announcement'>*/}
+						{/*	<h2>{Icons.DESERT_SKY_RANGERS} Fall Ranger Rally!</h2>*/}
+						{/*	<p>*/}
+						{/*		Calling all Rangers and friends! The Fall Ranger Rally will be*/}
+						{/*		held on Saturday, October 15th at 9am*/}
+						{/*		at <a href='https://slco.org/parks/wardle-fields-regional-park/'>Wardle Fields Regional Park</a>. In*/}
+						{/*		order to participate in flying events you must follow*/}
+						{/*		all <Link to="/safety">Event Safety</Link> rules. Spectators are welcome.*/}
+						{/*	</p>*/}
+						{/*	<div className='row space-evenly'>*/}
+						{/*		<div className='column'>*/}
+						{/*			<p>*/}
+						{/*				Event activities include:*/}
+						{/*			</p>*/}
+						{/*			<ul>*/}
+						{/*				<li>Open flying</li>*/}
+						{/*				<li>Flight Demonstrations</li>*/}
+						{/*				<li>Static Demonstrations</li>*/}
+						{/*				<li>Flight Competitions</li>*/}
+						{/*				<li>Socializing</li>*/}
+						{/*				<li>...and more</li>*/}
+						{/*			</ul>*/}
+						{/*		</div>*/}
+						{/*		<div className='column'>*/}
+						{/*			<p>Rally Information:</p>*/}
+						{/*			<ul>*/}
+						{/*				<li><a href='https://drive.google.com/file/d/10b7U2rPOQPHwd5-MgdfxUihurRs94K5C/view?usp=sharing'>Ranger Rally Data Sheet</a></li>*/}
+						{/*				<li><a href='https://drive.google.com/file/d/1sulwYF7Tn2Kt38r0y2eZ7GyDHq7TNt5y/view?usp=sharing'>Ranger Rally Wardle Fields Map</a></li>*/}
+						{/*			</ul>*/}
+						{/*		</div>*/}
+						{/*	</div>*/}
+						{/*</div>*/}
 
 						<div className='announcement'>
 							<h2>{Icons.TAKEOFF} Fall Flying Season Arrives!</h2>
