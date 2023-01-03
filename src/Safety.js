@@ -4,7 +4,7 @@ export default function Safety() {
 
 	return (
 		<div className='content'>
-			<h1>{Icons.SAFETY} Event Safety</h1>
+			<h1>{Icons.SAFETY} Event Safety Rules</h1>
 
 			<p>
 				All participants and spectators are expected to follow federal, local
