@@ -59,7 +59,7 @@ export default class Home extends React.Component {
 								Even with all the snow falling lately, it's time to gear up for
 								the February 2023 Ranger Rally. This year the rally is
 								scheduled for Saturday,
-								Feb 18 at <a href="https://goo.gl/maps/WfuVVZqe4Qv32PX27">{Icons.LOCATION} Wardle Fields Regional Park</a>.
+								Feb 18, 10am, at <a href="https://goo.gl/maps/WfuVVZqe4Qv32PX27">{Icons.LOCATION} Wardle Fields Regional Park</a>.
 								If you plan to attend, please inform Mark or Glen as soon as
 								possible so we can prepare properly. As always, participants are
 								expected to follow the <Link to="/safety">Event Safety Rules</Link>.
