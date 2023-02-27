@@ -11,12 +11,12 @@ export default class Activities extends React.Component {
 				<div className='announcement'>
 					<h2>{Icons.DESERT_SKY_RANGERS} February 2023 Ranger Rally</h2>
 					<p>
-						The <a href='https://photos.app.goo.gl/H8n5bWr7nuzC3G4h9'>October 2022 Ranger Rally</a> was
-						held Saturday, February 18 at 10am at <a href="https://goo.gl/maps/WfuVVZqe4Qv32PX27">{Icons.LOCATION} Wardle Fields Regional Park</a> in
+						The <Link href='https://photos.app.goo.gl/H8n5bWr7nuzC3G4h9'>October 2022 Ranger Rally</Link> was
+						held Saturday, February 18 at 10am at <Link href="https://goo.gl/maps/WfuVVZqe4Qv32PX27">{Icons.LOCATION} Wardle Fields Regional Park</Link> in
 						Bluffdale. We had six members attend. The field was dry and the sun
 						was out which made for pretty good flying until the breeze picked up
 						about half way through that made it pretty chilly. A lot of good
-						discussion about <a href="https://www.expresslrs.org/">ELRS</a> and
+						discussion about <Link href="https://www.expresslrs.org/">ELRS</Link> and
 						supported hardware as well as a bunch of flying.
 					</p>
 				</div>
@@ -24,8 +24,8 @@ export default class Activities extends React.Component {
 				<div className='announcement'>
 					<h2>{Icons.DESERT_SKY_RANGERS} October 2022 Ranger Rally</h2>
 					<p>
-						The <a href='https://photos.app.goo.gl/Z3bZu5KKpnuC4vAx9'>October 2022 Ranger Rally</a> was
-						held Saturday, October 15 at 9am at <a href="https://goo.gl/maps/WfuVVZqe4Qv32PX27">{Icons.LOCATION} Wardle Fields Regional Park</a> in
+						The <Link href='https://photos.app.goo.gl/Z3bZu5KKpnuC4vAx9'>October 2022 Ranger Rally</Link> was
+						held Saturday, October 15 at 9am at <Link href="https://goo.gl/maps/WfuVVZqe4Qv32PX27">{Icons.LOCATION} Wardle Fields Regional Park</Link> in
 						Bluffdale. We had most of the club members as well as some new
 						flyers and spectators. The morning hours were breezy which may
 						flying light airplanes a bit tricky. After noon the breeze settled
@@ -37,16 +37,16 @@ export default class Activities extends React.Component {
 
 					<div className='hbox-wrappable'>
 						<figure>
-							<a href='https://photos.app.goo.gl/Pk4LwoPbhzXnbdgT7'>
+							<Link href='https://photos.app.goo.gl/Pk4LwoPbhzXnbdgT7'>
 								<img className='photo' src='/photos/2022-10-15-ranger-rally.jpg' alt='DSR Ranger Rally'/>
-							</a>
+							</Link>
 							<figcaption>From the left, Logan, Glen, John, Mark, Steve, Matt, Lionel, Skye, Noah and Hudson.</figcaption>
 						</figure>
 
 						<figure>
-							<a href='https://photos.app.goo.gl/Pk4LwoPbhzXnbdgT7'>
+							<Link href='https://photos.app.goo.gl/Pk4LwoPbhzXnbdgT7'>
 								<img className='photo' src='/photos/2022-10-15-ranger-rally-p40.jpg' alt='DSR Ranger Rally P-40'/>
-							</a>
+							</Link>
 							<figcaption>Steve trying out his new P-40</figcaption>
 						</figure>
 					</div>
@@ -56,8 +56,8 @@ export default class Activities extends React.Component {
 				<div className='announcement'>
 					<h2>{Icons.DESERT_SKY_RANGERS} August 2022 Ranger Rally</h2>
 					<p>
-						The <a href='https://photos.app.goo.gl/1i374x5e5sQRXYBcA'>August 2022 Ranger Rally</a> was held Saturday, August
-						13 at 9am at <a href="https://goo.gl/maps/WfuVVZqe4Qv32PX27">{Icons.LOCATION} Wardle Fields Regional Park</a> in
+						The <Link href='https://photos.app.goo.gl/1i374x5e5sQRXYBcA'>August 2022 Ranger Rally</Link> was held Saturday, August
+						13 at 9am at <Link href="https://goo.gl/maps/WfuVVZqe4Qv32PX27">{Icons.LOCATION} Wardle Fields Regional Park</Link> in
 						Bluffdale. We were fortunate that all members of the club were able
 						to attend. We spent several hours together flying, chatting, and
 						flying some more. We got some updated club pictures, showed off some
@@ -72,15 +72,15 @@ export default class Activities extends React.Component {
 					</p>
 					<div className='hbox-wrappable'>
 						<figure>
-							<a href='https://photos.app.goo.gl/aVd5UBe7TvWuFLZQA'>
+							<Link href='https://photos.app.goo.gl/aVd5UBe7TvWuFLZQA'>
 								<img className='photo' src='/photos/dsr-club-2022-08-13.jpg' alt='DSR Ranger Rally'/>
-							</a>
+							</Link>
 							<figcaption>From the left, Steve, Micah, Mark, Noah, Hudson, Glen and Blaine.</figcaption>
 						</figure>
 						<figure>
-							<a href='https://photos.app.goo.gl/Hb6kbQBNApaLCwfY6'>
+							<Link href='https://photos.app.goo.gl/Hb6kbQBNApaLCwfY6'>
 								<img className='photo' src='/photos/2022-08-13-ranger-rally-banner.jpg' alt='DSR Ranger Rally'/>
-							</a>
+							</Link>
 							<figcaption>Noah starts the Ranger Rally with a banner flyover.</figcaption>
 						</figure>
 					</div>
@@ -89,8 +89,8 @@ export default class Activities extends React.Component {
 				<div className='announcement'>
 					<h2>{Icons.RALLY} Jun 2022 Build Day</h2>
 					<p>
-						On Saturday, Jun 4th we held a <a href='https://photos.app.goo.gl/Sd3FaTet7f8DoNpA6'>build day</a> to spend some time building
-						several <a href="/plans">DSR-001 aircraft</a>. What started out as a cool breezy day turned
+						On Saturday, Jun 4th we held a <Link href='https://photos.app.goo.gl/Sd3FaTet7f8DoNpA6'>build day</Link> to spend some time building
+						several <Link href="/plans">DSR-001 aircraft</Link>. What started out as a cool breezy day turned
 						into a hot breezy day as we worked through taping together plans,
 						cutting out parts and using hot glue to assemble aircraft. By the end
 						of the day, Noah and Hudson had their first DSR-001 aircraft built.
@@ -115,7 +115,7 @@ export default class Activities extends React.Component {
 					<h2>{Icons.RALLY} Feb 2022 Ranger Rally</h2>
 					<p>
 						We held the Feb 2022 Ranger Rally on Saturday, Feb 12th
-						at <a href="https://goo.gl/maps/WfuVVZqe4Qv32PX27">{Icons.LOCATION} Wardle Fields Regional Park</a>.
+						at <Link href="https://goo.gl/maps/WfuVVZqe4Qv32PX27">{Icons.LOCATION} Wardle Fields Regional Park</Link>.
 						This time we chose to fly in the afternoon which turned out to be
 						a great choice because the wind calmed down and the temperatures
 						came up to give us fantastic flying weather. Micah brought his dad
@@ -138,8 +138,8 @@ export default class Activities extends React.Component {
 				<div className='announcement'>
 					<h2>{Icons.RALLY} Jan 2022 Ranger Rally</h2>
 					<p>
-						We held the <a href='https://photos.app.goo.gl/jNU48m2dBRWr3df98'>Jan 2022 Ranger Rally</a> on Saturday, Jan 29th
-						at <a href="https://goo.gl/maps/WfuVVZqe4Qv32PX27">{Icons.LOCATION} Wardle Fields Regional Park</a>.
+						We held the <Link href='https://photos.app.goo.gl/jNU48m2dBRWr3df98'>Jan 2022 Ranger Rally</Link> on Saturday, Jan 29th
+						at <Link href="https://goo.gl/maps/WfuVVZqe4Qv32PX27">{Icons.LOCATION} Wardle Fields Regional Park</Link>.
 						It was a cold morning with temperatures just above freezing. Several of us
 						got to try out new equipment and aircraft that we received over the
 						holidays. Hudson was able to maiden his new Bixler 2. Noah flew his
@@ -179,9 +179,9 @@ export default class Activities extends React.Component {
 				<div className='announcement'>
 					<h2>{Icons.RALLY} Nov 2021 Ranger Rally</h2>
 					<p>
-						We held an <a href='https://photos.app.goo.gl/yTDm9bs3eGu8yDx97'>impromptu Ranger Rally</a> on Saturday,
+						We held an <Link href='https://photos.app.goo.gl/yTDm9bs3eGu8yDx97'>impromptu Ranger Rally</Link> on Saturday,
 						Nov 20th. For the first time we had all members
-						of the club available for a <a href='/about'>group photo</a> and had a chilly morning of
+						of the club available for a <Link href='/about'>group photo</Link> and had a chilly morning of
 						flying. Despite the cool weather we had a great time getting together, increasing our flight
 						times and sharing stories.
 					</p>
