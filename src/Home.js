@@ -56,8 +56,8 @@ export default class Home extends React.Component {
 						<div className='announcement'>
 							<h2>{Icons.TAKEOFF} Spring Flying Season Around the Corner!</h2>
 							<p>
-								The <a href="articles/northern-utah-flying-season-2021-01">spring flying season</a>
-								is arriving soon. The temps are still below normal this year and
+								The <a href="articles/northern-utah-flying-season-2021-01">spring flying season</a> is
+								arriving soon. The temps are still below normal this year and
 								we have received a lot of snow (good for us). The winter flying
 								season has also been building season for many of us, as we try
 								out new designs and get ready for the new year.
