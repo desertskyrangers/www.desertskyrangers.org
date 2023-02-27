@@ -54,28 +54,13 @@ export default class Home extends React.Component {
 						{/*</div>*/}
 
 						<div className='announcement'>
-							<h2>{Icons.DESERT_SKY_RANGERS} February Ranger Rally Coming Soon!</h2>
+							<h2>{Icons.TAKEOFF} Spring Flying Season Around the Corner!</h2>
 							<p>
-								Even with all the snow falling lately, it's time to gear up for
-								the February 2023 Ranger Rally. This year the rally is
-								scheduled for Saturday,
-								Feb 18, 10am, at <a href="https://goo.gl/maps/WfuVVZqe4Qv32PX27">{Icons.LOCATION} Wardle Fields Regional Park</a>.
-								If you plan to attend, please inform Mark or Glen as soon as
-								possible so we can prepare properly. As always, participants are
-								expected to follow the <Link to="/safety">Event Safety Rules</Link>.
-							</p>
-						</div>
-
-						<div className='announcement'>
-							<h2>{Icons.TAKEOFF} Winter Flying Season Arrives!</h2>
-							<p>
-								The <a href="articles/northern-utah-flying-season-2021-01">winter flying season</a> has
-								started off with a cold winter
-								blast, with several inches of snow and very cold temperatures.
-								The winter flying season is also building season for many of us
-								as we try out new designs and get ready for the new year.
-								Temps will stay cold as we approach the first Ranger Rally in
-								February. Hope everyone has their hand warmers ready.
+								The <a href="articles/northern-utah-flying-season-2021-01">spring flying season</a>
+								is arriving soon. The temps are still below normal this year and
+								we have received a lot of snow (good for us). The winter flying
+								season has also been building season for many of us, as we try
+								out new designs and get ready for the new year.
 							</p>
 						</div>
 

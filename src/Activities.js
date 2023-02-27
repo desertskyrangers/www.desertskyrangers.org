@@ -1,11 +1,25 @@
 import React from 'react';
 import Icons from "./Icons";
+import {Link} from "react-router-dom";
 
 export default class Activities extends React.Component {
 
 	render() {
 		return (
 			<div className='content'>
+
+				<div className='announcement'>
+					<h2>{Icons.DESERT_SKY_RANGERS} February 2023 Ranger Rally</h2>
+					<p>
+						The <a href='https://photos.app.goo.gl/H8n5bWr7nuzC3G4h9'>October 2022 Ranger Rally</a> was
+						held Saturday, February 18 at 10am at <a href="https://goo.gl/maps/WfuVVZqe4Qv32PX27">{Icons.LOCATION} Wardle Fields Regional Park</a> in
+						Bluffdale. We had six members attend. The field was dry and the sun
+						was out which made for pretty good flying until the breeze picked up
+						about half way through that made it pretty chilly. A lot of good
+						discussion about <a href="https://www.expresslrs.org/">ELRS</a> and
+						supported hardware as well as a bunch of flying.
+					</p>
+				</div>
 
 				<div className='announcement'>
 					<h2>{Icons.DESERT_SKY_RANGERS} October 2022 Ranger Rally</h2>
