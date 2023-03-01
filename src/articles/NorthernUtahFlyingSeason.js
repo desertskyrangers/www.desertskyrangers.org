@@ -18,6 +18,9 @@ export default class NorthernUtahFlyingSeason extends React.Component {
 							<th>Explanation</th>
 						</tr>
 						<tr>
+							<th className='season' colSpan="100">Spring</th>
+						</tr>
+						<tr>
 							<td className='spring'>March</td>
 							<td className='spring no-wrap'>Cold, Windy, Wet</td>
 							<td>
@@ -45,6 +48,9 @@ export default class NorthernUtahFlyingSeason extends React.Component {
 							</td>
 						</tr>
 						<tr>
+							<th className='season' colSpan="100">Summer</th>
+						</tr>
+						<tr>
 							<td className='summer'>June</td>
 							<td className='summer no-wrap'>Warm, Breezy</td>
 							<td>
@@ -68,6 +74,9 @@ export default class NorthernUtahFlyingSeason extends React.Component {
 								Temperatures are still hot but start cooling a little. Summer thunderstorms
 								are most prevalent this month. More daylight provides more flying hours.
 							</td>
+						</tr>
+						<tr>
+							<th className='season' colSpan="100">Fall</th>
 						</tr>
 						<tr>
 							<td className='fall'>September</td>
@@ -94,6 +103,9 @@ export default class NorthernUtahFlyingSeason extends React.Component {
 								Temperatures get cold as fall changes over to winter. Stronger wind conditions
 								can be present and there is the possibility of rain and snow.
 							</td>
+						</tr>
+						<tr>
+							<th className='season' colSpan="100">Winter</th>
 						</tr>
 						<tr>
 							<td className='winter'>December</td>
@@ -128,8 +140,9 @@ export default class NorthernUtahFlyingSeason extends React.Component {
 				</div>
 
 				<p>
-					2021-01-11 - Mark Soderquist - Initial publication
+					2023-03-01 - Mark Soderquist - Added season headers
 					2022-02-24 - Mark Soderquist - Updated with winter months
+					2021-01-11 - Mark Soderquist - Initial publication
 				</p>
 			</div>
 		)

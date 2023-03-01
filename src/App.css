@@ -375,8 +375,8 @@ h6 {
 	width: 2rem;
 }
 
-.winter.winter {
-	background-color: #4040a0;
+.season.season {
+	background-color: var(--background-2);
 }
 
 .spring.spring {
@@ -389,6 +389,10 @@ h6 {
 
 .fall.fall {
 	background-color: #806000;
+}
+
+.winter.winter {
+	background-color: #4040a0;
 }
 
 img.embedded {
