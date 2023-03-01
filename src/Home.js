@@ -54,7 +54,7 @@ export default class Home extends React.Component {
 						{/*</div>*/}
 
 						<div className='announcement'>
-							<h2>{Icons.TAKEOFF} Spring Flying Season Has Arrive!</h2>
+							<h2>{Icons.TAKEOFF} Spring Flying Season Has Arrived!</h2>
 							<p>
 								The <a href="articles/northern-utah-flying-season-2021-01">spring flying season</a> has
 								arrived. The temps are still below normal this year and
