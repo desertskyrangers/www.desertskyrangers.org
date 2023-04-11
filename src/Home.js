@@ -74,7 +74,7 @@ export default class Home extends React.Component {
 						<div>
 							<h5>2023</h5>
 							<h6>Feb 18 - Wardle Fields</h6>
-							<h6>Apr 22 - Wardle Fields</h6>
+							<h6>May 20 - Wardle Fields</h6>
 							<h6>Aug 19 - Wardle Fields</h6>
 							<h6>Oct 21 - Wardle Fields</h6>
 						</div>
