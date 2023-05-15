@@ -54,31 +54,31 @@ export default class Home extends React.Component {
 						{/*</div>*/}
 
 						<div className='announcement'>
-							<h2>{Icons.RALLY} Ranger Rally May 2023</h2>
+							<h2>{Icons.RALLY} Spring Ranger Rally</h2>
 							<p>
-								The May Ranger Rally is this coming Saturday, May 20 @ 9am
-								at <a href="https://goo.gl/maps/WfuVVZqe4Qv32PX27">Wardle Fields Regional Park</a>.
-								The forecast is looking like it's going to be a warm day with a
-								chance of rain in the afternoon. Don't forget
-								your <Link to="/safety">required documentation</Link>.
+								Calling all Rangers and friends! The Spring Ranger Rally is this coming Saturday, May 20 at 9am
+								at <a href='https://slco.org/parks/wardle-fields-regional-park/'>Wardle Fields Regional Park</a>. In
+								order to participate in flying events you must follow
+								all <Link to="/safety">Event Safety</Link> rules. Spectators are welcome.
 							</p>
 						</div>
 
 						<div className='announcement'>
-							<h2>{Icons.RALLY} Ranger Rally Aug 2023</h2>
+							<h2>{Icons.RALLY} Summer Ranger Rally</h2>
 							<p>
-								The August Ranger Rally will be Saturday, Aug 19 @ 9am at
+								Calling all Rangers and friends! The Summer Ranger Rally will be Saturday, Aug 19 at 9am at
 								the <a href="https://www.blm.gov/visit/bonneville-salt-flats">Bonneville Salt Flats</a>.
 								This is a special location for our rallies and requires extra
 								planning due to the distance required to drive. For those in the
 								Riverton area it will take right at two hours of travel. More
-								details will be provided as we get closer. Don't forget
-								your <Link to="/safety">required documentation</Link>.
+								details will be provided as we get closer. In
+								order to participate in flying events you must follow
+								all <Link to="/safety">Event Safety</Link> rules. Spectators are welcome.
 							</p>
 						</div>
 
 						<div className='announcement'>
-							<h2>{Icons.TAKEOFF} Spring Flying Season Has Arrived!</h2>
+							<h2>{Icons.DESERT_SKY_RANGERS} Spring Flying Season Has Arrived</h2>
 							<p>
 								The <a href="articles/northern-utah-flying-season-2021-01">spring flying season</a> has
 								arrived. The temps are still below normal this year and
