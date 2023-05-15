@@ -54,6 +54,30 @@ export default class Home extends React.Component {
 						{/*</div>*/}
 
 						<div className='announcement'>
+							<h2>{Icons.RALLY} Ranger Rally May 2023</h2>
+							<p>
+								The May Ranger Rally is this coming Saturday, May 20 @ 9am
+								at <a href="https://goo.gl/maps/WfuVVZqe4Qv32PX27">Wardle Fields Regional Park</a>.
+								The forecast is looking like it's going to be a warm day with a
+								chance of rain in the afternoon. Don't forget
+								your <Link to="/safety">required documentation</Link>.
+							</p>
+						</div>
+
+						<div className='announcement'>
+							<h2>{Icons.RALLY} Ranger Rally Aug 2023</h2>
+							<p>
+								The August Ranger Rally will be Saturday, Aug 19 @ 9am at
+								the <a href="https://www.blm.gov/visit/bonneville-salt-flats">Bonneville Salt Flats</a>.
+								This is a special location for our rallies and requires extra
+								planning due to the distance required to drive. For those in the
+								Riverton area it will take right at two hours of travel. More
+								details will be provided as we get closer. Don't forget
+								your <Link to="/safety">required documentation</Link>.
+							</p>
+						</div>
+
+						<div className='announcement'>
 							<h2>{Icons.TAKEOFF} Spring Flying Season Has Arrived!</h2>
 							<p>
 								The <a href="articles/northern-utah-flying-season-2021-01">spring flying season</a> has
@@ -75,7 +99,7 @@ export default class Home extends React.Component {
 							<h5>2023</h5>
 							<h6>Feb 18 - Wardle Fields</h6>
 							<h6>May 20 - Wardle Fields</h6>
-							<h6>Aug 19 - Wardle Fields</h6>
+							<h6>Aug 19 - Bonneville Salt Flats</h6>
 							<h6>Oct 21 - Wardle Fields</h6>
 						</div>
 					</div>
