@@ -9,7 +9,8 @@ export default class RemoteId20230630 extends React.Component {
 				<h1>Remote ID</h1>
 
 				<p>
-					As of 16 Sep 2023, the FAA will require <a href='https://www.faa.gov/uas/getting_started/remote_id'>Remote ID</a>
+					As of 16 Sep 2023, the FAA will require
+					<a href='https://www.faa.gov/uas/getting_started/remote_id'> Remote ID </a>
 					for all UAS flying in US national airspace. This article give you a brief summary of what we know.
 				</p>
 
@@ -38,9 +39,11 @@ export default class RemoteId20230630 extends React.Component {
 				<p>
 					Remote ID modules generally come in two flavors: with and without
 					onboard GPS. If you don't already have a model that uses GPS (most do
-					not) then you will need a module with onboard GPS (like the <a href='https://dronetag.cz/products/bs/'>Dronetag BS</a> module.
+					not) then you will need a module with onboard GPS (like the
+					<a href='https://dronetag.cz/products/bs/'> Dronetag BS </a> module.
 					If you already have GPS on your UAV, use can use a module without
-					onboard GPS (like the <a href='https://dronetag.cz/products/dri/'>Dronetag DRI</a> module.
+					onboard GPS (like the
+					<a href='https://dronetag.cz/products/dri/'> Dronetag DRI </a> module.
 				</p>
 			</div>
 		)
