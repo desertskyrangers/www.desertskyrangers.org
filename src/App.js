@@ -23,12 +23,6 @@ import ARTICLE_2022_07_26_CHECKLISTS from "./articles/ARTICLE_2022_07_26_CHECKLI
 import ARTICLE_2023_06_30_REMOTEID from "./articles/ARTICLE_2023_06_30_REMOTEID";
 import Support from "./Support";
 
-class ARTICLE_2023_06_30_REMOTEID extends React.Component {
-	render() {
-		return null;
-	}
-}
-
 export default function App() {
 
 	return (
