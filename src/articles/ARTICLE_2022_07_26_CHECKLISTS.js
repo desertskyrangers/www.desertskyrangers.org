@@ -1,11 +1,13 @@
 import React from "react";
+import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
+import {faListCheck} from "@fortawesome/free-solid-svg-icons";
 
 export default function ARTICLE_2022_07_26_CHECKLISTS(props) {
 
 	return (
 		<div className='content'>
 
-			<h1>Basic Checklists</h1>
+			<h1><FontAwesomeIcon icon={faListCheck}/> Basic Checklists</h1>
 
 			<p>
 				In radio control aviation, just like in standard aviation, checklists
