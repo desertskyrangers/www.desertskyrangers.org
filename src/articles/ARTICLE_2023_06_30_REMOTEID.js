@@ -1,4 +1,6 @@
 import React from 'react';
+import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
+import {faIdBadge} from '@fortawesome/free-solid-svg-icons';
 
 export default class RemoteId20230630 extends React.Component {
 
@@ -6,7 +8,7 @@ export default class RemoteId20230630 extends React.Component {
 		return (
 			<div className='content'>
 
-				<h1>Remote ID</h1>
+				<h1><FontAwesomeIcon icon={faIdBadge}/> Remote ID</h1>
 
 				<p>
 					As of 16 Sep 2023, the FAA will require
@@ -16,7 +18,7 @@ export default class RemoteId20230630 extends React.Component {
 
 				<h2>How Remote ID Works</h2>
 				<p>
-					Most Remote ID solutions use GPS to know where your UAS is and use
+					Most Remote ID solutions use GPS to know where your UAS is, and use
 					Bluetooth to transmit that data. That data can then be read by a phone
 					or tablet app.
 				</p>
