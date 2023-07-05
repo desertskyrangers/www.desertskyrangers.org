@@ -54,12 +54,14 @@ export default class Home extends React.Component {
 						{/*</div>*/}
 
 						<div className='announcement'>
-							<h2>{Icons.RALLY} Spring Ranger Rally</h2>
+							<h2>{Icons.BURST} Independence Day Fireworks</h2>
 							<p>
-								Calling all Rangers and friends! The Spring Ranger Rally is this coming Saturday, May 20 at 9am
-								at <a href='https://slco.org/parks/wardle-fields-regional-park/'>Wardle Fields Regional Park</a>. In
-								order to participate in flying events you must follow
-								all <Link to="/safety">Event Safety</Link> rules. Spectators are welcome.
+								Ever wonder what it's like to fly through the fireworks? Check
+								out<a href='https://www.youtube.com/@desertskyranger/videos'> these videos taken
+								by Mark on July 4th, 2023 in celebration of Independence Day</a>. Some of the videos are
+								long as he searches the sky for fireworks in the neighborhood, but the wait pays off as
+								the plane captures several breathtaking shots of fireworks near and far. Every once in
+								a while you can see Glen flying along as well.
 							</p>
 						</div>
 

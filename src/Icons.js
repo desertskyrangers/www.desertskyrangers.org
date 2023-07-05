@@ -6,6 +6,7 @@ class Icons {
 
 	ABOUT = <FontAwesomeIcon icon={solid('question')}/>
 	BATTERY = <FontAwesomeIcon icon={solid('battery-full')}/>
+	BURST = <FontAwesomeIcon icon={solid('burst')}/>
 	TAKEOFF = <FontAwesomeIcon icon={solid('plane-departure')}/>
 	CALENDAR = <FontAwesomeIcon icon={solid('calendar')}/>
 	CONTACT = <FontAwesomeIcon icon={solid('address-card')}/>
