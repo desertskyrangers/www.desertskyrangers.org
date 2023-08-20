@@ -10,7 +10,7 @@ export default class Activities extends React.Component {
 				<div className='announcement'>
 					<h2>{Icons.DESERT_SKY_RANGERS} August 2023 Ranger Rally</h2>
 					<p>
-						The <a href=''>August 2023 Ranger Rally</a> was
+						The <a href='https://photos.app.goo.gl/JyAom3wzCLAFVQrw9'>August 2023 Ranger Rally</a> was
 						held Saturday, August 19 at 9am at <a href="https://goo.gl/maps/WfuVVZqe4Qv32PX27">{Icons.LOCATION} Wardle Fields Regional Park</a> in
 						Bluffdale. We had eight members attend. The field was moist from
 						recent rain and the grass was thick and green. The temperatures were
@@ -39,7 +39,7 @@ export default class Activities extends React.Component {
 				<div className='announcement'>
 					<h2>{Icons.DESERT_SKY_RANGERS} May 2023 Ranger Rally</h2>
 					<p>
-						The <a href=''>May 2023 Ranger Rally</a> was
+						The <a href='https://photos.app.goo.gl/vuabzgKsuvk5vg9G9'>May 2023 Ranger Rally</a> was
 						held Saturday, May 20 at 9am at <a href="https://goo.gl/maps/WfuVVZqe4Qv32PX27">{Icons.LOCATION} Wardle Fields Regional Park</a> in
 						Bluffdale. We had eight members attend.
 					</p>
