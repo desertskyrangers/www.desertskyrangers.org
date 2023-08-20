@@ -54,6 +54,16 @@ export default class Home extends React.Component {
 						{/*</div>*/}
 
 						<div className='announcement'>
+							<h2>{Icons.RALLY} Fall Ranger Rally</h2>
+							<p>
+								Calling all Rangers and friends! The Fall Ranger Rally will be Saturday, Oct 21 at 9am at
+								<a href='https://slco.org/parks/wardle-fields-regional-park/'>Wardle Fields Regional Park</a>.
+								As always, in order to participate in flying events you must follow
+								all <Link to="/safety">Event Safety</Link> rules. Spectators are welcome.
+							</p>
+						</div>
+
+						<div className='announcement'>
 							<h2>{Icons.BURST} Independence Day Fireworks</h2>
 							<p>
 								Ever wonder what it's like to fly through the fireworks? Check
@@ -65,31 +75,17 @@ export default class Home extends React.Component {
 							</p>
 						</div>
 
-						<div className='announcement'>
-							<h2>{Icons.RALLY} Summer Ranger Rally</h2>
-							<p>
-								Calling all Rangers and friends! The Summer Ranger Rally will be Saturday, Aug 19 at 9am at
-								the <a href="https://www.blm.gov/visit/bonneville-salt-flats">Bonneville Salt Flats</a>.
-								This is a special location for our rallies and requires extra
-								planning due to the distance required to drive. For those in the
-								Riverton area it will take right at two hours of travel. More
-								details will be provided as we get closer. In
-								order to participate in flying events you must follow
-								all <Link to="/safety">Event Safety</Link> rules. Spectators are welcome.
-							</p>
-						</div>
-
-						<div className='announcement'>
-							<h2>{Icons.DESERT_SKY_RANGERS} Spring Flying Season Has Arrived</h2>
-							<p>
-								The <a href="articles/northern-utah-flying-season-2021-01">spring flying season</a> has
-								arrived. The temps are still below normal this year and
-								we have received a lot of snow (good for us). The winter flying
-								season has also been building season for many of us, as we try
-								out new designs and get ready for the new year. We are looking
-								forward to getting out more as the temperatures warm up.
-							</p>
-						</div>
+						{/*<div className='announcement'>*/}
+						{/*	<h2>{Icons.DESERT_SKY_RANGERS} Spring Flying Season Has Arrived</h2>*/}
+						{/*	<p>*/}
+						{/*		The <a href="articles/northern-utah-flying-season-2021-01">spring flying season</a> has*/}
+						{/*		arrived. The temps are still below normal this year and*/}
+						{/*		we have received a lot of snow (good for us). The winter flying*/}
+						{/*		season has also been building season for many of us, as we try*/}
+						{/*		out new designs and get ready for the new year. We are looking*/}
+						{/*		forward to getting out more as the temperatures warm up.*/}
+						{/*	</p>*/}
+						{/*</div>*/}
 
 					</div>
 
@@ -101,7 +97,7 @@ export default class Home extends React.Component {
 							<h5>2023</h5>
 							<h6>Feb 18 - Wardle Fields</h6>
 							<h6>May 20 - Wardle Fields</h6>
-							<h6>Aug 19 - Bonneville Salt Flats</h6>
+							<h6>Aug 19 - Wardle Fields</h6>
 							<h6>Oct 21 - Wardle Fields</h6>
 						</div>
 					</div>
