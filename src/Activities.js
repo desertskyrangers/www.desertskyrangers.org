@@ -8,6 +8,43 @@ export default class Activities extends React.Component {
 			<div className='content'>
 
 				<div className='announcement'>
+					<h2>{Icons.DESERT_SKY_RANGERS} October 2023 Ranger Rally</h2>
+					<p>
+						The <a href='https://photos.app.goo.gl/BrDLrqYSPC11K79L7'>October 2023 Ranger Rally</a> was
+						held Saturday, October 21 at 9am at <a href="https://goo.gl/maps/WfuVVZqe4Qv32PX27">{Icons.LOCATION} Wardle Fields Regional Park</a> in
+						Bluffdale. We had nine members attend. The field was recently cut
+						allowing for some nice rolling departures for those who had landing
+						gear. It was a bit breezy in the morning, combined with partly
+						cloudy skies is was a bit chilly for the first hour or so. Whenever
+						there was sunshine we all breathed a sigh of relief. Steve was our
+						photographer of the day and captured some great photos.
+					</p>
+
+					<div className='hbox-wrappable'>
+						<figure>
+							<a href='https://photos.app.goo.gl/4pLGvZZQJc7y6ENo7'>
+								<img className='photo' src='https://lh3.googleusercontent.com/pw/ADCreHfFyXSpEBy6Ewzqm35syYfLuj5yic_jBEzTU1zKkQ-_JQPz9owUO6LInEaep4dv5W-YyuRZ2wfeD8SlBuEnIpkRwhRSYqWr6nMV6bU8C9nVY7TJdx9PXG_-Ac8cj6WQjm9xjvXW_2J9SAYkjquPWBNoLw=w2342-h1764-s-no-gm' alt='DSR Ranger Rally'/>
+							</a>
+							<figcaption>Let the flying begin!</figcaption>
+						</figure>
+
+						<figure>
+							<a href='https://photos.app.goo.gl/NM8AGVaKMW6xMSuy5'>
+								<img className='photo' src='https://lh3.googleusercontent.com/pw/ADCreHdYd9ELnoFPQoLHwdEkH0coByv5y6yx6fYWKSi-TJImOsNg8Fah493slOMRlPEu96snbv9v90_71ls_aPyf925vJU6vjsQiKYwC0VkhhHK6ZAHtmLvA_7yUIo1X2RSa8f7GeDdE5vzdrv4TAhF0NYzlYQ=w2342-h1764-s-no-gm' alt='DSR Ranger Rally'/>
+							</a>
+							<figcaption>Joe preparing his E-flite Habu "vacuum cleaner"</figcaption>
+						</figure>
+
+						<figure>
+							<a href='https://photos.app.goo.gl/mHTXqG8p56Q4zcju7'>
+								<img className='photo' src='https://lh3.googleusercontent.com/pw/ADCreHclBEWhENukJLDAe-BeTGq5oPgfzZwY1YLSoZcrpf3XGxr-4xJIVkTJViPpBKL99HyRNlOHZKGsEfs-N5HPONKQMz0HillyEB7y5rK_RqTf3cDMHJ46k2lq8Lm4TjiYZwE9zRs5MLo-thUOK5ppd1y_4A=w2342-h1764-s-no-gm' alt='DSR Ranger Rally'/>
+							</a>
+							<figcaption>Glen preparing 'Rosa' for a flight. Check out that battery!</figcaption>
+						</figure>
+					</div>
+				</div>
+
+				<div className='announcement'>
 					<h2>{Icons.DESERT_SKY_RANGERS} August 2023 Ranger Rally</h2>
 					<p>
 						The <a href='https://photos.app.goo.gl/JyAom3wzCLAFVQrw9'>August 2023 Ranger Rally</a> was
@@ -18,22 +55,6 @@ export default class Activities extends React.Component {
 						The wind was brisk from the south but died down a bit about half way
 						through the rally.
 					</p>
-
-					{/*<div className='hbox-wrappable'>*/}
-					{/*	<figure>*/}
-					{/*		<a href='https://photos.app.goo.gl/KRT4Qb8o1B1jKSd77'>*/}
-					{/*			<img className='photo' src='https://lh3.googleusercontent.com/pw/AMWts8CRrfUHypiySsicUiN2LyHJ1CQZBuubRcCXWKuS9z5op8CrckxsiPjN4wWGdUi6qSKk8Q3MdY4dAYJxGI22NrOV6xM1X7J65xHMSa2dN3zJ4WO5oiKXBq29KB0MmigT3K5-G9dKPz-qvQJy8BPtFijq=w1200-h800-no' alt='DSR Ranger Rally'/>*/}
-					{/*		</a>*/}
-					{/*		<figcaption>From the left, Steve, Blaine, Matt, Glen and Mark.</figcaption>*/}
-					{/*	</figure>*/}
-
-					{/*	<figure>*/}
-					{/*		<a href='https://photos.app.goo.gl/mPNT4puoGXK2cwKo6'>*/}
-					{/*			<img className='photo' src='https://lh3.googleusercontent.com/pw/AMWts8BxQ9Uvi8UFWM5NxstmTAf5UTtUqjSipPzHp7xSeE8b_wlmjG6Pau-15TNKsvSW6JlODjiyw9I57oV991PtSQMoVQ_9HIDZsIcwtutUI-ZBDQ9-Xmalt-1VZi3QovQm7PdcqyjrYDrmozjzU5cSPAvW=w1200-h800-no' alt='DSR Ranger Rally'/>*/}
-					{/*		</a>*/}
-					{/*		<figcaption>The elegant wings of Glen's Bixler II</figcaption>*/}
-					{/*	</figure>*/}
-					{/*</div>*/}
 				</div>
 
 				<div className='announcement'>
@@ -43,22 +64,6 @@ export default class Activities extends React.Component {
 						held Saturday, May 20 at 9am at <a href="https://goo.gl/maps/WfuVVZqe4Qv32PX27">{Icons.LOCATION} Wardle Fields Regional Park</a> in
 						Bluffdale. We had eight members attend.
 					</p>
-
-					{/*<div className='hbox-wrappable'>*/}
-					{/*	<figure>*/}
-					{/*		<a href='https://photos.app.goo.gl/KRT4Qb8o1B1jKSd77'>*/}
-					{/*			<img className='photo' src='https://lh3.googleusercontent.com/pw/AMWts8CRrfUHypiySsicUiN2LyHJ1CQZBuubRcCXWKuS9z5op8CrckxsiPjN4wWGdUi6qSKk8Q3MdY4dAYJxGI22NrOV6xM1X7J65xHMSa2dN3zJ4WO5oiKXBq29KB0MmigT3K5-G9dKPz-qvQJy8BPtFijq=w1200-h800-no' alt='DSR Ranger Rally'/>*/}
-					{/*		</a>*/}
-					{/*		<figcaption>From the left, Steve, Blaine, Matt, Glen and Mark.</figcaption>*/}
-					{/*	</figure>*/}
-
-					{/*	<figure>*/}
-					{/*		<a href='https://photos.app.goo.gl/mPNT4puoGXK2cwKo6'>*/}
-					{/*			<img className='photo' src='https://lh3.googleusercontent.com/pw/AMWts8BxQ9Uvi8UFWM5NxstmTAf5UTtUqjSipPzHp7xSeE8b_wlmjG6Pau-15TNKsvSW6JlODjiyw9I57oV991PtSQMoVQ_9HIDZsIcwtutUI-ZBDQ9-Xmalt-1VZi3QovQm7PdcqyjrYDrmozjzU5cSPAvW=w1200-h800-no' alt='DSR Ranger Rally'/>*/}
-					{/*		</a>*/}
-					{/*		<figcaption>The elegant wings of Glen's Bixler II</figcaption>*/}
-					{/*	</figure>*/}
-					{/*</div>*/}
 				</div>
 
 				<div className='announcement'>

@@ -56,27 +56,51 @@ export default class Home extends React.Component {
 						<div className='announcement'>
 							<h2>{Icons.RALLY} Fall Ranger Rally</h2>
 							<p>
-								Calling all Rangers and friends! The Fall Ranger Rally will be Saturday, Oct 21 at 9am at
-								<a href='https://slco.org/parks/wardle-fields-regional-park/'>Wardle Fields Regional Park</a>.
-								As always, in order to participate in flying events you must follow
-								all <Link to="/safety">Event Safety</Link> rules. Spectators are welcome.
-							</p>
-						</div>
-
-						<div className='announcement'>
-							<h2>{Icons.BURST} Independence Day Fireworks</h2>
-							<p>
-								Ever wonder what it's like to fly through the fireworks? Check
-								out<a href='https://www.youtube.com/@desertskyranger/videos'> these videos taken
-								by Mark on July 4th, 2023 in celebration of Independence Day</a>. Some of the videos are
-								long as he searches the sky for fireworks in the neighborhood, but the wait pays off as
-								the plane captures several breathtaking shots of fireworks near and far. Every once in
-								a while you can see Glen flying along as well.
+								The Fall Ranger Rally was a success and concludes the flight
+								rallies for 2023. Check the <Link to='/activities'>Activities</Link>
+								page for details on all the activities this year.
 							</p>
 						</div>
 
 						{/*<div className='announcement'>*/}
 						{/*	<h2>{Icons.DESERT_SKY_RANGERS} Spring Flying Season Has Arrived</h2>*/}
+						{/*	<p>*/}
+						{/*		The <a href="articles/northern-utah-flying-season-2021-01">spring flying season</a> has*/}
+						{/*		arrived. The temps are still below normal this year and*/}
+						{/*		we have received a lot of snow (good for us). The winter flying*/}
+						{/*		season has also been building season for many of us, as we try*/}
+						{/*		out new designs and get ready for the new year. We are looking*/}
+						{/*		forward to getting out more as the temperatures warm up.*/}
+						{/*	</p>*/}
+						{/*</div>*/}
+
+						{/*<div className='announcement'>*/}
+						{/*	<h2>{Icons.DESERT_SKY_RANGERS} Summer Flying Season Has Arrived</h2>*/}
+						{/*	<p>*/}
+						{/*		The <a href="articles/northern-utah-flying-season-2021-01">spring flying season</a> has*/}
+						{/*		arrived. The temps are still below normal this year and*/}
+						{/*		we have received a lot of snow (good for us). The winter flying*/}
+						{/*		season has also been building season for many of us, as we try*/}
+						{/*		out new designs and get ready for the new year. We are looking*/}
+						{/*		forward to getting out more as the temperatures warm up.*/}
+						{/*	</p>*/}
+						{/*</div>*/}
+
+						<div className='announcement'>
+							<h2>{Icons.DESERT_SKY_RANGERS} Fall Flying Season Has Arrived</h2>
+							<p>
+								The <a href="articles/northern-utah-flying-season-2021-01">fall flying season</a> has
+								arrived. The temps are still above normal for this time of year
+								and we have enjoyed some extended warm-ish evening flying.
+								Temperatures will continue to fall as we move towards winter,
+								providing crisp flying conditions and clearing the flying fields
+								as sports practices wrap up for the year. Looking forward to the
+								Fall Ranger Rally and some Thanksgiving weekend flying.
+							</p>
+						</div>
+
+						{/*<div className='announcement'>*/}
+						{/*	<h2>{Icons.DESERT_SKY_RANGERS} Winter Flying Season Has Arrived</h2>*/}
 						{/*	<p>*/}
 						{/*		The <a href="articles/northern-utah-flying-season-2021-01">spring flying season</a> has*/}
 						{/*		arrived. The temps are still below normal this year and*/}
