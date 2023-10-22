@@ -55,6 +55,21 @@ export default class Activities extends React.Component {
 						The wind was brisk from the south but died down a bit about half way
 						through the rally.
 					</p>
+
+					<figure>
+						<a href='https://photos.app.goo.gl/g4KubKDW8pzLTTEs7'>
+							<img className='photo' src='https://lh3.googleusercontent.com/pw/ADCreHe9Tl1UvqqouGhpoRLp4GBdyUwOSwd7CWXVg-kPIo7TdvqZqVOQL3WglUvnJwFMBCNpQxAi4yzqMOXCDsu57VsN4ebFzLMCFqLyeO1rbQk-vGPUd6wJdFPIGJW8xOcxD91FzhnmyZ29oZjCD2144XZU_w=w2577-h1941-s-no' alt='DSR Ranger Rally'/>
+						</a>
+						<figcaption>The flight line</figcaption>
+					</figure>
+
+					<figure>
+						<a href='https://photos.app.goo.gl/1VkXjrRtDDzRyM3p7'>
+							<img className='photo' src='https://lh3.googleusercontent.com/pw/ADCreHf3Aljgl5R3AyVs5BsBfg6A_lYyNnyinNdnD-cBRdXm_6l0YoFESyTRfx9gPvm9t9-WihNKUcuAYCGSbJ6paYEDv8u-u9YIeFKJ9HCl4mmqrb0lbnTzlXiEXtB7urr54wh_x_zdwalDHATLC15upF_D=w1200-h800-s-no' alt='DSR Ranger Rally'/>
+						</a>
+						<figcaption>Yep, it really can do that</figcaption>
+					</figure>
+
 				</div>
 
 				<div className='announcement'>
