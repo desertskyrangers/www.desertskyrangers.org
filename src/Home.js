@@ -57,8 +57,9 @@ export default class Home extends React.Component {
 							<h2>{Icons.RALLY} Fall Ranger Rally</h2>
 							<p>
 								The Fall Ranger Rally was a success and concludes the flight
-								rallies for 2023. Check the <Link to='/activities'>Activities</Link>
-								page for details on all the activities this year.
+								rallies for 2023. Check
+								the <Link to='/activities'>Activities</Link> page
+								for details on all the activities this year.
 							</p>
 						</div>
 
