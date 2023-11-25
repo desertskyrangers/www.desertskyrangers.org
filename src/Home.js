@@ -10,12 +10,11 @@ export default class Home extends React.Component {
 			<div className='content'>
 				<div className="row">
 					<div className="info column">
-						<Link to='/tools/flightdeck' className="infoitem">{Icons.FLIGHTDECK}FlightDeck</Link>
+						<a href="https://groupme.com/join_group/92491185/smZWqFGQ" className="infoitem">{Icons.GROUPME} Join us on GroupMe</a>
 						<Link to="/locations" className="infoitem">{Icons.LOCATION} Where We Fly</Link>
 						<Link to="/safety" className="infoitem">{Icons.SAFETY} Event Safety</Link>
 						<Link to='/support' className='infoitem'>{Icons.HANDSHAKE} How to Support Us</Link>
-						<a href="https://twitter.com/desertskyranger?ref_src=twsrc%5Etfw" className="infoitem">{Icons.TWITTER} Follow Us on Twitter</a>
-						<a href="https://www.instagram.com/desertskyrangers/" className="infoitem">{Icons.INSTAGRAM} Follow Us on Instagram</a>
+						<Link to='/tools/flightdeck' className="infoitem">{Icons.FLIGHTDECK}FlightDeck</Link>
 					</div>
 
 					<div className="column">
@@ -120,7 +119,7 @@ export default class Home extends React.Component {
 						</div>
 						<div>
 							<h5>2023</h5>
-							<h6>Dec 09 - Ranger Revel</h6>
+							<h6>Dec 09 - Ranger Rendezvous</h6>
 							<h5>2024</h5>
 							<h6>Feb 17 - Ranger Rally</h6>
 							<h6>May 18 - Ranger Rally</h6>
