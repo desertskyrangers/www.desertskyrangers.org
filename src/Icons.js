@@ -19,8 +19,9 @@ class Icons {
 	INSTAGRAM = <FontAwesomeIcon icon={brands('instagram')}/>
 	LOCATION = <FontAwesomeIcon icon={solid('map-marker-alt')}/>
 	RALLY = <FontAwesomeIcon icon={solid('users')}/>
-	SAFETY = <span><FontAwesomeIcon icon={solid('exclamation')}/><FontAwesomeIcon icon={solid('exclamation')}/><FontAwesomeIcon icon={solid('exclamation')}/></span>
+	SAFETY = <FontAwesomeIcon icon={solid("triangle-exclamation")}/>
 	TWITTER = <FontAwesomeIcon icon={brands('twitter')}/>
+	WINTER= <FontAwesomeIcon icon={solid('snowflake')}/>
 }
 
 

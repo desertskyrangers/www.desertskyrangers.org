@@ -22,6 +22,7 @@ import ARTICLE_2022_07_19_GETTING_STARTED from "./articles/ARTICLE_2022_07_19_GE
 import ARTICLE_2022_07_26_CHECKLISTS from "./articles/ARTICLE_2022_07_26_CHECKLISTS";
 import ARTICLE_2023_06_30_REMOTEID from "./articles/ARTICLE_2023_06_30_REMOTEID";
 import Support from "./Support";
+import Events from "./Events";
 
 export default function App() {
 
@@ -34,6 +35,7 @@ export default function App() {
 					<Route exact path="/about" element={<About/>}/>
 					<Route exact path="/activities" element={<Activities/>}/>
 					<Route exact path="/contact" element={<Contact/>}/>
+					<Route exact path="/events" element={<Events/>}/>
 					<Route exact path="/legal" element={<Legal/>}/>
 					<Route exact path="/locations" element={<Locations/>}/>
 					<Route exact path="/members" element={<Members/>}/>
