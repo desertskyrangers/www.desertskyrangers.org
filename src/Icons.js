@@ -21,6 +21,9 @@ class Icons {
 	RALLY = <FontAwesomeIcon icon={solid('users')}/>
 	SAFETY = <FontAwesomeIcon icon={solid("triangle-exclamation")}/>
 	TWITTER = <FontAwesomeIcon icon={brands('twitter')}/>
+	SPRING= <FontAwesomeIcon icon={solid('seedling')}/>
+	SUMMER= <FontAwesomeIcon icon={solid('sun')}/>
+	AUTUMN= <FontAwesomeIcon icon={brands("canadian-maple-leaf")} />
 	WINTER= <FontAwesomeIcon icon={solid('snowflake')}/>
 }
 
