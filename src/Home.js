@@ -135,16 +135,18 @@ export default class Home extends React.Component {
 
                     <div className="news column">
                         <div>
-                            <Link to='/events' className='title'>Events</Link>
+                            <h3>Events</h3>
                         </div>
                         <div>
-                            <h5>2023</h5>
-                            <h6>Dec 09 - Ranger Rendezvous</h6>
                             <h5>2024</h5>
                             <h6>Feb 17 - Ranger Rally</h6>
                             <h6>May 18 - Ranger Rally</h6>
                             <h6>Aug 17 - Ranger Rally</h6>
                             <h6>Oct 19 - Ranger Rally</h6>
+                        </div>
+                        &nbsp;
+                        <div>
+                            <Link to='/events' className='title infoitem'>Full Schedule</Link>
                         </div>
                     </div>
                 </div>
