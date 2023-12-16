@@ -22,7 +22,7 @@ import ARTICLE_2023_12_16_GETTING_STARTED from "./articles/ARTICLE_2023_12_16_GE
 import ARTICLE_2022_07_19_GETTING_STARTED from "./articles/ARTICLE_2022_07_19_GETTING_STARTED";
 import ARTICLE_2022_07_26_CHECKLISTS from "./articles/ARTICLE_2022_07_26_CHECKLISTS";
 import ARTICLE_2023_06_30_REMOTEID from "./articles/ARTICLE_2023_06_30_REMOTEID";
-import Support from "./Support";
+import Donate from "./Donate";
 import Events from "./Events";
 
 export default function App() {
@@ -42,7 +42,7 @@ export default function App() {
 					<Route exact path="/members" element={<Members/>}/>
 					<Route exact path="/plans" element={<Plans/>}/>
 					<Route exact path="/safety" element={<Safety/>}/>
-					<Route exact path="/support" element={<Support/>}/>
+					<Route exact path="/donate" element={<Donate/>}/>
 					<Route exact path="/tools" element={<Tools/>}/>
 					<Route exact path="/tools/flightdeck" element={<Tools/>}/>
 
