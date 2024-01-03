@@ -1,6 +1,6 @@
 import Icons from "./Icons"
 
-export default function Support() {
+export default function Donate() {
 
 	return (
 		<div className='content'>
@@ -13,7 +13,7 @@ export default function Support() {
 				for the Ranger Rallies and other club activities.
 			</p>
 			<p>
-				We accept financial donations to the club via Venmo:
+				Please consider supporting the Desert Sky Rangers via Venmo:
 			</p>
 			<img className='venmo qrcode' src='venmo.qrcode.svg' alt='Venmo QR Code'/>
 
