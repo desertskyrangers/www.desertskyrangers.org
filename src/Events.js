@@ -7,9 +7,6 @@ export default class Events extends React.Component {
 			<div className='content'>
 				<h1>Events</h1>
 
-				<h2>2023</h2>
-				<h6>Dec 16 @ 10:00am - Ranger Rendezvous</h6>
-
 				<h2>2024</h2>
 				<h6>Jan 20 @ 10:00am - Ranger Rendezvous</h6>
 				<h5>Feb 17 @ 09:00am - Ranger Rally</h5>
