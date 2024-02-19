@@ -18,6 +18,7 @@ import Tools from "./Tools";
 import Locations from "./Locations";
 import Contact from "./Contact";
 import Plans from "./Plans";
+import ARTICLE_2024_02_19_ANTENNA_ORIENTATION from "./articles/ARTICLE_2024_02_19_ANTENNA_ORIENTATION";
 import ARTICLE_2023_12_16_GETTING_STARTED from "./articles/ARTICLE_2023_12_16_GETTING_STARTED";
 import ARTICLE_2022_07_19_GETTING_STARTED from "./articles/ARTICLE_2022_07_19_GETTING_STARTED";
 import ARTICLE_2022_07_26_CHECKLISTS from "./articles/ARTICLE_2022_07_26_CHECKLISTS";
@@ -48,6 +49,7 @@ export default function App() {
 
 					<Route exact path="/articles" element={<Articles/>}/>
 					<Route exact path="/articles/getting-started" element={<ARTICLE_2023_12_16_GETTING_STARTED/>}/>
+					<Route exact path="/articles/2024-02-19-antenna-orientation" element={<ARTICLE_2024_02_19_ANTENNA_ORIENTATION/>}/>
 					<Route exact path="/articles/2023-12-16-getting-started" element={<ARTICLE_2023_12_16_GETTING_STARTED/>}/>
 					<Route exact path="/articles/2023-06-30-remoteid" element={<ARTICLE_2023_06_30_REMOTEID/>}/>
 					<Route exact path="/articles/2022-07-25-checklists" element={<ARTICLE_2022_07_26_CHECKLISTS/>}/>
