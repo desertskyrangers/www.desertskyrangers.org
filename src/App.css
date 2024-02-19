@@ -1,5 +1,8 @@
 :root {
 	--foreground-1: #d0c8c0;
+	--foreground-2: #a6a09a;
+	--foreground-3: #7d7873;
+	--foreground-4: #53504d;
 
 	--background-1: #404040;
 	--background-2: #504840;
@@ -411,4 +414,9 @@ img.embedded.right {
 .venmo.qrcode {
 	width: 5cm;
 	height: 5cm;
+}
+
+.complete {
+	color: var(--foreground-3);
+	text-decoration: line-through;
 }
