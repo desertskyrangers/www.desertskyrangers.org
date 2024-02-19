@@ -8,6 +8,19 @@ export default class Activities extends React.Component {
             <div className='content'>
 
                 <div className='announcement'>
+                    <h2>{Icons.DESERT_SKY_RANGERS} February 2024 Ranger Rally</h2>
+                    <p>
+                        The <a href='https://photos.app.goo.gl/BrDLrqYSPC11K79L7'>February 2024 Ranger Rally</a> was
+                        held Saturday, February 17 at 9am at <a
+                        href="https://goo.gl/maps/WfuVVZqe4Qv32PX27">{Icons.LOCATION} Wardle Fields Regional Park</a> in
+                        Bluffdale. We had five members attend. The field was wet due to recent
+                        snow melt. The temperatures were normal for February but the sun was
+                        out and the wind was calm. We had a great time flying and talking.
+                        We had a few new members join us for the first time.
+                    </p>
+                </div>
+
+                <div className='announcement'>
                     <h2>{Icons.DESERT_SKY_RANGERS} October 2023 Ranger Rally</h2>
                     <p>
                         The <a href='https://photos.app.goo.gl/BrDLrqYSPC11K79L7'>October 2023 Ranger Rally</a> was
