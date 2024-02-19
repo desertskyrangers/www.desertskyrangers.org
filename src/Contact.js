@@ -15,7 +15,7 @@ export default class Contact extends React.Component {
 
 						<h2>President</h2>
 						<h3>Mark Soderquist</h3>
-						<a href='mailto:contact@desertskyrangers.org'>mark@desertskyrangers.org</a>
+						<a href='mailto:mark@desertskyrangers.org'>mark@desertskyrangers.org</a>
 
 					</div>
 				</div>
