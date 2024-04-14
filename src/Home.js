@@ -76,17 +76,17 @@ export default class Home extends React.Component {
 						{/*	</div>*/}
 						{/*</div>*/}
 
-						{/*<div className='announcement'>*/}
-						{/*	<h2>{Icons.SPRING} Spring Flying Season Has Arrived</h2>*/}
-						{/*	<p>*/}
-						{/*		The <a href="articles/northern-utah-flying-season-2021-01">spring flying season</a> has*/}
-						{/*		arrived. The temps are still below normal this year and*/}
-						{/*		we have received a lot of snow (good for us). The winter flying*/}
-						{/*		season has also been building season for many of us, as we try*/}
-						{/*		out new designs and get ready for the new year. We are looking*/}
-						{/*		forward to getting out more as the temperatures warm up.*/}
-						{/*	</p>*/}
-						{/*</div>*/}
+						<div className='announcement'>
+							<h2>{Icons.SPRING} Spring Flying Season Has Arrived</h2>
+							<p>
+								The <a href="articles/northern-utah-flying-season-2021-01">spring flying season</a> has
+								arrived. The temperatures are fluctuating as normal this year and
+								there are more windy days than calm. The winter flying
+								season has also been building season for many of us, as we try
+								out new designs and get ready for the new year. We are looking
+								forward to getting out more as the temperatures warm up.
+							</p>
+						</div>
 
 						{/*<div className='announcement'>*/}
 						{/*	<h2>{Icons.SUMMER} Summer Flying Season Has Arrived</h2>*/}
@@ -113,17 +113,17 @@ export default class Home extends React.Component {
 						{/*    </p>*/}
 						{/*</div>*/}
 
-						<div className='announcement'>
-							<h2>{Icons.WINTER} Winter Flying Season Has Arrived</h2>
-							<p>
-								The <a href="articles/northern-utah-flying-season-2021-01">winter flying season</a> has
-								arrived. The temps are chilly, but around normal for this time of year. The snow has
-								started falling already, so we are hoping for a good snow season. For the rugged pilots
-								out there, don't forget to dress warm. For those staying warm indoors, we would love to
-								hear about your winter building projects and what you are planning for spring. Don't
-								forget we have a winter Ranger Rally coming up in February.
-							</p>
-						</div>
+						{/*<div className='announcement'>*/}
+						{/*	<h2>{Icons.WINTER} Winter Flying Season Has Arrived</h2>*/}
+						{/*	<p>*/}
+						{/*		The <a href="articles/northern-utah-flying-season-2021-01">winter flying season</a> has*/}
+						{/*		arrived. The temps are chilly, but around normal for this time of year. The snow has*/}
+						{/*		started falling already, so we are hoping for a good snow season. For the rugged pilots*/}
+						{/*		out there, don't forget to dress warm. For those staying warm indoors, we would love to*/}
+						{/*		hear about your winter building projects and what you are planning for spring. Don't*/}
+						{/*		forget we have a winter Ranger Rally coming up in February.*/}
+						{/*	</p>*/}
+						{/*</div>*/}
 
 					</div>
 
