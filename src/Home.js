@@ -22,7 +22,7 @@ export default class Home extends React.Component {
 								working to develop knowledge and skill through study and experiment with unmanned aerial
 								vehicles. Originally just a small group of friends, the group has grown to include
 								neighbors and friends of friends. Aspiring pilots and engineers of all ages are welcome
-								to join us to learn to fly, enjoy flight nights and generally get together to talk about
+								to join us to learn to fly, enjoy flight time, and generally get together to talk about
 								flying.
 							</p>
 						</div>
