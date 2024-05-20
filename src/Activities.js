@@ -13,7 +13,7 @@ export default class Activities extends React.Component {
 						The <a href='https://photos.app.goo.gl/MueRuErjTpaApBMaA'>May 2024 Ranger Rally</a> was
 						held Saturday, May 18 at 9am at <a
 						href="https://goo.gl/maps/WfuVVZqe4Qv32PX27">{Icons.LOCATION} Wardle Fields Regional Park</a> in
-						Bluffdale. We had eight members attend, and three guests.
+						Bluffdale. We had eight members attend, and four guests.
 						The weather was perfect for flying. Light winds, clear skies and
 						warm temperatures. We had as many as five aircraft in the air at
 						the same time. There was one mid-air collision. One aircraft
