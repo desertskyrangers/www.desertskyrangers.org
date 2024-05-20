@@ -19,6 +19,26 @@ export default class Activities extends React.Component {
 						the same time. There was one mid-air collision. One aircraft
 						survived the incident, the other did not.
 					</p>
+					https://photos.app.goo.gl/LCfVMsccgc3f6bbV7
+					<div className='hbox-wrappable'>
+						<figure>
+							<a href='https://photos.app.goo.gl/LCfVMsccgc3f6bbV7'>
+								<img className='photo'
+										 src='https://lh3.googleusercontent.com/pw/AP1GczMVEjTTGTbgc0OWsPjQBg4jlzvX3DtUdXEGQk-1GC9ZDJi7jpqWouLK71dOwEV7yBFf81VCO9P76P_fHELvat71zXJyNSuXNjcjxfz57pAXy-NjRlRwMYYX7xF2kcOoAKVFvXawaUj0etX4KvDYd8vE=w3530-h1986-s-no-gm'
+										 alt='DSR Ranger Rally'/>
+							</a>
+							<figcaption>What's that up in the sky?</figcaption>
+						</figure>
+
+						<figure>
+							<a href='https://photos.app.goo.gl/aXgcHwqa6kZQhMJe6'>
+								<img className='photo'
+										 src='https://lh3.googleusercontent.com/pw/AP1GczPA0gr8rR9_PDUrcoVND73Jq_32ErNFUdL4kn98oLaL49dnR4gJFLzQqyOqIUa2LduicsCk9m46IfQtmvp857SI5CUttTSLs68xVF2dK3GW5lUAovG-BewTYMb147MbyZykQvIQvxcUiamk2LGyn8eQ=w3530-h1986-s-no-gm'
+										 alt='DSR Ranger Rally'/>
+							</a>
+							<figcaption>A busy flight line</figcaption>
+						</figure>
+					</div>
 				</div>
 
 				<div className='announcement'>
