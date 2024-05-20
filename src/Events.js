@@ -18,16 +18,16 @@ export default class Events extends React.Component {
 				{/*	Soderquist Residence<br/>*/}
 				{/*	13626 Bluewing Way, Riverton, UT 84096*/}
 				{/*</p>*/}
-				<h6>Apr 20 @ 10:00am - Ranger Rendezvous</h6>
-				<p className='content'>
-					Soderquist Residence<br/>
-					13626 Bluewing Way, Riverton, UT 84096
-				</p>
-				<h5>May 18 @ 09:00am - Ranger Rally</h5>
-				<p className='content'>
-					Wardle Fields Regional Park<br/>
-					14148 S 2700 W, Bluffdale, UT 84065
-				</p>
+				{/*<h6>Apr 20 @ 10:00am - Ranger Rendezvous</h6>*/}
+				{/*<p className='content'>*/}
+				{/*	Soderquist Residence<br/>*/}
+				{/*	13626 Bluewing Way, Riverton, UT 84096*/}
+				{/*</p>*/}
+				{/*<h5>May 18 @ 09:00am - Ranger Rally</h5>*/}
+				{/*<p className='content'>*/}
+				{/*	Wardle Fields Regional Park<br/>*/}
+				{/*	14148 S 2700 W, Bluffdale, UT 84065*/}
+				{/*</p>*/}
 				<h6>Jun 15 @ 10:00am - Ranger Rendezvous</h6>
 				<p className='content'>
 					Soderquist Residence<br/>
