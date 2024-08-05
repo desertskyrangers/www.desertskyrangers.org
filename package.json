@@ -3,7 +3,8 @@
 	"version": "1.0.3",
 	"private": true,
 	"dependencies": {
-		"@fortawesome/fontawesome-svg-core": "^6.5",
+		// Hold at 6.5.2 until there is a fix for https://github.com/FortAwesome/Font-Awesome/issues/20307
+		"@fortawesome/fontawesome-svg-core": "6.5.2",
 		"@fortawesome/free-brands-svg-icons": "^6.6",
 		"@fortawesome/free-regular-svg-icons": "^6.6",
 		"@fortawesome/free-solid-svg-icons": "^6.6",
