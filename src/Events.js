@@ -5,7 +5,7 @@ export default class Events extends React.Component {
 	render() {
 		return (
 			<div className='content'>
-				<h1>Events</h1>
+				<h1>2024 Events</h1>
 
 				{/*<h2 className='infoitem'>2024</h2>*/}
 				{/*<h5>Feb 17 @ 09:00am - Ranger Rally</h5>*/}
@@ -28,16 +28,16 @@ export default class Events extends React.Component {
 				{/*	Wardle Fields Regional Park<br/>*/}
 				{/*	14148 S 2700 W, Bluffdale, UT 84065*/}
 				{/*</p>*/}
-				<h6>Jun 15 @ 10:00am - Ranger Rendezvous</h6>
-				<p className='content'>
-					Soderquist Residence<br/>
-					13626 Bluewing Way, Riverton, UT 84096
-				</p>
-				<h6>Jul 20 @ 10:00am - Ranger Rendezvous</h6>
-				<p className='content'>
-					Soderquist Residence<br/>
-					13626 Bluewing Way, Riverton, UT 84096
-				</p>
+				{/*<h6>Jun 15 @ 10:00am - Ranger Rendezvous</h6>*/}
+				{/*<p className='content'>*/}
+				{/*	Soderquist Residence<br/>*/}
+				{/*	13626 Bluewing Way, Riverton, UT 84096*/}
+				{/*</p>*/}
+				{/*<h6>Jul 20 @ 10:00am - Ranger Rendezvous</h6>*/}
+				{/*<p className='content'>*/}
+				{/*	Soderquist Residence<br/>*/}
+				{/*	13626 Bluewing Way, Riverton, UT 84096*/}
+				{/*</p>*/}
 				<h5>Aug 17 @ 09:00am - Ranger Rally</h5>
 				<p className='content'>
 					Wardle Fields Regional Park<br/>

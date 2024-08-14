@@ -76,29 +76,28 @@ export default class Home extends React.Component {
 						{/*	</div>*/}
 						{/*</div>*/}
 
-						<div className='announcement'>
-							<h2>{Icons.SPRING} Spring Flying Season Has Arrived</h2>
-							<p>
-								The <a href="articles/northern-utah-flying-season-2021-01">spring flying season</a> has
-								arrived. The temperatures are fluctuating as normal this year and
-								there are more windy days than calm. The winter flying
-								season has also been building season for many of us, as we try
-								out new designs and get ready for the new year. We are looking
-								forward to getting out more as the temperatures warm up.
-							</p>
-						</div>
-
 						{/*<div className='announcement'>*/}
-						{/*	<h2>{Icons.SUMMER} Summer Flying Season Has Arrived</h2>*/}
+						{/*	<h2>{Icons.SPRING} Spring Flying Season Has Arrived</h2>*/}
 						{/*	<p>*/}
 						{/*		The <a href="articles/northern-utah-flying-season-2021-01">spring flying season</a> has*/}
-						{/*		arrived. The temps are still below normal this year and*/}
-						{/*		we have received a lot of snow (good for us). The winter flying*/}
+						{/*		arrived. The temperatures are fluctuating as normal this year and*/}
+						{/*		there are more windy days than calm. The winter flying*/}
 						{/*		season has also been building season for many of us, as we try*/}
 						{/*		out new designs and get ready for the new year. We are looking*/}
 						{/*		forward to getting out more as the temperatures warm up.*/}
 						{/*	</p>*/}
 						{/*</div>*/}
+
+						<div className='announcement'>
+							<h2>{Icons.SUMMER} Summer Flying Season Has Arrived</h2>
+							<p>
+								The <a href="articles/northern-utah-flying-season-2021-01">spring flying season</a> has
+								arrived. The temps are temperatures are above normal this year,
+								and the flying has been tough on pilots and planes. We expect
+								monsoon moisture to move in soon, bringing slightly cooler
+								temps, but also more wind, rain and wet fields.
+							</p>
+						</div>
 
 						{/*<div className='announcement'>*/}
 						{/*    <h2>{Icons.FALL} Fall Flying Season Has Arrived</h2>*/}
