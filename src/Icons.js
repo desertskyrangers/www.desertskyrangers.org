@@ -9,6 +9,7 @@ class Icons {
 	BURST = <FontAwesomeIcon icon={solid('burst')}/>
 	TAKEOFF = <FontAwesomeIcon icon={solid('plane-departure')}/>
 	CALENDAR = <FontAwesomeIcon icon={solid('calendar')}/>
+	CLUB = <FontAwesomeIcon icon={solid('users')}/>
 	CONTACT = <FontAwesomeIcon icon={solid('address-card')}/>
 	DESERT_SKY_RANGERS = <img style={{width: '4rem', height: '4rem', margin: '-0.5rem -0.5rem -0.5rem 0rem'}} src='/logo.png' alt="DSR"/>
 	FLIGHTDECK_H1 = <img style={{width: '4rem', height: '4rem', margin: '-0.5rem -0.5rem -0.5rem 0rem'}} src='https://flightdeck.desertskyrangers.org/logo.png' alt="FlightDeck Logo"/>
@@ -18,7 +19,7 @@ class Icons {
 	HANDSHAKE = <FontAwesomeIcon icon={solid('handshake')}/>
 	INSTAGRAM = <FontAwesomeIcon icon={brands('instagram')}/>
 	LOCATION = <FontAwesomeIcon icon={solid('map-marker-alt')}/>
-	RALLY = <FontAwesomeIcon icon={solid('users')}/>
+	RALLY = <FontAwesomeIcon icon={solid('plane-up')}/>
 	SAFETY = <FontAwesomeIcon icon={solid("triangle-exclamation")}/>
 	TWITTER = <FontAwesomeIcon icon={brands('twitter')}/>
 	SPRING= <FontAwesomeIcon icon={solid('seedling')}/>

@@ -8,7 +8,11 @@ export default class News extends React.Component {
 		return (
 			<div className="news column">
 				<div>
-					<h3>Events</h3>
+					<Link to='/events' className='title infoitem'>Event Schedule</Link>
+				</div>
+				&nbsp;
+				<div>
+					<h3>Flight Events</h3>
 				</div>
 				<div>
 					<h5>2024</h5>
@@ -17,11 +21,10 @@ export default class News extends React.Component {
 					<h6 className='complete'>Aug 17 - Ranger Rally</h6>
 					<h6>Oct 19 - Ranger Rally</h6>
 					<h5>2025</h5>
-					<h6>Stay Tuned</h6>
-				</div>
-				&nbsp;
-				<div>
-					<Link to='/events' className='title infoitem'>Full Schedule</Link>
+					<h6>Feb 15 - Ranger Rally</h6>
+					<h6>May 17 - Ranger Rally</h6>
+					<h6>Aug 16 - Ranger Rally</h6>
+					<h6>Oct 25 or Nov 15 - Ranger Rally</h6>
 				</div>
 			</div>
 		);
