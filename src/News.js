@@ -13,9 +13,11 @@ export default class News extends React.Component {
 				<div>
 					<h5>2024</h5>
 					<h6 className='complete'>Feb 17 - Ranger Rally</h6>
-					<h6>May 18 - Ranger Rally</h6>
-					<h6>Aug 17 - Ranger Rally</h6>
+					<h6 className='complete'>May 18 - Ranger Rally</h6>
+					<h6 className='complete'>Aug 17 - Ranger Rally</h6>
 					<h6>Oct 19 - Ranger Rally</h6>
+					<h5>2025</h5>
+					<h6>Stay Tuned</h6>
 				</div>
 				&nbsp;
 				<div>
