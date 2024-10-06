@@ -8,6 +8,21 @@ export default class Activities extends React.Component {
 			<div className='content'>
 
 				<div className='announcement'>
+					<h2>{Icons.DESERT_SKY_RANGERS} August 2024 Ranger Rally</h2>
+					<p>
+						The August 2024 Ranger Rally was held Saturday, Aug 17 at 9am at <a
+						href="https://goo.gl/maps/WfuVVZqe4Qv32PX27">{Icons.LOCATION} Wardle
+						Fields Regional Park</a> in	Bluffdale. We had six members attend. We
+						surprised when we arrived to see the sprinklers running on the field.
+						Some of us risked flying, no knowing where we would land. We also
+						knew there was a risk of thunderstorms later that morning. We did
+						our best to fly anyway. Around 11:30am we stopped the rally due to
+						incoming weather and received heavy rain just as we finished packing
+						up. It was an exciting morning dodging sprinklers and storms.
+					</p>
+				</div>
+
+				<div className='announcement'>
 					<h2>{Icons.DESERT_SKY_RANGERS} May 2024 Ranger Rally</h2>
 					<p>
 						The <a href='https://photos.app.goo.gl/MueRuErjTpaApBMaA'>May 2024 Ranger Rally</a> was
@@ -44,8 +59,7 @@ export default class Activities extends React.Component {
 				<div className='announcement'>
 					<h2>{Icons.DESERT_SKY_RANGERS} February 2024 Ranger Rally</h2>
 					<p>
-						The <a href='https://photos.app.goo.gl/BrDLrqYSPC11K79L7'>February 2024 Ranger Rally</a> was
-						held Saturday, February 17 at 9am at <a
+						The February 2024 Ranger Rally was held Saturday, February 17 at 9am at <a
 						href="https://goo.gl/maps/WfuVVZqe4Qv32PX27">{Icons.LOCATION} Wardle Fields Regional Park</a> in
 						Bluffdale. We had five members attend. The field was wet due to recent
 						snow melt. The temperatures were normal for February but the sun was
