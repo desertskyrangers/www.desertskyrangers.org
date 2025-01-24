@@ -15,16 +15,21 @@ export default class News extends React.Component {
 					<h3>Flight Events</h3>
 				</div>
 				<div>
-					<h5>2024</h5>
-					<h6 className='complete'>Feb 17 - Ranger Rally</h6>
-					<h6 className='complete'>May 18 - Ranger Rally</h6>
-					<h6 className='complete'>Aug 17 - Ranger Rally</h6>
-					<h6>Oct 19 - Ranger Rally</h6>
+					{/*<h5>2024</h5>*/}
+					{/*<h6 className='complete'>Feb 17 - Ranger Rally</h6>*/}
+					{/*<h6 className='complete'>May 18 - Ranger Rally</h6>*/}
+					{/*<h6 className='complete'>Aug 17 - Ranger Rally</h6>*/}
+					{/*<h6 className='complete'>Oct 19 - Ranger Rally</h6>*/}
 					<h5>2025</h5>
 					<h6>Feb 15 - Ranger Rally</h6>
 					<h6>May 17 - Ranger Rally</h6>
 					<h6>Aug 16 - Ranger Rally</h6>
 					<h6>Oct 25 - Ranger Rally</h6>
+					<h5>2026</h5>
+					<h6>Feb - Ranger Rally</h6>
+					<h6>May - Ranger Rally</h6>
+					<h6>Aug - Ranger Rally</h6>
+					<h6>Oct - Ranger Rally</h6>
 				</div>
 			</div>
 		);
