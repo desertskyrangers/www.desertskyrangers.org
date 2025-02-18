@@ -69,7 +69,7 @@ export default class Events extends React.Component {
 										Wardle Fields Regional Park<br/>
 										14148 S 2700 W, Bluffdale, UT 84065
 									</p>
-									<h3>Feb 15 @ 09:00am</h3>
+									<h3>Feb 22 @ 09:00am</h3>
 									<h3>May 17 @ 09:00am</h3>
 									<h3>Aug 16 @ 09:00am</h3>
 									<h3>Oct 25 @ 09:00am</h3>
