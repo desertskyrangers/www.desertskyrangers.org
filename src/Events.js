@@ -58,35 +58,41 @@ export default class Events extends React.Component {
 						<div className='content'>
 							<div className='row'>
 								<div className='column'>
-									<p className='disabled'>
-										<h2>{Icons.RALLY} Ranger Rally </h2>
-										<p>
-											Usually the third Saturday of a month, the Ranger Rally is our
-											quarterly club "flight" gathering. This is a great opportunity
-											to meet other members, show off your flying skills, and
-											learn from others.
+									<h2>{Icons.RALLY} Ranger Rally </h2>
+									<p>
+										Usually the third Saturday of a month, the Ranger Rally is our
+										quarterly club "flight" gathering. This is a great opportunity
+										to meet other members, show off your flying skills, and
+										learn from others.
+									</p>
+									<div className='complete'>
+										<h3>Feb 22 @ 09:00am</h3>
+										<p className='content'>
+											Wardle Fields Regional Park<br/>
+											14148 S 2700 W, Bluffdale, UT 84065
 										</p>
-									</p>
-									<h3>Feb 22 @ 09:00am</h3>
-									<p className='content'>
-										Wardle Fields Regional Park<br/>
-										14148 S 2700 W, Bluffdale, UT 84065
-									</p>
-									<h3>May 17 @ 09:00am</h3>
-									<p className='content'>
-										Westlake High School Practice Field<br/>
-										294 Pony Express Parkway, Saratoga Springs, UT 84045
-									</p>
-									<h3>Aug 16 @ 09:00am</h3>
-									<p className='content'>
-										Wardle Fields Regional Park<br/>
-										14148 S 2700 W, Bluffdale, UT 84065
-									</p>
-									<h3>Oct 25 @ 09:00am</h3>
-									<p className='content'>
-										Wardle Fields Regional Park<br/>
-										14148 S 2700 W, Bluffdale, UT 84065
-									</p>
+									</div>
+									<div>
+										<h3>May 17 @ 09:00am</h3>
+										<p className='content'>
+											Westlake High School Practice Field<br/>
+											294 Pony Express Parkway, Saratoga Springs, UT 84045
+										</p>
+									</div>
+									<div>
+										<h3>Aug 16 @ 09:00am</h3>
+										<p className='content'>
+											Wardle Fields Regional Park<br/>
+											14148 S 2700 W, Bluffdale, UT 84065
+										</p>
+									</div>
+									<div>
+										<h3>Oct 25 @ 09:00am</h3>
+										<p className='content'>
+											Wardle Fields Regional Park<br/>
+											14148 S 2700 W, Bluffdale, UT 84065
+										</p>
+									</div>
 
 								</div>
 								{/*<div className='column'>*/}
