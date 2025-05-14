@@ -71,6 +71,10 @@ export default class Events extends React.Component {
 									</p>
 									<h3>Feb 22 @ 09:00am</h3>
 									<h3>May 17 @ 09:00am</h3>
+									<p className='content'>
+										Westlake High School Practice Field<br/>
+										294 Pony Express Parkway, Saratoga Spring, UT 84045
+									</p>
 									<h3>Aug 16 @ 09:00am</h3>
 									<h3>Oct 25 @ 09:00am</h3>
 
