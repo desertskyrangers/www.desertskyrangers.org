@@ -65,18 +65,26 @@ export default class Events extends React.Component {
 										to meet other members, show off your flying skills, and
 										learn from others. Our usual location is:
 									</p>
+									<h3>Feb 22 @ 09:00am</h3>
 									<p className='content'>
 										Wardle Fields Regional Park<br/>
 										14148 S 2700 W, Bluffdale, UT 84065
 									</p>
-									<h3>Feb 22 @ 09:00am</h3>
 									<h3>May 17 @ 09:00am</h3>
 									<p className='content'>
 										Westlake High School Practice Field<br/>
 										294 Pony Express Parkway, Saratoga Spring, UT 84045
 									</p>
 									<h3>Aug 16 @ 09:00am</h3>
+									<p className='content'>
+										Wardle Fields Regional Park<br/>
+										14148 S 2700 W, Bluffdale, UT 84065
+									</p>
 									<h3>Oct 25 @ 09:00am</h3>
+									<p className='content'>
+										Wardle Fields Regional Park<br/>
+										14148 S 2700 W, Bluffdale, UT 84065
+									</p>
 
 								</div>
 								{/*<div className='column'>*/}
