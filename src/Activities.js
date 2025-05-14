@@ -1,5 +1,6 @@
 import React from 'react';
 import Icons from "./Icons";
+import {Link} from "react-router-dom";
 
 export default class Activities extends React.Component {
 
@@ -9,7 +10,7 @@ export default class Activities extends React.Component {
 				<div className='announcement'>
 					<h2>{Icons.DESERT_SKY_RANGERS} May 2025 Ranger Rally</h2>
 					<p>
-						Coming Soon!
+						<Link to='/events' className='title infoitem'>See Event Schedule</Link>
 					</p>
 				</div>
 
