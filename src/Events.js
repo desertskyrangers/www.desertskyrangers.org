@@ -63,7 +63,7 @@ export default class Events extends React.Component {
 										Usually the third Saturday of a month, the Ranger Rally is our
 										quarterly club "flight" gathering. This is a great opportunity
 										to meet other members, show off your flying skills, and
-										learn from others. Our usual location is:
+										learn from others.
 									</p>
 									<h3>Feb 22 @ 09:00am</h3>
 									<p className='content'>
