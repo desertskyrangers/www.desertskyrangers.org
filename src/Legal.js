@@ -15,8 +15,10 @@ export default class Legal extends React.Component {
 				<div>
 					<dl>
 						<dt>Ranger Rally photos provided by</dt>
+						<dd>Noah Booker</dd>
 						<dd>Steve Booker</dd>
 						<dd>John Brammer</dd>
+						<dd>Mark Soderquist</dd>
 					</dl>
 					<dl>
 						<dt>&copy; Fonticons, Inc.</dt>

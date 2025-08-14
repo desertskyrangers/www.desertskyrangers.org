@@ -1,18 +1,66 @@
 import React from 'react';
 import Icons from "./Icons";
+import {Link} from "react-router-dom";
 
 export default class Activities extends React.Component {
 
 	render() {
 		return (
 			<div className='content'>
+				<div className='announcement'>
+					<h2>{Icons.DESERT_SKY_RANGERS} May 2025 Ranger Rally</h2>
+					<p>
+						<Link to='/events' className='title infoitem'>See Event Schedule</Link>
+					</p>
+				</div>
+
+				<div className='announcement'>
+					<h2>{Icons.DESERT_SKY_RANGERS} February 2025 Ranger Rally</h2>
+					<p>
+						The <a href="https://photos.app.goo.gl/1Few3YikBtwUWnfy7">February 2025 Ranger Rally</a> was
+						held one week later than planned on Saturday, February 22 at 9am at <a
+						href="https://goo.gl/maps/WfuVVZqe4Qv32PX27">{Icons.LOCATION} Wardle
+						Fields Regional Park</a> in Bluffdale. The original date was
+						canceled due to snow and rain. We had six members attend. The field
+						was wet due to recent snow melt. The temperatures were normal for
+						February but the sun was out and the wind was calm for a while. We
+						had a great time flying and talking. Once the breeze picked up it
+						got a bit chilly.
+					</p>
+
+					<div className='hbox-wrappable'>
+						<figure>
+							<a href='https://photos.app.goo.gl/GRDLvkdTjL3ZCpQ57'>
+								<img className='photo'
+										 src='https://lh3.googleusercontent.com/pw/AP1GczPGbLXKh280qHt43vZpWK09tHWva4XIjK9aAWcgUI7EkSXMZNvB4MHEXAFPZnTJWfUzH4jFVSlXRTLExmWlC4KgUK5dLJTOiqVtvf7XVTLkIk1nKHlTYISLR2IweFB03R9ff0XX5JGjZ1D7PcnZzSvL=w1200-h800-s-no-gm'
+										 alt='DSR Ranger Rally'/>
+							</a>
+							<figcaption>Micah's E-flight Commander positioned against the hills</figcaption>
+						</figure>
+
+						<figure>
+							<a href='https://photos.app.goo.gl/nrL2TU6o391ya4M6A'>
+								<img className='photo'
+										 src='https://lh3.googleusercontent.com/pw/AP1GczN25atdvVheAL8hvstCScvvJlQV2xGHp8By8CHdab2bdWG74qMvmRkH5JLf5XlVUGI6AennOFPgEn8MXoD4FexvTUs_vSzJ7fkbXLLf3aEnafWZ1wQrCywO1vfN8FGToUe5gYCCN8wiF5cve6pxg45V=w1200-h800-s-no-gm'
+										 alt='DSR Ranger Rally'/>
+							</a>
+							<figcaption>Noah launching his twin-motor flying wing</figcaption>
+						</figure>
+					</div>
+				</div>
+
+				<div className='announcement'>
+					<h2>{Icons.DESERT_SKY_RANGERS} October 2024 Ranger Rally</h2>
+					<p>
+					</p>
+				</div>
 
 				<div className='announcement'>
 					<h2>{Icons.DESERT_SKY_RANGERS} August 2024 Ranger Rally</h2>
 					<p>
 						The August 2024 Ranger Rally was held Saturday, Aug 17 at 9am at <a
 						href="https://goo.gl/maps/WfuVVZqe4Qv32PX27">{Icons.LOCATION} Wardle
-						Fields Regional Park</a> in	Bluffdale. We had six members attend. We
+						Fields Regional Park</a> in Bluffdale. We had six members attend. We
 						surprised when we arrived to see the sprinklers running on the field.
 						Some of us risked flying, no knowing where we would land. We also
 						knew there was a risk of thunderstorms later that morning. We did
@@ -34,7 +82,6 @@ export default class Activities extends React.Component {
 						the same time. There was one mid-air collision. One aircraft
 						survived the incident, the other did not.
 					</p>
-					https://photos.app.goo.gl/LCfVMsccgc3f6bbV7
 					<div className='hbox-wrappable'>
 						<figure>
 							<a href='https://photos.app.goo.gl/LCfVMsccgc3f6bbV7'>

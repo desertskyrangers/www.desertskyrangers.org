@@ -6,6 +6,63 @@ import Info from "./Info";
 
 export default class Home extends React.Component {
 
+	getSeasonMessage() {
+		let month = new Date().getMonth();
+
+		let content;
+		if (month > 1 && month < 5) {
+			content = <div className='announcement'>
+				<h2>{Icons.SPRING} Spring Flying Season Has Arrived</h2>
+				<p>
+					The <a href="articles/northern-utah-flying-season-2021-01">spring flying season</a> has
+					arrived. The temperatures are fluctuating as normal this year and
+					there are more windy days than calm. The winter flying
+					season has also been building season for many of us, as we try
+					out new designs and get ready for the new year. We are looking
+					forward to getting out more as the temperatures warm up.
+				</p>
+			</div>;
+		} else if (month < 8) {
+			content = <div className='announcement'>
+				<h2>{Icons.SUMMER} Summer Flying Season Has Arrived</h2>
+				<p>
+					The <a href="articles/northern-utah-flying-season-2021-01">summer flying season</a> has
+					arrived. The temps are temperatures are above normal this year,
+					and the flying has been tough on pilots and planes. We expect
+					monsoon moisture to move in soon, bringing slightly cooler
+					temps, but also more wind, rain and wet fields.
+				</p>
+			</div>;
+		} else if (month < 11) {
+			content = <div className='announcement'>
+				<h2>{Icons.FALL} Fall Flying Season Has Arrived</h2>
+				<p>
+					The <a href="articles/northern-utah-flying-season-2021-01">fall flying season</a> has
+					arrived. The temps are still above normal for this time of year
+					and we have enjoyed some extended warm-ish evening flying.
+					Temperatures will continue to fall as we move towards winter,
+					providing crisp flying conditions and clearing the flying fields
+					as sports practices wrap up for the year. Looking forward to the
+					Fall Ranger Rally and some Thanksgiving weekend flying.
+				</p>
+			</div>;
+		} else {
+			content = <div className='announcement'>
+				<h2>{Icons.WINTER} Winter Flying Season Has Arrived</h2>
+				<p>
+					The <a href="articles/northern-utah-flying-season-2021-01">winter flying season</a> has
+					arrived. The temps are chilly, but around normal for this time of year. The snow has
+					started falling already, so we are hoping for a good snow season. For the rugged pilots
+					out there, don't forget to dress warm. For those staying warm indoors, we would love to
+					hear about your winter building projects and what you are planning for spring. Don't
+					forget we have a winter Ranger Rally coming up in February.
+				</p>
+			</div>;
+		}
+
+		return <div>{content}</div>;
+	}
+
 	render() {
 		return (
 			<div className='content'>
@@ -43,6 +100,8 @@ export default class Home extends React.Component {
 							</figure>
 						</div>
 
+						{this.getSeasonMessage()}
+
 						{/*<div className='announcement'>*/}
 						{/*	<h2>{Icons.DESERT_SKY_RANGERS} Fall Ranger Rally!</h2>*/}
 						{/*	<p>*/}
@@ -74,54 +133,6 @@ export default class Home extends React.Component {
 						{/*			</ul>*/}
 						{/*		</div>*/}
 						{/*	</div>*/}
-						{/*</div>*/}
-
-						{/*<div className='announcement'>*/}
-						{/*	<h2>{Icons.SPRING} Spring Flying Season Has Arrived</h2>*/}
-						{/*	<p>*/}
-						{/*		The <a href="articles/northern-utah-flying-season-2021-01">spring flying season</a> has*/}
-						{/*		arrived. The temperatures are fluctuating as normal this year and*/}
-						{/*		there are more windy days than calm. The winter flying*/}
-						{/*		season has also been building season for many of us, as we try*/}
-						{/*		out new designs and get ready for the new year. We are looking*/}
-						{/*		forward to getting out more as the temperatures warm up.*/}
-						{/*	</p>*/}
-						{/*</div>*/}
-
-						<div className='announcement'>
-							<h2>{Icons.SUMMER} Summer Flying Season Has Arrived</h2>
-							<p>
-								The <a href="articles/northern-utah-flying-season-2021-01">spring flying season</a> has
-								arrived. The temps are temperatures are above normal this year,
-								and the flying has been tough on pilots and planes. We expect
-								monsoon moisture to move in soon, bringing slightly cooler
-								temps, but also more wind, rain and wet fields.
-							</p>
-						</div>
-
-						{/*<div className='announcement'>*/}
-						{/*    <h2>{Icons.FALL} Fall Flying Season Has Arrived</h2>*/}
-						{/*    <p>*/}
-						{/*        The <a href="articles/northern-utah-flying-season-2021-01">fall flying season</a> has*/}
-						{/*        arrived. The temps are still above normal for this time of year*/}
-						{/*        and we have enjoyed some extended warm-ish evening flying.*/}
-						{/*        Temperatures will continue to fall as we move towards winter,*/}
-						{/*        providing crisp flying conditions and clearing the flying fields*/}
-						{/*        as sports practices wrap up for the year. Looking forward to the*/}
-						{/*        Fall Ranger Rally and some Thanksgiving weekend flying.*/}
-						{/*    </p>*/}
-						{/*</div>*/}
-
-						{/*<div className='announcement'>*/}
-						{/*	<h2>{Icons.WINTER} Winter Flying Season Has Arrived</h2>*/}
-						{/*	<p>*/}
-						{/*		The <a href="articles/northern-utah-flying-season-2021-01">winter flying season</a> has*/}
-						{/*		arrived. The temps are chilly, but around normal for this time of year. The snow has*/}
-						{/*		started falling already, so we are hoping for a good snow season. For the rugged pilots*/}
-						{/*		out there, don't forget to dress warm. For those staying warm indoors, we would love to*/}
-						{/*		hear about your winter building projects and what you are planning for spring. Don't*/}
-						{/*		forget we have a winter Ranger Rally coming up in February.*/}
-						{/*	</p>*/}
 						{/*</div>*/}
 
 					</div>

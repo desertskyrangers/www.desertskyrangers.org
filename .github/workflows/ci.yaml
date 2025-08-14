@@ -13,10 +13,10 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Fetch sources
-        uses: actions/checkout@v1
+        uses: actions/checkout@v4
 
       - name: Fetch CI/CD resources
-        uses: actions/checkout@v2
+        uses: actions/checkout@v4
         with:
           repository: desertskyrangers/cicd
           path: .github
@@ -27,9 +27,9 @@ jobs:
           source .github/config.sh
 
       - name: Setup Node
-        uses: actions/setup-node@v2
+        uses: actions/setup-node@v4
         with:
-          node-version: '14'
+          node-version: '16'
           cache: 'npm'
 
       - name: Install
