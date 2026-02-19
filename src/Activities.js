@@ -7,12 +7,6 @@ export default class Activities extends React.Component {
 	render() {
 		return (
 			<div className='content'>
-				<div className='announcement'>
-					<h2>{Icons.DESERT_SKY_RANGERS} May 2025 Ranger Rally</h2>
-					<p>
-						<Link to='/events' className='title infoitem'>See Event Schedule</Link>
-					</p>
-				</div>
 
 				<div className='announcement'>
 					<h2>{Icons.DESERT_SKY_RANGERS} February 2025 Ranger Rally</h2>

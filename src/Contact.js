@@ -13,7 +13,7 @@ export default class Contact extends React.Component {
 						<h2>General Questions</h2>
 						<a href='mailto:contact@desertskyrangers.org'>contact@desertskyrangers.org</a>
 
-						<h2>President</h2>
+						<h2>Coordinator</h2>
 						<h3>Mark Soderquist</h3>
 						<a href='mailto:mark@desertskyrangers.org'>mark@desertskyrangers.org</a>
 

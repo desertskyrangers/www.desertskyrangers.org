@@ -14,7 +14,7 @@ export default class Info extends React.Component {
 				<Link to="/locations" className="infoitem">{Icons.LOCATION} Where We Fly</Link>
 				<Link to="/safety" className="infoitem">{Icons.SAFETY} Event Safety</Link>
 				<Link to="/contact" className="infoitem">{Icons.CONTACT} Contact Us</Link>
-				<Link to='/donate' className='infoitem'>{Icons.HANDSHAKE} How to Support Us</Link>
+				{/*<Link to='/donate' className='infoitem'>{Icons.HANDSHAKE} How to Support Us</Link>*/}
 				<Link to='/tools/flightdeck' className="infoitem">{Icons.FLIGHTDECK}FlightDeck</Link>
 			</div>
 		);
