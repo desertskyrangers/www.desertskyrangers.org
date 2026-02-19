@@ -7,10 +7,10 @@ import Info from "./Info";
 export default class Home extends React.Component {
 
 	getSeasonMessage() {
-		let month = new Date().getMonth();
+		let month = new Date().getMonth() + 1;
 
 		let content;
-		if (month > 1 && month < 5) {
+		if (month >= 3 && month <= 5) {
 			content = <div className='announcement'>
 				<h2>{Icons.SPRING} Spring Flying Season Has Arrived</h2>
 				<p>
@@ -22,7 +22,7 @@ export default class Home extends React.Component {
 					forward to getting out more as the temperatures warm up.
 				</p>
 			</div>;
-		} else if (month < 8) {
+		} else if (month >=6 && month <= 8) {
 			content = <div className='announcement'>
 				<h2>{Icons.SUMMER} Summer Flying Season Has Arrived</h2>
 				<p>
@@ -33,7 +33,7 @@ export default class Home extends React.Component {
 					temps, but also more wind, rain and wet fields.
 				</p>
 			</div>;
-		} else if (month < 11) {
+		} else if (month >= 9 && month <= 11) {
 			content = <div className='announcement'>
 				<h2>{Icons.FALL} Fall Flying Season Has Arrived</h2>
 				<p>
