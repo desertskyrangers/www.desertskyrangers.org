@@ -1,5 +1,4 @@
 import React from 'react';
-import Icons from "./Icons";
 
 export default class Events extends React.Component {
 

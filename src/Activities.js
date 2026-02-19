@@ -1,6 +1,5 @@
 import React from 'react';
 import Icons from "./Icons";
-import {Link} from "react-router-dom";
 
 export default class Activities extends React.Component {
 
