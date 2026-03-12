@@ -21,7 +21,7 @@ export default function ARTICLE_2022_12_16_GETTING_STARTED(props) {
 			<div className="row product">
 				<p>
 					<a href="https://hobbyking.com/en_us/h-king-bixler-2-pnf-glider-epo-1500mm-59.html">
-						<img src="https://cdn-global-hk.hobbyking.com/media/catalog/product/cache/1/image/660x415/17f82f742ffe127f42dca9de82fb58b1/1/7/178758_2_1.jpg" alt="Bixler II" align="left"/>
+						<img src={new URL('https://cdn-global-hk.hobbyking.com/media/catalog/product/cache/1/image/660x415/17f82f742ffe127f42dca9de82fb58b1/1/7/178758_2_1.jpg', import.meta.url)} alt="Bixler II" align="left"/>
 					</a>
 					We generally recommend that the first airplane you fly is gentle,
 					durable and reasonably inexpensive. If you are looking for an airplane
@@ -36,7 +36,7 @@ export default function ARTICLE_2022_12_16_GETTING_STARTED(props) {
 			<div className="row product">
 				<p>
 					<a href="https://store.flitetest.com/ft-tutor-mkr2/">
-						<img src="https://cdn11.bigcommerce.com/s-x9hwh7on/images/stencil/1280x1280/products/2758/8557/Tutor1__57867.1664196907.jpg?c=2" alt="FliteTest Tutor MKR2" align="left"/>
+						<img src={new URL('https://cdn11.bigcommerce.com/s-x9hwh7on/images/stencil/1280x1280/products/2758/8557/Tutor1__57867.1664196907.jpg?c=2', import.meta.url)} alt="FliteTest Tutor MKR2" align="left"/>
 					</a>
 					We generally recommend that the first airplane you fly is gentle,
 					durable and reasonably inexpensive. If you are looking for an
@@ -54,7 +54,7 @@ export default function ARTICLE_2022_12_16_GETTING_STARTED(props) {
 			<div className="row product">
 				<div>
 					<a href="https://hobbyking.com/en_us/turnigy-2200mah-3s-25c-lipo-pack.html">
-						<img src="https://cdn-global-hk.hobbyking.com/media/catalog/product/cache/1/image/660x415/17f82f742ffe127f42dca9de82fb58b1/t/u/turnigy-2200mah-3s-25c-lipo-pack-t2200-3s-25.jpg" alt="Battery" align="left"/>
+						<img src={new URL('https://cdn-global-hk.hobbyking.com/media/catalog/product/cache/1/image/660x415/17f82f742ffe127f42dca9de82fb58b1/t/u/turnigy-2200mah-3s-25c-lipo-pack-t2200-3s-25.jpg', import.meta.url)} alt="Battery" align="left"/>
 					</a>
 					<p>
 						For the Bixler II we follow the manufacturer recommendation of a
@@ -73,7 +73,7 @@ export default function ARTICLE_2022_12_16_GETTING_STARTED(props) {
 			<div className="row product">
 				<p>
 					<a href="https://www.amazon.com/Battery-Charger-Hiyiton-Discharger-Connectors/dp/B096LWLD39">
-						<img src="https://m.media-amazon.com/images/I/71m2iaY8uGL._AC_SL1500_.jpg" alt="Charger" align="left"/>
+						<img src={new URL('https://m.media-amazon.com/images/I/71m2iaY8uGL._AC_SL1500_.jpg', import.meta.url)} alt="Charger" align="left"/>
 					</a>
 					There are a lot of options for battery chargers that it can be hard to
 					find one that suits your needs. We recommend a simple charger to start
@@ -88,7 +88,7 @@ export default function ARTICLE_2022_12_16_GETTING_STARTED(props) {
 			<div className="row product">
 				<div>
 					<a href="https://www.amazon.com/RadioMaster-High-Frequency-Transmitter-Charcoal-Transparent/dp/B0CN2LX7YV">
-						<img src="https://m.media-amazon.com/images/I/51TQg+HSzGL._AC_SL1000_.jpg" alt="Radio" align="left"/>
+						<img src={new URL('https://m.media-amazon.com/images/I/51TQg+HSzGL._AC_SL1000_.jpg', import.meta.url)} alt="Radio" align="left"/>
 					</a>
 
 					<p>

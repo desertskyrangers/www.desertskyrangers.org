@@ -22,7 +22,7 @@ export default class Home extends React.Component {
 					forward to getting out more as the temperatures warm up.
 				</p>
 			</div>;
-		} else if (month >=6 && month <= 8) {
+		} else if (month >= 6 && month <= 8) {
 			content = <div className='announcement'>
 				<h2>{Icons.SUMMER} Summer Flying Season Has Arrived</h2>
 				<p>
@@ -87,14 +87,14 @@ export default class Home extends React.Component {
 							<figure>
 								<a href='https://photos.app.goo.gl/4pLGvZZQJc7y6ENo7'>
 									<img className='photo'
-											 src='https://lh3.googleusercontent.com/pw/ADCreHfFyXSpEBy6Ewzqm35syYfLuj5yic_jBEzTU1zKkQ-_JQPz9owUO6LInEaep4dv5W-YyuRZ2wfeD8SlBuEnIpkRwhRSYqWr6nMV6bU8C9nVY7TJdx9PXG_-Ac8cj6WQjm9xjvXW_2J9SAYkjquPWBNoLw=w2342-h1764-s-no-gm'
+											 src={new URL('https://lh3.googleusercontent.com/pw/ADCreHfFyXSpEBy6Ewzqm35syYfLuj5yic_jBEzTU1zKkQ-_JQPz9owUO6LInEaep4dv5W-YyuRZ2wfeD8SlBuEnIpkRwhRSYqWr6nMV6bU8C9nVY7TJdx9PXG_-Ac8cj6WQjm9xjvXW_2J9SAYkjquPWBNoLw=w2342-h1764-s-no-gm', import.meta.url)}
 											 alt='DSR Ranger Rally'/>
 								</a>
 							</figure>
 
 							<figure>
 								<a href='https://photos.app.goo.gl/Pk4LwoPbhzXnbdgT7'>
-									<img className='photo' src='/image/photos/2022-10-15-ranger-rally.jpg'
+									<img className='photo' src={new URL('/image/photos/2022-10-15-ranger-rally.jpg', import.meta.url)}
 											 alt='DSR Ranger Rally'/>
 								</a>
 							</figure>

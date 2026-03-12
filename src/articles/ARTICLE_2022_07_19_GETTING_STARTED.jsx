@@ -21,7 +21,7 @@ export default function ARTICLE_2022_07_19_GETTING_STARTED(props) {
 			<div className="row product">
 				<p>
 					<a href="https://hobbyking.com/en_us/h-king-bixler-2-pnf-glider-epo-1500mm-59.html">
-						<img src="https://cdn-global-hk.hobbyking.com/media/catalog/product/cache/1/image/660x415/17f82f742ffe127f42dca9de82fb58b1/1/7/178758_2_1.jpg" alt="Bixler II" align="left"/>
+						<img src={new URL('https://cdn-global-hk.hobbyking.com/media/catalog/product/cache/1/image/660x415/17f82f742ffe127f42dca9de82fb58b1/1/7/178758_2_1.jpg', import.meta.url)} alt="Bixler II" align="left"/>
 					</a>
 					We generally recommend that the first airplane you fly is gentle,
 					durable and reasonably inexpensive. The aircraft we usually recommend
@@ -37,7 +37,7 @@ export default function ARTICLE_2022_07_19_GETTING_STARTED(props) {
 			<div className="row product">
 				<p>
 					<a href="https://hobbyking.com/en_us/turnigy-2200mah-3s-25c-lipo-pack.html">
-						<img src="https://cdn-global-hk.hobbyking.com/media/catalog/product/cache/1/image/660x415/17f82f742ffe127f42dca9de82fb58b1/t/u/turnigy-2200mah-3s-25c-lipo-pack-t2200-3s-25.jpg" alt="Battery" align="left"/>
+						<img src={new URL('https://cdn-global-hk.hobbyking.com/media/catalog/product/cache/1/image/660x415/17f82f742ffe127f42dca9de82fb58b1/t/u/turnigy-2200mah-3s-25c-lipo-pack-t2200-3s-25.jpg', import.meta.url)} alt="Battery" align="left"/>
 					</a>
 					For the Bixler II we follow the manufacturer recommendation of a
 					2200mAh 3S battery like the <a href="https://hobbyking.com/en_us/turnigy-2200mah-3s-25c-lipo-pack.html">Turnigy 2200mAh 3S 25C Lipo Pack</a>.
@@ -52,7 +52,7 @@ export default function ARTICLE_2022_07_19_GETTING_STARTED(props) {
 			<div className="row product">
 				<p>
 					<a href="https://www.amazon.com/Battery-Charger-Hiyiton-Discharger-Connectors/dp/B096LWLD39">
-						<img src="https://m.media-amazon.com/images/I/71m2iaY8uGL._AC_SL1500_.jpg" alt="Charger" align="left"/>
+						<img src={new URL('https://m.media-amazon.com/images/I/71m2iaY8uGL._AC_SL1500_.jpg', import.meta.url)} alt="Charger" align="left"/>
 					</a>
 					There are a lot of options for battery chargers that it can be hard to
 					find one that suits your needs. We recommend a simple charger to start
@@ -67,7 +67,7 @@ export default function ARTICLE_2022_07_19_GETTING_STARTED(props) {
 			<div className="row product">
 				<p>
 					<a href="https://www.amazon.com/Flysky-FS-i6X-Transmitter-FS-iA6B-Receiver/dp/B0744DPPL8">
-						<img src="https://m.media-amazon.com/images/I/61YKTG2bdsL._AC_SL1000_.jpg" alt="Radio" align="left"/>
+						<img src={new URL('https://m.media-amazon.com/images/I/61YKTG2bdsL._AC_SL1000_.jpg', import.meta.url)} alt="Radio" align="left"/>
 					</a>
 					The radio is the way that you will control your aircraft. There are
 					many brands of radio offering lots of options. An inexpensive beginner

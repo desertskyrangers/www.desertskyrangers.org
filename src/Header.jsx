@@ -1,7 +1,7 @@
 import React from "react";
-import Menu from "./Menu";
 import {Link} from "react-router";
 import Icons from "./Icons";
+import Menu from "./Menu";
 
 export default class Header extends React.Component {
 
