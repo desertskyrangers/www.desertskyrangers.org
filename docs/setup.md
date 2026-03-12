@@ -7,16 +7,15 @@ do it again. However, if you have to do it again, please update this document.
 ## Tools ##
 
 You will need a recent version of [Node](https://nodejs.org/) installed. 
-Version 14.17.5 LTS was used at the time these instructions were written.
+Version 24.12.0 was used at the time these instructions were written.
 
 ## Steps ##
 
-Use [Create React App](https://reactjs.org/docs/create-a-new-react-app.html#create-react-app)
-to generate the initial application.
+Use [Vite](https://vite.dev/) to generate the initial application.
 
 ```
-npx create-react-app www.desertskyrangers.org
+npm create vite@latest www.desertskyrangers.org -- --template react
 cd www.desertskyrangers.org
-npm start
+npm run dev
 ```
 
