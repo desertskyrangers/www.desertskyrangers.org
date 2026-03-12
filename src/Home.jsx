@@ -94,7 +94,7 @@ export default class Home extends React.Component {
 
 							<figure>
 								<a href='https://photos.app.goo.gl/Pk4LwoPbhzXnbdgT7'>
-									<img className='photo' src='/photos/2022-10-15-ranger-rally.jpg'
+									<img className='photo' src='/image/photos/2022-10-15-ranger-rally.jpg'
 											 alt='DSR Ranger Rally'/>
 								</a>
 							</figure>

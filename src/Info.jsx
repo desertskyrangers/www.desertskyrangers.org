@@ -1,7 +1,7 @@
 import './App.css';
 import React from "react";
 import Icons from "./Icons";
-import {Link} from "react-router-dom";
+import {Link} from "react-router";
 
 export default class Info extends React.Component {
 

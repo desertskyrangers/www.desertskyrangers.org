@@ -249,7 +249,7 @@ export default class Activities extends React.Component {
 					<div className='hbox-wrappable'>
 						<figure>
 							<a href='https://photos.app.goo.gl/Pk4LwoPbhzXnbdgT7'>
-								<img className='photo' src='/photos/2022-10-15-ranger-rally.jpg'
+								<img className='photo' src='/image/photos/2022-10-15-ranger-rally.jpg'
 										 alt='DSR Ranger Rally'/>
 							</a>
 							<figcaption>From the left, Logan, Glen, John, Mark, Steve, Matt, Lionel, Skye, Noah and
@@ -259,7 +259,7 @@ export default class Activities extends React.Component {
 
 						<figure>
 							<a href='https://photos.app.goo.gl/Pk4LwoPbhzXnbdgT7'>
-								<img className='photo' src='/photos/2022-10-15-ranger-rally-p40.jpg'
+								<img className='photo' src='/image/photos/2022-10-15-ranger-rally-p40.jpg'
 										 alt='DSR Ranger Rally P-40'/>
 							</a>
 							<figcaption>Steve trying out his new P-40</figcaption>
@@ -290,13 +290,13 @@ export default class Activities extends React.Component {
 					<div className='hbox-wrappable'>
 						<figure>
 							<a href='https://photos.app.goo.gl/aVd5UBe7TvWuFLZQA'>
-								<img className='photo' src='/photos/dsr-club-2022-08-13.jpg' alt='DSR Ranger Rally'/>
+								<img className='photo' src='/image/photos/dsr-club-2022-08-13.jpg' alt='DSR Ranger Rally'/>
 							</a>
 							<figcaption>From the left, Steve, Micah, Mark, Noah, Hudson, Glen and Blaine.</figcaption>
 						</figure>
 						<figure>
 							<a href='https://photos.app.goo.gl/Hb6kbQBNApaLCwfY6'>
-								<img className='photo' src='/photos/2022-08-13-ranger-rally-banner.jpg'
+								<img className='photo' src='/image/photos/2022-08-13-ranger-rally-banner.jpg'
 										 alt='DSR Ranger Rally'/>
 							</a>
 							<figcaption>Noah starts the Ranger Rally with a banner flyover.</figcaption>
@@ -309,24 +309,24 @@ export default class Activities extends React.Component {
 					<p>
 						On Saturday, Jun 4th we held a <a href='https://photos.app.goo.gl/Sd3FaTet7f8DoNpA6'>build
 						day</a> to spend some time building
-						several <a href="/plans">DSR-001 aircraft</a>. What started out as a cool breezy day turned
+						several <a href="/src/Plans">DSR-001 aircraft</a>. What started out as a cool breezy day turned
 						into a hot breezy day as we worked through taping together plans,
 						cutting out parts and using hot glue to assemble aircraft. By the end
 						of the day, Noah and Hudson had their first DSR-001 aircraft built.
 					</p>
 					<div className='hbox-wrappable'>
 						<figure>
-							<img className='photo' src='/photos/2022-06-04-build-day/ms/0604221612_HDR.jpg'
+							<img className='photo' src='/image/photos/2022-06-04-build-day/ms/0604221612_HDR.jpg'
 									 alt='DSR Build Day'/>
 							<figcaption>Hudson working on his DSR-001 wing.</figcaption>
 						</figure>
 						<figure>
-							<img className='photo' src='/photos/2022-06-04-build-day/ms/0604221613a_HDR.jpg'
+							<img className='photo' src='/image/photos/2022-06-04-build-day/ms/0604221613a_HDR.jpg'
 									 alt='DSR Build Day'/>
 							<figcaption>Noah working on his DSR-001 wing.</figcaption>
 						</figure>
 						<figure>
-							<img className='photo' src='/photos/2022-06-04-build-day/ms/0604221613b_HDR.jpg'
+							<img className='photo' src='/image/photos/2022-06-04-build-day/ms/0604221613b_HDR.jpg'
 									 alt='DSR Build Day'/>
 							<figcaption>Glen (build supervisor), Noah and Hudson.</figcaption>
 						</figure>
@@ -374,32 +374,32 @@ export default class Activities extends React.Component {
 					</p>
 					<div className='hbox-wrappable'>
 						<figure>
-							<img className='photo' src='/photos/2022-01-29-ranger-rally/2022-01-29-hudson-bixler-1.jpeg'
+							<img className='photo' src='/image/photos/2022-01-29-ranger-rally/2022-01-29-hudson-bixler-1.jpeg'
 									 alt='DSR Ranger Rally'/>
 							<figcaption>Hudson's new Bixler 2.</figcaption>
 						</figure>
 						<figure>
-							<img className='photo' src='/photos/2022-01-29-ranger-rally/2022-01-29-noah-arrow-1.jpg'
+							<img className='photo' src='/image/photos/2022-01-29-ranger-rally/2022-01-29-noah-arrow-1.jpg'
 									 alt='DSR Ranger Rally'/>
 							<figcaption>Noah preparing his Arrow.</figcaption>
 						</figure>
 						<figure>
-							<img className='photo' src='/photos/2022-01-29-ranger-rally/2022-01-29-mark-typhoon-1.jpg'
+							<img className='photo' src='/image/photos/2022-01-29-ranger-rally/2022-01-29-mark-typhoon-1.jpg'
 									 alt='DSR Ranger Rally'/>
 							<figcaption>Mark and Blaine FPV preflight check.</figcaption>
 						</figure>
 						<figure>
-							<img className='photo' src='/photos/2022-01-29-ranger-rally/2022-01-29-mark-typhoon-2.jpg'
+							<img className='photo' src='/image/photos/2022-01-29-ranger-rally/2022-01-29-mark-typhoon-2.jpg'
 									 alt='DSR Ranger Rally'/>
 							<figcaption>FPV flyby.</figcaption>
 						</figure>
 						<figure>
-							<img className='photo' src='/photos/2022-01-29-ranger-rally/2022-01-29-blaine-ranger-1.jpg'
+							<img className='photo' src='/image/photos/2022-01-29-ranger-rally/2022-01-29-blaine-ranger-1.jpg'
 									 alt='DSR Ranger Rally'/>
 							<figcaption>Blaine's graceful Ranger.</figcaption>
 						</figure>
 						<figure>
-							<img className='photo' src='/photos/2022-01-29-ranger-rally/2022-01-29-mark-bixler-1.jpg'
+							<img className='photo' src='/image/photos/2022-01-29-ranger-rally/2022-01-29-mark-bixler-1.jpg'
 									 alt='DSR Ranger Rally'/>
 							<figcaption>Mark getting in some inverted flight practice.</figcaption>
 						</figure>
@@ -413,13 +413,13 @@ export default class Activities extends React.Component {
 						We held an <a href='https://photos.app.goo.gl/yTDm9bs3eGu8yDx97'>impromptu Ranger Rally</a> on
 						Saturday,
 						Nov 20th. For the first time we had all members
-						of the club available for a <a href='/about'>group photo</a> and had a chilly morning of
+						of the club available for a <a href='/src/About'>group photo</a> and had a chilly morning of
 						flying. Despite the cool weather we had a great time getting together, increasing our flight
 						times and sharing stories.
 					</p>
 					<div className='hbox-wrappable'>
 						<figure>
-							<img className='photo' src='/photos/2021-11-20-ranger-rally/hudson.jpg'
+							<img className='photo' src='/image/photos/2021-11-20-ranger-rally/hudson.jpg'
 									 alt='DSR Ranger Rally'/>
 							<figcaption>Hudson at the controls, Mark and Percy looking on.</figcaption>
 						</figure>

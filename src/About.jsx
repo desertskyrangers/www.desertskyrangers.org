@@ -9,7 +9,7 @@ export default function About() {
 			<h1>{Icons.ABOUT} About Us</h1>
 
 			<figure>
-				<img className='photo' src='/photos/dsr-club-2021-11-20.jpg' alt='DSR Club'/>
+				<img className='photo' src='/image/photos/dsr-club-2021-11-20.jpg' alt='DSR Club'/>
 				<figcaption>Glen, Hudson, Mark and Percy, Noah, Blaine and Micah (Nov 2021)</figcaption>
 			</figure>
 
@@ -26,7 +26,7 @@ export default function About() {
 
 			<div className='member'>
 				<div className='row'>
-					<img className='photo' src='/photos/noah-b-2021-08-28.jpg' alt='Pilot'/>
+					<img className='photo' src='/image/photos/noah-b-2021-08-28.jpg' alt='Pilot'/>
 
 					<div className='column'>
 						<h3>Noah</h3>
@@ -41,13 +41,13 @@ export default function About() {
 						</p>
 					</div>
 
-					<img className='badge' src='/badges/noah-b-2021-08-28.svg' alt='Badge'/>
+					<img className='badge' src='/image/badges/noah-b-2021-08-28.svg' alt='Badge'/>
 				</div>
 			</div>
 
 			<div className='member'>
 				<div className='row'>
-					<img className='photo' src='/pilot.png' alt='Pilot'/>
+					<img className='photo' src='/image/pilot.png' alt='Pilot'/>
 
 					<div className='column'>
 						<h3>Husdon</h3>
@@ -64,7 +64,7 @@ export default function About() {
 
 			<div className='member'>
 				<div className='row'>
-					<img className='photo' src='/photos/micah-f-2021-09-02.jpg' alt='Pilot'/>
+					<img className='photo' src='/image/photos/micah-f-2021-09-02.jpg' alt='Pilot'/>
 
 					<div className='column'>
 						<h3>Micah</h3>
@@ -84,7 +84,7 @@ export default function About() {
 
 			<div className='member'>
 				<div className='row'>
-					<img className='photo' src='/photos/blaine-f-2022-01-17.jpg' alt='Pilot'/>
+					<img className='photo' src='/image/photos/blaine-f-2022-01-17.jpg' alt='Pilot'/>
 
 					<div className='column'>
 						<h3>Blaine</h3>
@@ -102,7 +102,7 @@ export default function About() {
 
 			<div className='member'>
 				<div className='row'>
-					<img className='photo' src='/photos/mark-s-2022-01-17.jpg' alt='Pilot'/>
+					<img className='photo' src='/image/photos/mark-s-2022-01-17.jpg' alt='Pilot'/>
 
 					<div className='column'>
 						<h3>Mark</h3>
@@ -123,7 +123,7 @@ export default function About() {
 
 			<div className='member'>
 				<div className='row'>
-					<img className='photo' src='/pilot.png' alt='Pilot'/>
+					<img className='photo' src='/image/pilot.png' alt='Pilot'/>
 
 					<div className='column'>
 						<h3>Glen</h3>

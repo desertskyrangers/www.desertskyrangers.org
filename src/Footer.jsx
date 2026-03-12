@@ -1,6 +1,6 @@
 import React from "react";
 import CopyrightText from "./CopyrightText";
-import {Link} from "react-router-dom";
+import {Link} from "react-router";
 
 export default class Footer extends React.Component {
 
