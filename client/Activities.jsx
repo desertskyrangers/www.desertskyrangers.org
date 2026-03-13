@@ -309,7 +309,7 @@ export default class Activities extends React.Component {
 					<p>
 						On Saturday, Jun 4th we held a <a href='https://photos.app.goo.gl/Sd3FaTet7f8DoNpA6'>build
 						day</a> to spend some time building
-						several <a href="/src/Plans">DSR-001 aircraft</a>. What started out as a cool breezy day turned
+						several <a href="/client/Plans">DSR-001 aircraft</a>. What started out as a cool breezy day turned
 						into a hot breezy day as we worked through taping together plans,
 						cutting out parts and using hot glue to assemble aircraft. By the end
 						of the day, Noah and Hudson had their first DSR-001 aircraft built.
@@ -413,7 +413,7 @@ export default class Activities extends React.Component {
 						We held an <a href='https://photos.app.goo.gl/yTDm9bs3eGu8yDx97'>impromptu Ranger Rally</a> on
 						Saturday,
 						Nov 20th. For the first time we had all members
-						of the club available for a <a href='/src/About'>group photo</a> and had a chilly morning of
+						of the club available for a <a href='/client/About'>group photo</a> and had a chilly morning of
 						flying. Despite the cool weather we had a great time getting together, increasing our flight
 						times and sharing stories.
 					</p>
