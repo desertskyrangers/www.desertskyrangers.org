@@ -8,7 +8,7 @@ export default function Tools(props) {
 
 			<div className='announcement'>
 				<a href='https://flightdeck.desertskyrangers.org/'>
-					<img height="300" src={new URL('./image/screenshots/flightdeck.png', import.meta.url)} alt="FlightDeck Screenshot" className="embedded left"/>
+					<img height="300" src={new URL('/image/screenshots/flightdeck.png', import.meta.url)} alt="FlightDeck Screenshot" className="embedded left"/>
 				</a>
 				<h1>{Icons.FLIGHTDECK_H1} FlightDeck</h1>
 				<p>
